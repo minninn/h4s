@@ -1,15 +1,16 @@
 import pymysql
+import config
 
 # db
 
 class connect_database:
     def __init__( self ):
         self.connect   = pymysql.connect( 
-            host     = 'localhost', 
-            user     = 'has', 
-            password = 'elwlxjfqhdks!!', 
-            db       = 'h4s_db',
-            charset  = 'utf8mb4' )
+            host     = config.db_info( 'host' ), 
+            user     = config.db_info( 'user' ), 
+            password = config.db_info( 'password' ), 
+            db       = config.db_info( 'db' ),
+            charset  = config.db_info( 'charset' ) )
         
         self.cur       = self.connect.cursor()
         self.query     = ""

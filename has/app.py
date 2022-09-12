@@ -57,7 +57,7 @@ def index():
     #return decorator()
     print( path_dir.get_path() )
     print( path_dir.get_filename() )
-    print( "test message" )
+
     return render_template( 'index.html' )
 
 
