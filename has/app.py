@@ -209,8 +209,8 @@ def send_mail():
 
         sMail.sendmail( userEmail, "rn2685rn@gmail.com",  msg.as_string() )    # 이메일 전송 ( 김근택 계정에서 수신 )
         sMail.quit()
-        print( "done" )
-'''
+        print( "done" )'''
+
 
 
 if __name__ == '__main__':
