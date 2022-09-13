@@ -8,6 +8,10 @@ from pdf import *
 import db
 import time
 import path
+import smtplib
+from email import policy
+from email.mime.text import MIMEText
+
 
 
 # _init__.py
@@ -182,6 +186,31 @@ def faq():
 def team():
     time.sleep(0.5)
     return render_template('team.html')
+'''
+@ app.route( '/faq', methods = [ 'GET', 'POST' ] )                 # email send 구현
+def send_mail():
+    if request.method == 'GET':
+        print( "get method, return faq.html" )
+        return render_template( 'faq.html' )
+    
+    else:
+        userName  = request.form[ 'name' ]
+        userEmail = request.form[ 'email' ]
+        subject   = request.form[ 'subject' ]
+        message   = request.form[ 'message' ]                      # get post data
+        print( userName, userEmail, subject, message )
+
+        sMail = smtplib.SMTP( 'smtp.gmail.com', 587 )              # use gmail.com
+        sMail.starttls()                                           # use tls
+        sMail.login( 'h4semail@gmail.com', 'ykbrkvpkzflueejm' )    # h4s mail, 앱 인증 비밀번호
+
+        msg = MIMEText( message )                                  # 본문
+        msg[ 'Subject' ] = userName + subject                      # 메일 제목 ( 사용자이름 + 제목 )
+
+        sMail.sendmail( userEmail, "rn2685rn@gmail.com",  msg.as_string() )    # 이메일 전송 ( 김근택 계정에서 수신 )
+        sMail.quit()
+        print( "done" )
+'''
 
 
 if __name__ == '__main__':
