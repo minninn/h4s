@@ -149,6 +149,7 @@ def result():
 
             link = scan_data[0]
             con = scan_data[1:]
+            print( "con: {0}".format( con ) )
             connect_database.db_input_contents( con, urlink )
             return render_template('result.html', data=link)
         else:
