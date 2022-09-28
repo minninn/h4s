@@ -6,11 +6,11 @@ import config
 class connect_database:
     def __init__( self ):
         self.connect   = pymysql.connect( 
-            host     = config.db_info( 'host' ), 
-            user     = config.db_info( 'user' ), 
-            password = config.db_info( 'password' ), 
-            db       = config.db_info( 'db' ),
-            charset  = config.db_info( 'charset' ) )
+            host     = config.db_info( 'host' ),     # localhost
+            user     = config.db_info( 'user' ),     # db username
+            password = config.db_info( 'password' ), # db password
+            db       = config.db_info( 'db' ),       # zdedu
+            charset  = config.db_info( 'charset' ) ) # utf8mb4
         
         self.cur       = self.connect.cursor()
         self.query     = ""
