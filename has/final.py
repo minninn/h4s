@@ -9,7 +9,7 @@ def get_all_forms(url):
     res = requests.get( url )
 
     soup = bs( res.content, "html.parser" ) if res.status_code == 200 else "<form>SITE IS NOT AVAILABLE</form>"
-    # 수정필요 (http 응답 메세지 200일때만 처리)
+    # 수정필요 (http 응답 메세지 200일때만 처리) 다른 응답코드일 경우도 생각해보기
 
     return soup.find_all("form")
     
