@@ -9,4 +9,4 @@
 # terminal   : $ sh install_flask.sh
 # windows cmd: install_flask.bat 실행
 
-# 테스트 완료!!
+# 20220930
