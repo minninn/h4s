@@ -54,11 +54,17 @@
 				
 											<div class="col-md-13">
 												<div class="form-group">
-													<input type="submit" class="btn btn-primary form-control">
+													<input type="submit" class="btn btn-primary form-control" onclick="submit_data();">
 													<div class="submitting"></div>
 												</div>
 											</div>
 										</div>
+										<script>
+											function submit_data() {
+												alert("submit")
+												document.getElementById('contectForm').submit()
+											}
+										</script>
 									</form>
 								</div>
 							</div>

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<title>Contact Us</title>
+  </head>
+	<body>
+		<form method="POST" id="contactForm">
+			<input type="text" name="name" id="name" placeholder="Name">
+			<input type="text" name="email" id="email" placeholder="Email">
+			<input type="text" name="subject" id="subject" placeholder="Subject">
+			<textarea name="message" d="message" placeholder="Message"></textarea>
+			<input type="submit" onclick="submit_data();">
+			<script>
+				function submit_data() {
+					alert("submit")
+					document.getElementById('contectForm').submit()
+				}
+			</script>
+		</form>
+</body>
+</html>

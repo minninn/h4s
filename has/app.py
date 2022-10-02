@@ -40,6 +40,14 @@ def return_filename():
 
     return filename
 
+def decorater(f):
+    def wrapper():
+        start = time.time()
+        f()
+        end   = time.time()
+        print( "수행시간 {0:f}초".format( end - start ) )
+    return wrapper()
+
 connect_database = db.connect_database()
 
 app = Flask(__name__, template_folder='templates', static_folder='./static')
@@ -131,6 +139,7 @@ def logout():
     return redirect('/')
 
 
+#@ decorater
 @ login_required
 @ app.route('/result', methods=['GET', 'POST'])
 def result():
@@ -141,11 +150,14 @@ def result():
     else:
         if session.get("userid"):
             urlink = request.form.get('urlink')
+            start = time.time()
             try:
                 scan_data = scan_xss(urlink)
             except:
                 flash('Please enter a valid URL')
                 return render_template('index.html')
+            end = time.time()
+            print( "수행시간 {0:f}초".format( end - start ) )
 
             link = scan_data[0]
             con = scan_data[1:]
@@ -177,30 +189,30 @@ def pdf():
         #connect_database.db_close()   # drop
         return redirect('/result_pdf')'''
 
-
+'''
 @ app.route('/faq', methods=['GET', 'POST'])
 def faq():
     time.sleep(0.5)
-    return render_template('faq.html')
+    return render_template('faq.html')'''
 
 @ app.route('/team', methods=['GET', 'POST'])
 def team():
     time.sleep(0.5)
     return render_template('team.html')
-'''
+
 @ app.route( '/faq', methods = [ 'GET', 'POST' ] )                 # email send 구현
-def send_mail():
+def faq():
     if request.method == 'GET':
         print( "get method, return faq.html" )
         return render_template( 'faq.html' )
     
     else:
-        userName  = request.form[ 'name' ]
-        userEmail = request.form[ 'email' ]
-        subject   = request.form[ 'subject' ]
-        message   = request.form[ 'message' ]                      # get post data
+        userName  = request.POST.get( 'name' )
+        userEmail = request.POST.get( 'email' )
+        subject   = request.POST.get( 'subject' )
+        message   = request.POST.get( 'message' )                     # get post data
         print( userName, userEmail, subject, message )
-
+'''
         sMail = smtplib.SMTP( 'smtp.gmail.com', 587 )              # use gmail.com
         sMail.starttls()                                           # use tls
         sMail.login( 'h4semail@gmail.com', 'ykbrkvpkzflueejm' )    # h4s mail, 앱 인증 비밀번호
@@ -212,6 +224,31 @@ def send_mail():
         sMail.quit()
         print( "done" )'''
 
+@ app.route( '/faq2', methods = [ 'GET', 'POST' ] )                 # email send 구현
+def faq2():
+    if request.method == 'GET':
+        print( "get method, return faq2.html" )
+        return render_template( 'faq2.html' )
+    
+    else:
+        userName  = request.form.get( 'name' )
+        userEmail = request.form.get( 'email' )
+        subject   = request.form.get( 'subject' )
+        message   = request.form.get( 'message' )                     # get post data
+        print( userName, userEmail, subject, message )
+
+        sMail = smtplib.SMTP( 'smtp.gmail.com', 587 )              # use gmail.com
+        sMail.starttls()                                           # use tls
+        sMail.login( 'h4semail@gmail.com', 'ykbrkvpkzflueejm' )    # h4s mail, 앱 인증 비밀번호
+
+        msg = MIMEText( "username: {0}, useremail: {1}\nmessage:\n{2}".format( userName, userEmail, message ) )                                 # 본문
+        msg[ 'Subject' ] = "hasmail - subject: {0}".format( subject )                      # 메일 제목 ( 사용자이름 + 제목 )
+
+        sMail.sendmail( userEmail, "rn2685rn@gmail.com",  msg.as_string() )    # 이메일 전송 ( 김근택 계정에서 수신 )
+        sMail.quit()
+        print( "done" )
+
+        return redirect( '/faq2' )
 
 
 if __name__ == '__main__':
