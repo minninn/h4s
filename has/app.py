@@ -11,6 +11,7 @@ import path
 import smtplib
 from email import policy
 from email.mime.text import MIMEText
+from email.header import Header
 
 
 
@@ -241,8 +242,9 @@ def faq2():
         sMail.starttls()                                           # use tls
         sMail.login( 'h4semail@gmail.com', 'ykbrkvpkzflueejm' )    # h4s mail, 앱 인증 비밀번호
 
-        msg = MIMEText( "username: {0}, useremail: {1}\nmessage:\n{2}".format( userName, userEmail, message ) )                                 # 본문
-        msg[ 'Subject' ] = "hasmail - subject: {0}".format( subject )                      # 메일 제목 ( 사용자이름 + 제목 )
+        # -*- coding: utf-8 -*-
+        msg = MIMEText( "username: {0}, useremail: {1}\nmessage:\n{2}".format( userName, userEmail, message ).encode( 'utf-8' ), _charset = 'UTF-8' )                                 # 본문
+        msg[ 'Subject' ] = "hasmail - subject: {0}".format( subject )          # 메일 제목 ( 사용자이름 + 제목 )
 
         sMail.sendmail( userEmail, "rn2685rn@gmail.com",  msg.as_string() )    # 이메일 전송 ( 김근택 계정에서 수신 )
         sMail.quit()
