@@ -56,15 +56,15 @@ csrf.init_app(app)
 
 @ app.route('/', methods=['GET', 'POST'])
 def index():
-    time.sleep(0.5)
-    def decorator():
-        print( "done" )
-        return render_template( 'test.html' )
-    #return decorator()
     print( path_dir.get_path() )
     print( path_dir.get_filename() )
 
+
     return render_template( 'index.html' )
+
+@ app.route( '/loading' )
+def load_page():
+    return render_template( 'test.html' )
 
 
 @ app.route('/register', methods=['GET', 'POST'])
