@@ -133,4 +133,32 @@ class connect_database:
 
         return self.get_data( self.cur.fetchall() )
 
+    def smtp_account( self ):
+        self.__init__()
+
+        # ----- GET smtpdata query -----
+        self.query = "SELECT tblsmtp.account FROM tblsmtp"
+        # ------------------------------
+
+        # ----- DB -----
+        self.db_inputdata()
+        self.db_close()
+        # --------------
+
+        return self.get_data( self.cur.fetchall() )
+    
+    def smtp_password( self ):
+        self.__init__()
+
+        # ----- GET smtpdata query -----
+        self.query = "SELECT tblsmtp.password FROM tblsmtp"
+        # ------------------------------
+
+        # ----- DB -----
+        self.db_inputdata()
+        self.db_close()
+        # --------------
+
+        return self.get_data( self.cur.fetchall() )
+
 

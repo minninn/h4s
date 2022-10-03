@@ -12,6 +12,7 @@ import smtplib
 from email import policy
 from email.mime.text import MIMEText
 from email.header import Header
+import base64
 
 
 
@@ -48,6 +49,10 @@ def decorater(f):
         end   = time.time()
         print( "수행시간 {0:f}초".format( end - start ) )
     return wrapper()
+
+def bdecode( data ):
+    return base64.b64decode( data ).decode( 'utf-8' )
+
 
 connect_database = db.connect_database()
 
@@ -227,8 +232,7 @@ def faq():
 
 @ app.route( '/faq2', methods = [ 'GET', 'POST' ] )                 # email send 구현
 def faq2():
-    if request.method == 'GET':
-        print( "get method, return faq2.html" )
+    if request.method == 'GET':  
         return render_template( 'faq2.html' )
     
     else:
@@ -236,19 +240,19 @@ def faq2():
         userEmail = request.form.get( 'email' )
         subject   = request.form.get( 'subject' )
         message   = request.form.get( 'message' )                     # get post data
-        print( userName, userEmail, subject, message )
+
+        smtpInfo = config.smtp_info()
 
         sMail = smtplib.SMTP( 'smtp.gmail.com', 587 )              # use gmail.com
         sMail.starttls()                                           # use tls
-        sMail.login( 'h4semail@gmail.com', 'ykbrkvpkzflueejm' )    # h4s mail, 앱 인증 비밀번호
+        sMail.login( bdecode( smtpInfo['id'] ), bdecode( smtpInfo['pw'] ) )    # h4s email
 
         # -*- coding: utf-8 -*-
-        msg = MIMEText( "username: {0}, useremail: {1}\nmessage:\n{2}".format( userName, userEmail, message ).encode( 'utf-8' ), _charset = 'UTF-8' )                                 # 본문
-        msg[ 'Subject' ] = "hasmail - subject: {0}".format( subject )          # 메일 제목 ( 사용자이름 + 제목 )
+        msg = MIMEText( "username: {0}, useremail: {1}\n\n{2}".format( userName, userEmail, message ).encode( 'utf-8' ), _charset = 'UTF-8' )                                 # 본문
+        msg[ 'Subject' ] = subject         # 메일 제목 ( 사용자이름 + 제목 )
 
-        sMail.sendmail( userEmail, "rn2685rn@gmail.com",  msg.as_string() )    # 이메일 전송 ( 김근택 계정에서 수신 )
+        sMail.sendmail( userEmail, smtpInfo['email'] ,  msg.as_string() )    # 이메일 전송 ( 김근택 계정에서 수신 )
         sMail.quit()
-        print( "done" )
 
         return redirect( '/faq2' )
 
