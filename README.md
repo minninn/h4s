@@ -9,5 +9,5 @@
 # terminal   : $ sh install_flask.sh
 # windows cmd: install_flask.bat 실행
 
-# 20221002
+# 20221004
 # 로딩페이지(/loading)구현, faq2(메일전송)구현
