@@ -19,10 +19,10 @@ def db_info( userInput ):
 
 # payloads
 def payloads_info( userInput ):
-    filename     = 'payload.txt'    # payloads filename ( in has directory )
-    filepath     = ''               # payloads path ( Default: '' )
+    filename     = 'payload.txt'    # payloads filename ( in has directory ), non-used
+    filepath     = 'payload/{0}.txt'.format( "a" )        # payloads path ( Default: '' ): tags
 
-    payloadsInfo = { 'filename':filename, 'filepath':filepath}
+    payloadsInfo = { 'filename':filename, 'filepath':filepath }
     return payloadsInfo[ userInput ]
 
 # SMTP

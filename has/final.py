@@ -52,23 +52,33 @@ def scan_xss(url):
 
     fname = path_dir.payload_path()
     
-    with open(fname) as f:
+    with open(fname) as f:       # get payload: ex)payload.txt
         con = f.readlines()
     payloads = [x.strip() for x in con]
 
     is_vulnerable = "SAFE"
     vul = []
-    count = 0
+    count   = 0
+    riskCnt = 0
+    safeCnt = 0
+    msg     = ''
     for form in forms:
         form_details = get_form_details(form)
         for p_l in payloads:
             content = str( submit_form(form_details, url, p_l).content )
             count += 1
-            print( "{0} / {1}".format( count, len( payloads ) * len( forms ) ) )
 
             if p_l in content:
-                
+                riskCnt += 1
+                msg = "RISK"
                 vul.append(p_l)
                 is_vulnerable = "RISK"
+            else:
+                safeCnt += 1
+                msg = "SAFE"
+            
+            print( "{0} / {1}: ({2}) {3}".format( count, len( payloads ) * len( forms ), msg, p_l ) )
+    
+    print( "TOTAL: {0}\nRISK: {1}\nSAFE: {2}".format( len( payloads ) * len( forms ), riskCnt, safeCnt ) )
     vull = ', '.join(s for s in vul)
     return is_vulnerable, str(vull)
