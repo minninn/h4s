@@ -1,0 +1,2 @@
+&lt;FRAMESET&gt;&lt;FRAME SRC=\"javascript&#058;alert('XSS');\"&gt;&lt;/FRAMESET&gt;
+<FRAMESET><FRAME SRC="javascript:alert('XSS');"></FRAMESET>

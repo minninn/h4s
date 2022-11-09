@@ -4,15 +4,6 @@
 -- ------------------------------------------------------
 -- Server version	8.0.30
 
-DROP DATABASE IF EXISTS h4s_db;
-CREATE DATABASE h4s_db DEFAULT CHARACTER SET 'utf8mb4';
-
-DROP USER IF EXISTS 'has'@'localhost';
-CREATE USER 'has'@'localhost' IDENTIFIED BY 'elwlxjfqhdks!!';
-GRANT ALL PRIVILEGES ON h4s_db.* TO 'has'@'localhost';
-
-USE h4s_db;
-
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
@@ -28,6 +19,14 @@ USE h4s_db;
 -- Table structure for table `tblcontents`
 --
 
+DROP DATABASE IF EXISTS h4s_db;
+CREATE DATABASE h4s_db DEFAULT CHARACTER SET 'utf8mb4';
+
+DROP USER IF EXISTS 'has'@'localhost';
+CREATE USER 'has'@'localhost' IDENTIFIED BY 'elwlxjfqhdks!!';
+GRANT ALL PRIVILEGES ON h4s_db.* TO 'has'@'localhost';
+
+USE h4s_db;
 DROP TABLE IF EXISTS `tblcontents`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
@@ -43,7 +42,7 @@ CREATE TABLE `tblcontents` (
 
 LOCK TABLES `tblcontents` WRITE;
 /*!40000 ALTER TABLE `tblcontents` DISABLE KEYS */;
-INSERT INTO `tblcontents` VALUES ('<script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(  XSS  )</script>, <script>alert(  XSS  );</script>, <script>alert(  XSS  )</script>',NULL),(NULL,'https://xss-game.appspot.com/level1/frame?'),('<script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(  XSS  )</script>, <script>alert(  XSS  );</script>, <script>alert(  XSS  )</script>',NULL),(NULL,'http://demo.testfire.net'),('<script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(  XSS  )</script>, <script>alert(  XSS  );</script>, <script>alert(  XSS  )</script>',NULL),(NULL,'http://demo.testfire.net'),('<script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(  XSS  )</script>, <script>alert(  XSS  );</script>, <script>alert(  XSS  )</script>',NULL),(NULL,'http://demo.testfire.net'),('<script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(  XSS  )</script>, <script>alert(  XSS  );</script>, <script>alert(  XSS  )</script>',NULL),(NULL,'http://demo.testfire.net'),('<script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(  XSS  )</script>, <script>alert(  XSS  );</script>, <script>alert(  XSS  )</script>',NULL),(NULL,'http://demo.testfire.net'),('<script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(  XSS  )</script>, <script>alert(  XSS  );</script>, <script>alert(  XSS  )</script>',NULL),(NULL,'http://demo.testfire.net'),('<script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(  XSS  )</script>, <script>alert(  XSS  );</script>, <script>alert(  XSS  )</script>',NULL),(NULL,'http://demo.testfire.net'),('<script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(  XSS  )</script>, <script>alert(  XSS  );</script>, <script>alert(  XSS  )</script>',NULL),(NULL,'http://demo.testfire.net'),('<script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(  XSS  )</script>, <script>alert(  XSS  );</script>, <script>alert(  XSS  )</script>',NULL),(NULL,'http://demo.testfire.net'),('<script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(  XSS  )</script>, <script>alert(  XSS  );</script>, <script>alert(  XSS  )</script>',NULL),(NULL,'http://demo.testfire.net'),('<script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(  XSS  )</script>, <script>alert(  XSS  );</script>, <script>alert(  XSS  )</script>',NULL),(NULL,'http://demo.testfire.net'),('<script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(  XSS  )</script>, <script>alert(  XSS  );</script>, <script>alert(  XSS  )</script>',NULL),(NULL,'http://demo.testfire.net'),('<script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(  XSS  )</script>, <script>alert(  XSS  );</script>, <script>alert(  XSS  )</script>',NULL),(NULL,'http://demo.testfire.net'),('<script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(  XSS  )</script>, <script>alert(  XSS  );</script>, <script>alert(  XSS  )</script>',NULL),(NULL,'http://demo.testfire.net'),('<script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(  XSS  )</script>, <script>alert(  XSS  );</script>, <script>alert(  XSS  )</script>',NULL),(NULL,'http://demo.testfire.net'),('<script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(  XSS  )</script>, <script>alert(  XSS  );</script>, <script>alert(  XSS  )</script>',NULL),(NULL,'http://demo.testfire.net'),('<script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(  XSS  )</script>, <script>alert(  XSS  );</script>, <script>alert(  XSS  )</script>',NULL),(NULL,'http://demo.testfire.net'),('<script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(  XSS  )</script>, <script>alert(  XSS  );</script>, <script>alert(  XSS  )</script>',NULL),(NULL,'http://demo.testfire.net'),('<script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(  XSS  )</script>, <script>alert(  XSS  );</script>, <script>alert(  XSS  )</script>',NULL),(NULL,'http://demo.testfire.net'),('<script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(  XSS  )</script>, <script>alert(  XSS  );</script>, <script>alert(  XSS  )</script>',NULL),(NULL,'http://demo.testfire.net'),('<script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(  XSS  )</script>, <script>alert(  XSS  );</script>, <script>alert(  XSS  )</script>',NULL),(NULL,'http://demo.testfire.net');
+INSERT INTO `tblcontents` VALUES (NULL,'https://xss-game.appspot.com/level1/frame?');
 /*!40000 ALTER TABLE `tblcontents` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -148,4 +147,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-10-03 17:14:51
+-- Dump completed on 2022-11-09 14:50:15

