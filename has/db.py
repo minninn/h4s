@@ -9,7 +9,7 @@ class connect_database:
             host     = config.db_info( 'host' ),     # localhost
             user     = config.db_info( 'user' ),     # db username
             password = config.db_info( 'password' ), # db password
-            db       = config.db_info( 'db' ),       # zdedu
+            db       = config.db_info( 'db' ),       # h4s_db
             charset  = config.db_info( 'charset' ) ) # utf8mb4
         
         self.cur       = self.connect.cursor()
