@@ -7,9 +7,7 @@ path_dir = path.user_path()
 
 def get_all_forms(url):
     res = requests.get( url )
-
     soup = bs( res.content, "html.parser" ) if res.status_code == 200 else "<form>SITE IS NOT AVAILABLE</form>"
-    # 수정필요 (http 응답 메세지 200일때만 처리) 다른 응답코드일 경우도 생각해보기
 
     return soup.find_all("form")
     
@@ -48,37 +46,47 @@ def submit_form(form_details, url, value):
         return requests.get(target_url, params=data)
 
 def scan_xss(url):
-    forms = get_all_forms(url)
-
-    fname = path_dir.payload_path()
+    forms  = get_all_forms(url)
+    fnames = path_dir.payload_path()
+    tags   = path_dir.get_files()
+    ToFrontData = { "Tags":[], "RiskPayloads":[], "CntRisk":[], "CntTotal":[] }
     
-    with open(fname) as f:       # get payload: ex)payload.txt
-        con = f.readlines()
-    payloads = [x.strip() for x in con]
+    for fname, file in zip( fnames, tags ):
+        with open(fname) as f:       # get payload: ex)payload.txt
+            con = f.readlines()
+        payloads = [x.strip() for x in con]
 
-    is_vulnerable = "SAFE"
-    vul = []
-    count   = 0
-    riskCnt = 0
-    safeCnt = 0
-    msg     = ''
-    for form in forms:
-        form_details = get_form_details(form)
-        for p_l in payloads:
-            content = str( submit_form(form_details, url, p_l).content )
-            count += 1
+        is_vulnerable = "SAFE"
+        msg = ''
+        vul = []     # (RISK) payloads
+        count   = 0
+        riskCnt = 0
+        safeCnt = 0
 
-            if p_l in content:
-                riskCnt += 1
-                msg = "RISK"
-                vul.append(p_l)
-                is_vulnerable = "RISK"
-            else:
-                safeCnt += 1
-                msg = "SAFE"
-            
-            print( "{0} / {1}: ({2}) {3}".format( count, len( payloads ) * len( forms ), msg, p_l ) )
-    
-    print( "TOTAL: {0}\nRISK: {1}\nSAFE: {2}".format( len( payloads ) * len( forms ), riskCnt, safeCnt ) )
-    vull = ', '.join(s for s in vul)
+        for form in forms:
+            form_details = get_form_details(form)
+            for p_l in payloads:
+                content = str( submit_form(form_details, url, p_l).content )
+                count += 1
+
+                if p_l in content:
+                    riskCnt += 1
+                    msg = "RISK"
+                    vul.append(p_l)
+                    is_vulnerable = "RISK"
+                else:
+                    msg = "SAFE"
+                    safeCnt += 1
+                
+                print( "{0} / {1}: ({2}) {3}".format( count, len( payloads ) * len( forms ), msg, p_l ) )
+
+        ToFrontData[ 'Tags' ].append(file[:-4])
+        ToFrontData[ 'RiskPayloads' ].append( vul )
+        ToFrontData[ 'CntRisk' ].append( riskCnt )
+        ToFrontData[ 'CntTotal' ].append( len( payloads ) * len( forms ) )
+
+        print( "tag: {0}\nTOTAL: {1}\nRISK: {2}\nSAFE: {3}\n\n".format( file[:-4] ,len( payloads ) * len( forms ), riskCnt, safeCnt ) )
+
+    print( ToFrontData )
+    vull = '\n'.join(s for s in vul)
     return is_vulnerable, str(vull)

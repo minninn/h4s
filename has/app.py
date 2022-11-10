@@ -70,9 +70,10 @@ csrf.init_app(app)
 
 @ app.route('/', methods=['GET', 'POST'])
 def index():
-    print( path_dir.get_path() )
-    print( path_dir.get_filename() )
+    tags = [ tag[:-4] for tag in path_dir.get_files() ]
+    ToFrontData = { "tags":tags }
 
+    print( ToFrontData[ "tags" ] )
     return render_template( 'index.html' )
 
 @ app.route( '/loading' )

@@ -20,9 +20,15 @@ def db_info( userInput ):
 # payloads
 def payloads_info( userInput ):
     filename     = 'payload.txt'    # payloads filename ( in has directory ), non-used
-    filepath     = 'payload/{0}.txt'.format( "a" )        # payloads path ( Default: '' ): tags
+    filepath     = []       # payloads path ( Default: '' ): tags
+    ospath       = os.getcwd() + r"/payload/"
+    FileList     = os.listdir( os.getcwd() + r"/payload/" )
+    for file in FileList:
+        filepath.append( ospath + file )
+    
+    #filepath = [ ospath + "a.txt" ]
 
-    payloadsInfo = { 'filename':filename, 'filepath':filepath }
+    payloadsInfo = { 'filename':filename, 'filepath':sorted( filepath ), 'files':sorted( FileList ) }
     return payloadsInfo[ userInput ]
 
 # SMTP
