@@ -1,5 +1,8 @@
 import pymysql
 import config
+import base64
+import dsalt
+
 
 # db
 
@@ -70,7 +73,7 @@ class connect_database:
         self.__init__()
 
         # ----- users query 1 -----
-        self.query = "INSERT INTO tblusers( users_id, users_pw ) VALUES ( '" + str( id ) + "', '" + str( pw ) + "' )"
+        self.query = "INSERT INTO tblusers( users_id, users_pw ) VALUES ( '" + encrypt( str( id ) ) + "', '" + encrypt( str( pw ) ) + "' )"
         # -------------------------
 
         # ----- DB  -----
@@ -161,4 +164,5 @@ class connect_database:
 
         return self.get_data( self.cur.fetchall() )
 
-
+def encrypt( data ):
+    return base64.b64encode( (data + dsalt.dsalt() ).encode( 'utf-8' ) ).decode( 'utf-8' )

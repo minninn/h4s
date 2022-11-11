@@ -44,7 +44,7 @@ for key, valueList in category.items():
     data = ''
     if len( valueList ) != 0:
         print( "{0}: {1}개".format( key, len( valueList ) ) )
-        with open( "payload/{0}.txt".format(key), "w" ) as f:
+        with open( "payload_filtered/{0}.txt".format(key), "w" ) as f:
             for value in valueList:
                 data += value + "\n"
             data.rstrip("\n")

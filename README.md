@@ -11,3 +11,9 @@
 
 # 20221004
 # 로딩페이지(/loading)구현, faq2(메일전송)구현
+
+# TEST Account
+# test  	 / test
+# test2 	 / test2
+# test_account   / P@ssw0rd
+# test@gmail.com / google_P@ssw0rd

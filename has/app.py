@@ -13,6 +13,7 @@ from email import policy
 from email.mime.text import MIMEText
 from email.header import Header
 import base64
+import dsalt
 
 
 
@@ -25,6 +26,8 @@ headers = {
 
 path_dir = path.user_path()
 
+def decrypt( data ):
+    return base64.b64decode( data ).decode( 'utf-8' ).replace( dsalt.dsalt(), "" )
 
 def login_required(f):
     @ wraps(f)
@@ -93,14 +96,12 @@ def register():
         userId = connect_database.db_userid()
 
         if not (userid and password and re_password):
-            flash("Please check the blank")
             return redirect('/register')
         elif password != re_password:
-            flash("Check Password")
             return redirect('/register')
         else:
             for i in userId:
-                if userid == i:
+                if userid == decrypt( i ):
                     return redirect('/register')
 
             connect_database.db_input_users( userid, password )
@@ -123,11 +124,11 @@ def login():
         chk_pw = 0
 
         for i in userId:
-            if userid == i:  # check userid == userId(list)
+            if userid == decrypt( i ):  # check userid == userId(list)
                 chk_id = 1
 
         for i in userPw:  # check userpw == userPw(list)
-            if password == i:
+            if password == decrypt( i ):
                 chk_pw = 1
 
         if chk_id == 1 and chk_pw == 1:  # login OK
