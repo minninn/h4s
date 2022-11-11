@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup as bs
 from urllib.parse import urljoin
 import path
+import os
 
 path_dir = path.user_path()
 
@@ -50,7 +51,7 @@ def scan_xss(url):
     fnames = path_dir.payload_path()
     tags   = path_dir.get_files()
     ToFrontData = { "Tags":[], "RiskPayloads":[], "CntRisk":[], "CntTotal":[] }
-    
+
     for fname, file in zip( fnames, tags ):
         with open(fname) as f:       # get payload: ex)payload.txt
             con = f.readlines()
@@ -62,30 +63,38 @@ def scan_xss(url):
         count   = 0
         riskCnt = 0
         safeCnt = 0
+        PrintRiskScript = []
 
-        for form in forms:
-            form_details = get_form_details(form)
-            for p_l in payloads:
-                content = str( submit_form(form_details, url, p_l).content )
-                count += 1
+        with open( "log.txt", "a" ) as file_log:
+            for form in forms:
+                form_details = get_form_details(form)
+                for p_l in payloads:
+                    content = str( submit_form(form_details, url, p_l).content )
+                    count += 1
 
-                if p_l in content:
-                    riskCnt += 1
-                    msg = "RISK"
-                    vul.append(p_l)
-                    is_vulnerable = "RISK"
-                else:
-                    msg = "SAFE"
-                    safeCnt += 1
-                
-                print( "{0} / {1}: ({2}) {3}".format( count, len( payloads ) * len( forms ), msg, p_l ) )
+                    if p_l in content:
+                        riskCnt += 1
+                        msg = "RISK"
+                        vul.append(p_l)
+                        is_vulnerable = "RISK"
+                        PrintRiskScript.append( "{0}: {1}\n".format( msg, p_l ) )
 
-        ToFrontData[ 'Tags' ].append(file[:-4])
-        ToFrontData[ 'RiskPayloads' ].append( vul )
-        ToFrontData[ 'CntRisk' ].append( riskCnt )
-        ToFrontData[ 'CntTotal' ].append( len( payloads ) * len( forms ) )
+                    else:
+                        msg = "SAFE"
+                        safeCnt += 1
 
-        print( "tag: {0}\nTOTAL: {1}\nRISK: {2}\nSAFE: {3}\n\n".format( file[:-4] ,len( payloads ) * len( forms ), riskCnt, safeCnt ) )
+                    print( "{0} / {1}: ({2}) {3}".format( count, len( payloads ) * len( forms ), msg, p_l ) )
+
+            ToFrontData[ 'Tags' ].append(file[:-4])
+            ToFrontData[ 'RiskPayloads' ].append( vul )
+            ToFrontData[ 'CntRisk' ].append( riskCnt )
+            ToFrontData[ 'CntTotal' ].append( len( payloads ) * len( forms ) )
+            
+            file_log.write( "tag: <{0}>\n\tTOTAL: {1}\n\tRISK : {2}\n\tSAFE : {3}\n\tAVG  : {4:.1f}%\n\n\tdetail:\n".format( file[:-4] ,len( payloads ) * len( forms ), riskCnt, safeCnt, safeCnt / len( payloads ) * len( forms ) * 100 ) )
+            print( "tag: <{0}>\n\tTOTAL: {1}\n\tRISK : {2}\n\tSAFE : {3}\n\tAVG  : {4:.1f}%\n\n".format( file[:-4] ,len( payloads ) * len( forms ), riskCnt, safeCnt, safeCnt / len( payloads ) * len( forms ) * 100 ) )
+            for RiskScript in PrintRiskScript:
+                file_log.write( "\t\t" + RiskScript )
+            file_log.write( "\n\n" )
 
     print( ToFrontData )
     vull = '\n'.join(s for s in vul)

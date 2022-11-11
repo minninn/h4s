@@ -158,6 +158,8 @@ def result():
         if session.get("userid"):
             urlink = request.form.get('urlink')
             start = time.time()
+            with open( "log.txt", "w" ) as f:
+                f.write( "Target URL: {0}\n\n".format( urlink ) )
             try:
                 scan_data = scan_xss(urlink)
             except:
@@ -165,6 +167,8 @@ def result():
                 return render_template('index.html')
             end = time.time()
             print( "수행시간 {0:f}초".format( end - start ) )
+            with open( "log.txt", "a" ) as f:
+                f.write( "수행시간 {0:f}초".format( end - start ) )
 
             link = scan_data[0]
             con = scan_data[1:]
