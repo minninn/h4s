@@ -41,7 +41,7 @@ def login_required(f):
 def return_filename():
     finish = datetime.datetime.now()
     today = finish.strftime("%Y%m%d")
-    filename = str(today) + ".pdf"
+    filename = str(today) + ".txt"
 
     return filename
 
@@ -74,10 +74,8 @@ csrf.init_app(app)
 @ app.route('/', methods=['GET', 'POST'])
 def index():
     tags = [ tag[:-4] for tag in path_dir.get_files() ]
-    ToFrontData = { "tags":tags }
 
-    print( ToFrontData[ "tags" ] )
-    return render_template( 'index.html' )
+    return render_template( 'index.html', data=tags )
 
 @ app.route( '/loading' )
 def load_page():
@@ -157,11 +155,16 @@ def result():
     else:
         if session.get("userid"):
             urlink = request.form.get('urlink')
+            try:
+                SelectTags = request.form.getlist( 'tags' )
+            except:
+                SelectTags = [ "a" ]
+
             start = time.time()
             with open( "log.txt", "w" ) as f:
                 f.write( "Target URL: {0}\n\n".format( urlink ) )
             try:
-                scan_data = scan_xss(urlink)
+                scan_data = scan_xss( urlink, SelectTags )
             except:
                 flash('Please enter a valid URL')
                 return render_template('index.html')
@@ -171,15 +174,21 @@ def result():
                 f.write( "수행시간 {0:f}초".format( end - start ) )
 
             link = scan_data[0]
-            con = scan_data[1:]
-            print( "con: {0}".format( con ) )
-            connect_database.db_input_contents( con, urlink )
-            return render_template('result.html', data=link)
+            ToFrontData = scan_data[1]
+            print( ToFrontData )
+            #connect_database.db_input_contents( con, urlink )
+            return render_template('result.html', data=link, tags=ToFrontData['Tags'], risks=ToFrontData['RiskPayloads'], riskcnt=ToFrontData['CntRisk'], totalcnt=ToFrontData['CntTotal'], time="{0:f}".format( end - start ) )
         else:
             flash("Please LOGIN !")
-            return render_template('login.html')
+            return redirect( "/login" )
 
-
+@ app.route( "/download" )
+def download():
+    path = path_dir.get_path()
+    filename = return_filename()
+    return send_file( path + "/log.txt", attachment_filename=filename, as_attachment=True )
+    
+'''
 @ app.route('/result_pdf', methods=['GET', 'POST'])
 def pdf():
     
@@ -194,51 +203,17 @@ def pdf():
     return send_file( path, as_attachment=True )
     #return send_file(path, attachment_filename=filename, as_attachment=True)  # 수정필요
     #return send_file( path )
-
-    '''except:
-        print('close ERROR')
-        #connect_database.db_close()   # drop
-        return redirect('/result_pdf')'''
-
 '''
-@ app.route('/faq', methods=['GET', 'POST'])
-def faq():
-    time.sleep(0.5)
-    return render_template('faq.html')'''
 
 @ app.route('/team', methods=['GET', 'POST'])
 def team():
     time.sleep(0.5)
     return render_template('team.html')
 
-@ app.route( '/faq', methods = [ 'GET', 'POST' ] )                 # email send 구현
-def faq():
-    if request.method == 'GET':
-        print( "get method, return faq.html" )
-        return render_template( 'faq.html' )
-    
-    else:
-        userName  = request.POST.get( 'name' )
-        userEmail = request.POST.get( 'email' )
-        subject   = request.POST.get( 'subject' )
-        message   = request.POST.get( 'message' )                     # get post data
-        print( userName, userEmail, subject, message )
-'''
-        sMail = smtplib.SMTP( 'smtp.gmail.com', 587 )              # use gmail.com
-        sMail.starttls()                                           # use tls
-        sMail.login( 'h4semail@gmail.com', 'ykbrkvpkzflueejm' )    # h4s mail, 앱 인증 비밀번호
-
-        msg = MIMEText( message )                                  # 본문
-        msg[ 'Subject' ] = userName + subject                      # 메일 제목 ( 사용자이름 + 제목 )
-
-        sMail.sendmail( userEmail, "rn2685rn@gmail.com",  msg.as_string() )    # 이메일 전송 ( 김근택 계정에서 수신 )
-        sMail.quit()
-        print( "done" )'''
-
-@ app.route( '/faq2', methods = [ 'GET', 'POST' ] )                 # email send 구현
+@ app.route( '/contact', methods = [ 'GET', 'POST' ] )                 # email send 구현
 def faq2():
     if request.method == 'GET':  
-        return render_template( 'faq2.html' )
+        return render_template( 'contact.html' )
     
     else:
         userName  = request.form.get( 'name' )
@@ -259,7 +234,7 @@ def faq2():
         sMail.sendmail( userEmail, smtpInfo['email'] ,  msg.as_string() )    # 이메일 전송 ( 김근택 계정에서 수신 )
         sMail.quit()
 
-        return redirect( '/faq2' )
+        return redirect( '/contact' )
 
 
 if __name__ == '__main__':

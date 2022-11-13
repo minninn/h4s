@@ -53,17 +53,6 @@
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a class="nav-link scrollto" href="{{ url_for('index')}}">Home</a></li>
-          <li><a class="nav-link scrollto" href="{{ url_for('team')}}">Team</a></li>
-          <li><a class="nav-link scrollto" href="{{ url_for('faq')}}">FAQ</a></li>
-         
-
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
     {% if session['userid'] %}
         <a href="{{ url_for('logout')}}" class="get-started-btn scrollto">LOGOUT</a>
     {% else %}
@@ -85,7 +74,7 @@
               <h1 style="color:red">{{ data }}</h1>
 
               <div id="box2" class="row justify-content-center" data-aos="zoom-in" data-aos-delay="250">
-            <p style="color:white">MORE DETAIL INFORMAION : <a href="{{ url_for('pdf')}}">DOWNLOAD PDF</a></p>
+            <p style="color:white">MORE DETAIL INFORMAION : <a href="#">DOWNLOAD PDF</a></p>
         </div>
           {% endif %}
         </div>

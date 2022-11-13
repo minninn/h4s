@@ -28,7 +28,7 @@ def input_data():
 
 def chkRisk(url):
     results = []
-    results.append(final.scan_xss(url))
+    results.append(final.scan_xss(url, ["a"]))
     return results
 
 
