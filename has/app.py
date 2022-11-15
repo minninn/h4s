@@ -74,6 +74,7 @@ csrf.init_app(app)
 @ app.route('/', methods=['GET', 'POST'])
 def index():
     tags = [ tag[:-4] for tag in path_dir.get_files() ]
+    tags.insert( 0, "all" )
 
     return render_template( 'index.html', data=tags )
 
@@ -160,6 +161,7 @@ def result():
             urlink = request.form.get('urlink')
             try:
                 SelectTags = request.form.getlist( 'tags' )
+                if "all" in SelectTags: SelectTags = [ tag[:-4] for tag in path_dir.get_files() ]
             except:
                 SelectTags = [ "a" ]
 
