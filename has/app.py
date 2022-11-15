@@ -178,7 +178,6 @@ def result():
 
             link = scan_data[0]
             ToFrontData = scan_data[1]
-            print( ToFrontData )
             return render_template('result.html', data=link, tags=ToFrontData['Tags'], risks=ToFrontData['RiskPayloads'], riskcnt=ToFrontData['CntRisk'], totalcnt=ToFrontData['CntTotal'], time="{0:f}".format( end - start ) )
         else:
             flash( "로그인 후 이용해주세요." )
@@ -188,9 +187,8 @@ def result():
 def download():
     path = path_dir.get_path()
     filename = return_filename()
-    print( path + "/log.txt", filename )
-    #return redirect( "/result" )
-    return send_file( path + "/log.txt", filename, as_attachment=True )
+
+    return send_file( path + "/log.txt", download_name=filename, as_attachment=True )
 
 '''
 @ app.route('/result_pdf', methods=['GET', 'POST'])
