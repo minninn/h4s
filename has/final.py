@@ -44,7 +44,9 @@ def submit_form(form_details, url, value):
         input_value = input.get("value")
         if input_name and input_value:
             data[input_name] = input_value
-        return requests.get(target_url, params=data)
+
+        return requests.post(target_url, data=data)
+
 
 def scan_xss(url, SelectTags):
     forms  = get_all_forms(url)
@@ -97,6 +99,5 @@ def scan_xss(url, SelectTags):
                     file_log.write( "\t\t" + RiskScript )
                 file_log.write( "\n\n" )
 
-    print( ToFrontData )
-    vull = '\n'.join(s for s in vul)
+    #vull = '\n'.join(s for s in vul)
     return [ is_vulnerable, ToFrontData ] #원본 str( vull )
