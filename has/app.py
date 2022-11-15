@@ -188,7 +188,7 @@ def download():
     path = path_dir.get_path()
     filename = return_filename()
 
-    return send_file( path + "/log.txt", download_name=filename, as_attachment=True )
+    return send_file( path + "/log.txt", download_name="xss_scan_log_{0}".format( filename ), as_attachment=True )
 
 '''
 @ app.route('/result_pdf', methods=['GET', 'POST'])
