@@ -110,4 +110,9 @@ $('document').ready(function() {
     placeholder : "select"
   });
 
+  // $(".scanbutton").click(function () {
+  //   var html = $('#sumoSelectId').closest('.CaptionCont span').text();
+  //   console.log(html+"////");
+  // });
+
 });

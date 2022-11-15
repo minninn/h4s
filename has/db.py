@@ -165,4 +165,4 @@ class connect_database:
         return self.get_data( self.cur.fetchall() )
 
 def encrypt( data ):
-    return base64.b64encode( (data + dsalt.dsalt() ).encode( 'utf-8' ) ).decode( 'utf-8' )
+    return base64.b64encode( ( data + dsalt.dsalt() ).encode( 'utf-8' ) ).decode( 'utf-8' )

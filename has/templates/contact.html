@@ -32,7 +32,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
       <div class="container">
-        <a href="#" class="navbar-brand">H<span class="text-primary">4</span>S</a>
+        <a href="/" class="navbar-brand">H<span class="text-primary">4</span>S</a>
 
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -50,7 +50,11 @@
               <a class="nav-link" href="/contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="btn btn-primary ml-lg-2" href="#">Login</a>
+              {% if session['userid'] %}
+              <a class="btn btn-primary ml-lg-2" href="/logout">Logout</a>
+              {% else %}
+              <a class="btn btn-primary ml-lg-2" href="/login">Login</a>
+              {% endif %}
             </li>
           </ul>
         </div>

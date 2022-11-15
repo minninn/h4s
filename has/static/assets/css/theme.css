@@ -2152,11 +2152,12 @@ a.text-dark:hover, a.text-dark:focus {
   left: 170px;
   bottom:55px;
   font-size:16px;
+  overflow : auto;
 }
 
 .log{
   position:relative;
-  left: 768px;
+  left: 650px;
   top:53px;
   width : 180px;
 }

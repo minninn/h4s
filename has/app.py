@@ -94,16 +94,19 @@ def register():
         userId = connect_database.db_userid()
 
         if not (userid and password and re_password):
+            flash( "빈 칸을 확인해주세요." )
             return redirect('/register')
         elif password != re_password:
+            flash( "비밀번호를 다시 확인해주세요." )
             return redirect('/register')
         else:
             for i in userId:
                 if userid == decrypt( i ):
+                    flash( "이미 가입된 아이디입니다." )
                     return redirect('/register')
 
             connect_database.db_input_users( userid, password )
-            return redirect('/login') # 회의 필요 ( 회원가입 후 돌아갈 화면 )
+            return redirect('/login')
 
 
 @ app.route('/login', methods=['GET', 'POST'])
@@ -133,7 +136,7 @@ def login():
             session['userid'] = userid
             return redirect('/')
         else:  # login FAILURE
-            flash('Try Again')
+            flash('아이디나 비밀번호가 틀립니다. 다시 시도해주세요.')
             return redirect('/login')
 
 
@@ -166,7 +169,7 @@ def result():
             try:
                 scan_data = scan_xss( urlink, SelectTags )
             except:
-                flash('Please enter a valid URL')
+                flash( '태그 또는 URL을 확인해 주세요.' )
                 return render_template('index.html')
             end = time.time()
             print( "수행시간 {0:f}초".format( end - start ) )
@@ -176,18 +179,19 @@ def result():
             link = scan_data[0]
             ToFrontData = scan_data[1]
             print( ToFrontData )
-            #connect_database.db_input_contents( con, urlink )
             return render_template('result.html', data=link, tags=ToFrontData['Tags'], risks=ToFrontData['RiskPayloads'], riskcnt=ToFrontData['CntRisk'], totalcnt=ToFrontData['CntTotal'], time="{0:f}".format( end - start ) )
         else:
-            flash("Please LOGIN !")
+            flash( "로그인 후 이용해주세요." )
             return redirect( "/login" )
 
 @ app.route( "/download" )
 def download():
     path = path_dir.get_path()
     filename = return_filename()
-    return send_file( path + "/log.txt", attachment_filename=filename, as_attachment=True )
-    
+    print( path + "/log.txt", filename )
+    #return redirect( "/result" )
+    return send_file( path + "/log.txt", filename, as_attachment=True )
+
 '''
 @ app.route('/result_pdf', methods=['GET', 'POST'])
 def pdf():
@@ -211,7 +215,7 @@ def team():
     return render_template('team.html')
 
 @ app.route( '/contact', methods = [ 'GET', 'POST' ] )                 # email send 구현
-def faq2():
+def contact():
     if request.method == 'GET':  
         return render_template( 'contact.html' )
     
