@@ -154,7 +154,7 @@ def logout():
 def result():
     time.sleep(0.5)
     if request.method == 'GET':
-        return render_template('index.html')
+        return redirect('/')
 
     else:
         if session.get("userid"):
