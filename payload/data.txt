@@ -1,0 +1,42 @@
+<data draggable="true" ondrag="alert(1)">test</data>
+<data draggable="true" ondragend="alert(1)">test</data>
+<data draggable="true" ondragenter="alert(1)">test</data>
+<data draggable="true" ondragleave="alert(1)">test</data>
+<data draggable="true" ondragstart="alert(1)">test</data>
+<data id=x tabindex=1 onactivate=alert(1)></data>
+<data id=x tabindex=1 onbeforeactivate=alert(1)></data>
+<data id=x tabindex=1 onbeforedeactivate=alert(1)></data><input autofocus>
+<data id=x tabindex=1 ondeactivate=alert(1)></data><input id=y autofocus>
+<data id=x tabindex=1 onfocus=alert(1)></data>
+<data id=x tabindex=1 onfocusin=alert(1)></data>
+<data onbeforecopy="alert(1)" contenteditable>test</data>
+<data onbeforecut="alert(1)" contenteditable>test</data>
+<data onbeforepaste="alert(1)" contenteditable>test</data>
+<data onblur=alert(1) tabindex=1 id=x></data><input autofocus>
+<data onclick="alert(1)">test</data>
+<data oncontextmenu="alert(1)">test</data>
+<data oncopy="alert(1)" contenteditable>test</data>
+<data oncut="alert(1)" contenteditable>test</data>
+<data ondblclick="alert(1)">test</data>
+<data onfocusout=alert(1) tabindex=1 id=x></data><input autofocus>
+<data onkeydown="alert(1)" contenteditable>test</data>
+<data onkeypress="alert(1)" contenteditable>test</data>
+<data onkeyup="alert(1)" contenteditable>test</data>
+<data onmousedown="alert(1)">test</data>
+<data onmouseenter="alert(1)">test</data>
+<data onmouseleave="alert(1)">test</data>
+<data onmousemove="alert(1)">test</data>
+<data onmouseout="alert(1)">test</data>
+<data onmouseover="alert(1)">test</data>
+<data onmouseup="alert(1)">test</data>
+<data onpaste="alert(1)" contenteditable>test</data>
+<div draggable="true" contenteditable>drag me</div><data ondragover=alert(1) contenteditable>drop here</data>
+<div draggable="true" contenteditable>drag me</div><data ondrop=alert(1) contenteditable>drop here</data>
+<style>:target {color: red;}</style><data id=x style="transition:color 10s" ontransitioncancel=alert(1)></data>
+<style>:target {color:red;}</style><data id=x style="transition:color 1s" ontransitionend=alert(1)></data>
+<style>:target {transform: rotate(180deg);}</style><data id=x style="transition:transform 2s" ontransitionrun=alert(1)></data>
+<style>@keyframes slidein {}</style><data style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></data>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><data id=x style="position:absolute;" onanimationcancel="alert(1)"></data>
+<style>@keyframes x{}</style><data style="animation-name:x" onanimationend="alert(1)"></data>
+<style>@keyframes x{}</style><data style="animation-name:x" onanimationstart="alert(1)"></data>
+<svg><data onload=alert(1)></data>

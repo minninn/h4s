@@ -1,0 +1,36 @@
+<progress draggable="true" ondrag="alert(1)">test</progress>
+<progress draggable="true" ondragend="alert(1)">test</progress>
+<progress draggable="true" ondragenter="alert(1)">test</progress>
+<progress draggable="true" ondragleave="alert(1)">test</progress>
+<progress draggable="true" ondragstart="alert(1)">test</progress>
+<progress id=x tabindex=1 onactivate=alert(1)></progress>
+<progress id=x tabindex=1 onbeforeactivate=alert(1)></progress>
+<progress id=x tabindex=1 onfocus=alert(1)></progress>
+<progress id=x tabindex=1 onfocusin=alert(1)></progress>
+<progress onbeforecopy="alert(1)" contenteditable>test</progress>
+<progress onbeforecut="alert(1)" contenteditable>test</progress>
+<progress onbeforepaste="alert(1)" contenteditable>test</progress>
+<progress onclick="alert(1)">test</progress>
+<progress oncontextmenu="alert(1)">test</progress>
+<progress oncopy="alert(1)" contenteditable>test</progress>
+<progress oncut="alert(1)" contenteditable>test</progress>
+<progress ondblclick="alert(1)">test</progress>
+<progress onkeydown="alert(1)" contenteditable>test</progress>
+<progress onkeypress="alert(1)" contenteditable>test</progress>
+<progress onkeyup="alert(1)" contenteditable>test</progress>
+<progress onmousedown="alert(1)">test</progress>
+<progress onmouseenter="alert(1)">test</progress>
+<progress onmouseleave="alert(1)">test</progress>
+<progress onmousemove="alert(1)">test</progress>
+<progress onmouseout="alert(1)">test</progress>
+<progress onmouseover="alert(1)">test</progress>
+<progress onmouseup="alert(1)">test</progress>
+<progress onpaste="alert(1)" contenteditable>test</progress>
+<style>:target {color: red;}</style><progress id=x style="transition:color 10s" ontransitioncancel=alert(1)></progress>
+<style>:target {color:red;}</style><progress id=x style="transition:color 1s" ontransitionend=alert(1)></progress>
+<style>:target {transform: rotate(180deg);}</style><progress id=x style="transition:transform 2s" ontransitionrun=alert(1)></progress>
+<style>@keyframes slidein {}</style><progress style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></progress>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><progress id=x style="position:absolute;" onanimationcancel="alert(1)"></progress>
+<style>@keyframes x{}</style><progress style="animation-name:x" onanimationend="alert(1)"></progress>
+<style>@keyframes x{}</style><progress style="animation-name:x" onanimationstart="alert(1)"></progress>
+<svg><progress onload=alert(1)></progress>

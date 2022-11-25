@@ -1,0 +1,40 @@
+<figure draggable="true" ondrag="alert(1)">test</figure>
+<figure draggable="true" ondragend="alert(1)">test</figure>
+<figure draggable="true" ondragenter="alert(1)">test</figure>
+<figure draggable="true" ondragleave="alert(1)">test</figure>
+<figure draggable="true" ondragstart="alert(1)">test</figure>
+<figure id=x tabindex=1 onactivate=alert(1)></figure>
+<figure id=x tabindex=1 onbeforeactivate=alert(1)></figure>
+<figure id=x tabindex=1 onbeforedeactivate=alert(1)></figure><input autofocus>
+<figure id=x tabindex=1 ondeactivate=alert(1)></figure><input id=y autofocus>
+<figure id=x tabindex=1 onfocus=alert(1)></figure>
+<figure id=x tabindex=1 onfocusin=alert(1)></figure>
+<figure onbeforecopy="alert(1)" contenteditable>test</figure>
+<figure onbeforecut="alert(1)" contenteditable>test</figure>
+<figure onbeforepaste="alert(1)" contenteditable>test</figure>
+<figure onblur=alert(1) tabindex=1 id=x></figure><input autofocus>
+<figure onclick="alert(1)">test</figure>
+<figure oncontextmenu="alert(1)">test</figure>
+<figure oncopy="alert(1)" contenteditable>test</figure>
+<figure oncut="alert(1)" contenteditable>test</figure>
+<figure ondblclick="alert(1)">test</figure>
+<figure onfocusout=alert(1) tabindex=1 id=x></figure><input autofocus>
+<figure onkeydown="alert(1)" contenteditable>test</figure>
+<figure onkeypress="alert(1)" contenteditable>test</figure>
+<figure onkeyup="alert(1)" contenteditable>test</figure>
+<figure onmousedown="alert(1)">test</figure>
+<figure onmouseenter="alert(1)">test</figure>
+<figure onmouseleave="alert(1)">test</figure>
+<figure onmousemove="alert(1)">test</figure>
+<figure onmouseout="alert(1)">test</figure>
+<figure onmouseover="alert(1)">test</figure>
+<figure onmouseup="alert(1)">test</figure>
+<figure onpaste="alert(1)" contenteditable>test</figure>
+<style>:target {color: red;}</style><figure id=x style="transition:color 10s" ontransitioncancel=alert(1)></figure>
+<style>:target {color:red;}</style><figure id=x style="transition:color 1s" ontransitionend=alert(1)></figure>
+<style>:target {transform: rotate(180deg);}</style><figure id=x style="transition:transform 2s" ontransitionrun=alert(1)></figure>
+<style>@keyframes slidein {}</style><figure style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></figure>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><figure id=x style="position:absolute;" onanimationcancel="alert(1)"></figure>
+<style>@keyframes x{}</style><figure style="animation-name:x" onanimationend="alert(1)"></figure>
+<style>@keyframes x{}</style><figure style="animation-name:x" onanimationstart="alert(1)"></figure>
+<svg><figure onload=alert(1)></figure>

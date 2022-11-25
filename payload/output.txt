@@ -1,0 +1,36 @@
+<output draggable="true" ondrag="alert(1)">test</output>
+<output draggable="true" ondragend="alert(1)">test</output>
+<output draggable="true" ondragenter="alert(1)">test</output>
+<output draggable="true" ondragleave="alert(1)">test</output>
+<output draggable="true" ondragstart="alert(1)">test</output>
+<output id=x tabindex=1 onactivate=alert(1)></output>
+<output id=x tabindex=1 onbeforeactivate=alert(1)></output>
+<output id=x tabindex=1 onfocus=alert(1)></output>
+<output id=x tabindex=1 onfocusin=alert(1)></output>
+<output onbeforecopy="alert(1)" contenteditable>test</output>
+<output onbeforecut="alert(1)" contenteditable>test</output>
+<output onbeforepaste="alert(1)" contenteditable>test</output>
+<output onclick="alert(1)">test</output>
+<output oncontextmenu="alert(1)">test</output>
+<output oncopy="alert(1)" contenteditable>test</output>
+<output oncut="alert(1)" contenteditable>test</output>
+<output ondblclick="alert(1)">test</output>
+<output onkeydown="alert(1)" contenteditable>test</output>
+<output onkeypress="alert(1)" contenteditable>test</output>
+<output onkeyup="alert(1)" contenteditable>test</output>
+<output onmousedown="alert(1)">test</output>
+<output onmouseenter="alert(1)">test</output>
+<output onmouseleave="alert(1)">test</output>
+<output onmousemove="alert(1)">test</output>
+<output onmouseout="alert(1)">test</output>
+<output onmouseover="alert(1)">test</output>
+<output onmouseup="alert(1)">test</output>
+<output onpaste="alert(1)" contenteditable>test</output>
+<style>:target {color: red;}</style><output id=x style="transition:color 10s" ontransitioncancel=alert(1)></output>
+<style>:target {color:red;}</style><output id=x style="transition:color 1s" ontransitionend=alert(1)></output>
+<style>:target {transform: rotate(180deg);}</style><output id=x style="transition:transform 2s" ontransitionrun=alert(1)></output>
+<style>@keyframes slidein {}</style><output style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></output>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><output id=x style="position:absolute;" onanimationcancel="alert(1)"></output>
+<style>@keyframes x{}</style><output style="animation-name:x" onanimationend="alert(1)"></output>
+<style>@keyframes x{}</style><output style="animation-name:x" onanimationstart="alert(1)"></output>
+<svg><output onload=alert(1)></output>

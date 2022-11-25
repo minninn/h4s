@@ -1,0 +1,36 @@
+<multicol draggable="true" ondrag="alert(1)">test</multicol>
+<multicol draggable="true" ondragend="alert(1)">test</multicol>
+<multicol draggable="true" ondragenter="alert(1)">test</multicol>
+<multicol draggable="true" ondragleave="alert(1)">test</multicol>
+<multicol draggable="true" ondragstart="alert(1)">test</multicol>
+<multicol id=x tabindex=1 onactivate=alert(1)></multicol>
+<multicol id=x tabindex=1 onbeforeactivate=alert(1)></multicol>
+<multicol id=x tabindex=1 onfocus=alert(1)></multicol>
+<multicol id=x tabindex=1 onfocusin=alert(1)></multicol>
+<multicol onbeforecopy="alert(1)" contenteditable>test</multicol>
+<multicol onbeforecut="alert(1)" contenteditable>test</multicol>
+<multicol onbeforepaste="alert(1)" contenteditable>test</multicol>
+<multicol onclick="alert(1)">test</multicol>
+<multicol oncontextmenu="alert(1)">test</multicol>
+<multicol oncopy="alert(1)" contenteditable>test</multicol>
+<multicol oncut="alert(1)" contenteditable>test</multicol>
+<multicol ondblclick="alert(1)">test</multicol>
+<multicol onkeydown="alert(1)" contenteditable>test</multicol>
+<multicol onkeypress="alert(1)" contenteditable>test</multicol>
+<multicol onkeyup="alert(1)" contenteditable>test</multicol>
+<multicol onmousedown="alert(1)">test</multicol>
+<multicol onmouseenter="alert(1)">test</multicol>
+<multicol onmouseleave="alert(1)">test</multicol>
+<multicol onmousemove="alert(1)">test</multicol>
+<multicol onmouseout="alert(1)">test</multicol>
+<multicol onmouseover="alert(1)">test</multicol>
+<multicol onmouseup="alert(1)">test</multicol>
+<multicol onpaste="alert(1)" contenteditable>test</multicol>
+<style>:target {color: red;}</style><multicol id=x style="transition:color 10s" ontransitioncancel=alert(1)></multicol>
+<style>:target {color:red;}</style><multicol id=x style="transition:color 1s" ontransitionend=alert(1)></multicol>
+<style>:target {transform: rotate(180deg);}</style><multicol id=x style="transition:transform 2s" ontransitionrun=alert(1)></multicol>
+<style>@keyframes slidein {}</style><multicol style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></multicol>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><multicol id=x style="position:absolute;" onanimationcancel="alert(1)"></multicol>
+<style>@keyframes x{}</style><multicol style="animation-name:x" onanimationend="alert(1)"></multicol>
+<style>@keyframes x{}</style><multicol style="animation-name:x" onanimationstart="alert(1)"></multicol>
+<svg><multicol onload=alert(1)></multicol>

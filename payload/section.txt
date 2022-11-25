@@ -1,0 +1,36 @@
+<section draggable="true" ondrag="alert(1)">test</section>
+<section draggable="true" ondragend="alert(1)">test</section>
+<section draggable="true" ondragenter="alert(1)">test</section>
+<section draggable="true" ondragleave="alert(1)">test</section>
+<section draggable="true" ondragstart="alert(1)">test</section>
+<section id=x tabindex=1 onactivate=alert(1)></section>
+<section id=x tabindex=1 onbeforeactivate=alert(1)></section>
+<section id=x tabindex=1 onfocus=alert(1)></section>
+<section id=x tabindex=1 onfocusin=alert(1)></section>
+<section onbeforecopy="alert(1)" contenteditable>test</section>
+<section onbeforecut="alert(1)" contenteditable>test</section>
+<section onbeforepaste="alert(1)" contenteditable>test</section>
+<section onclick="alert(1)">test</section>
+<section oncontextmenu="alert(1)">test</section>
+<section oncopy="alert(1)" contenteditable>test</section>
+<section oncut="alert(1)" contenteditable>test</section>
+<section ondblclick="alert(1)">test</section>
+<section onkeydown="alert(1)" contenteditable>test</section>
+<section onkeypress="alert(1)" contenteditable>test</section>
+<section onkeyup="alert(1)" contenteditable>test</section>
+<section onmousedown="alert(1)">test</section>
+<section onmouseenter="alert(1)">test</section>
+<section onmouseleave="alert(1)">test</section>
+<section onmousemove="alert(1)">test</section>
+<section onmouseout="alert(1)">test</section>
+<section onmouseover="alert(1)">test</section>
+<section onmouseup="alert(1)">test</section>
+<section onpaste="alert(1)" contenteditable>test</section>
+<style>:target {color: red;}</style><section id=x style="transition:color 10s" ontransitioncancel=alert(1)></section>
+<style>:target {color:red;}</style><section id=x style="transition:color 1s" ontransitionend=alert(1)></section>
+<style>:target {transform: rotate(180deg);}</style><section id=x style="transition:transform 2s" ontransitionrun=alert(1)></section>
+<style>@keyframes slidein {}</style><section style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></section>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><section id=x style="position:absolute;" onanimationcancel="alert(1)"></section>
+<style>@keyframes x{}</style><section style="animation-name:x" onanimationend="alert(1)"></section>
+<style>@keyframes x{}</style><section style="animation-name:x" onanimationstart="alert(1)"></section>
+<svg><section onload=alert(1)></section>

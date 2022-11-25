@@ -1,0 +1,42 @@
+<col draggable="true" ondrag="alert(1)">test</col>
+<col draggable="true" ondragend="alert(1)">test</col>
+<col draggable="true" ondragenter="alert(1)">test</col>
+<col draggable="true" ondragleave="alert(1)">test</col>
+<col draggable="true" ondragstart="alert(1)">test</col>
+<col id=x tabindex=1 onactivate=alert(1)></col>
+<col id=x tabindex=1 onbeforeactivate=alert(1)></col>
+<col id=x tabindex=1 onbeforedeactivate=alert(1)></col><input autofocus>
+<col id=x tabindex=1 ondeactivate=alert(1)></col><input id=y autofocus>
+<col id=x tabindex=1 onfocus=alert(1)></col>
+<col id=x tabindex=1 onfocusin=alert(1)></col>
+<col onbeforecopy="alert(1)" contenteditable>test</col>
+<col onbeforecut="alert(1)" contenteditable>test</col>
+<col onbeforepaste="alert(1)" contenteditable>test</col>
+<col onblur=alert(1) tabindex=1 id=x></col><input autofocus>
+<col onclick="alert(1)">test</col>
+<col oncontextmenu="alert(1)">test</col>
+<col oncopy="alert(1)" contenteditable>test</col>
+<col oncut="alert(1)" contenteditable>test</col>
+<col ondblclick="alert(1)">test</col>
+<col onfocusout=alert(1) tabindex=1 id=x></col><input autofocus>
+<col onkeydown="alert(1)" contenteditable>test</col>
+<col onkeypress="alert(1)" contenteditable>test</col>
+<col onkeyup="alert(1)" contenteditable>test</col>
+<col onmousedown="alert(1)">test</col>
+<col onmouseenter="alert(1)">test</col>
+<col onmouseleave="alert(1)">test</col>
+<col onmousemove="alert(1)">test</col>
+<col onmouseout="alert(1)">test</col>
+<col onmouseover="alert(1)">test</col>
+<col onmouseup="alert(1)">test</col>
+<col onpaste="alert(1)" contenteditable>test</col>
+<div draggable="true" contenteditable>drag me</div><col ondragover=alert(1) contenteditable>drop here</col>
+<div draggable="true" contenteditable>drag me</div><col ondrop=alert(1) contenteditable>drop here</col>
+<style>:target {color: red;}</style><col id=x style="transition:color 10s" ontransitioncancel=alert(1)></col>
+<style>:target {color:red;}</style><col id=x style="transition:color 1s" ontransitionend=alert(1)></col>
+<style>:target {transform: rotate(180deg);}</style><col id=x style="transition:transform 2s" ontransitionrun=alert(1)></col>
+<style>@keyframes slidein {}</style><col style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></col>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><col id=x style="position:absolute;" onanimationcancel="alert(1)"></col>
+<style>@keyframes x{}</style><col style="animation-name:x" onanimationend="alert(1)"></col>
+<style>@keyframes x{}</style><col style="animation-name:x" onanimationstart="alert(1)"></col>
+<svg><col onload=alert(1)></col>

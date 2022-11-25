@@ -1,0 +1,3 @@
+<svg><animatetransform onbegin=alert(1) attributeName=transform>
+<svg><animatetransform onend=alert(1) attributeName=transform dur=1s>
+<svg><animatetransform onrepeat=alert(1) attributeName=transform repeatCount=2 dur=1s>

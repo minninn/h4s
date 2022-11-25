@@ -1,0 +1,42 @@
+<dfn draggable="true" ondrag="alert(1)">test</dfn>
+<dfn draggable="true" ondragend="alert(1)">test</dfn>
+<dfn draggable="true" ondragenter="alert(1)">test</dfn>
+<dfn draggable="true" ondragleave="alert(1)">test</dfn>
+<dfn draggable="true" ondragstart="alert(1)">test</dfn>
+<dfn id=x tabindex=1 onactivate=alert(1)></dfn>
+<dfn id=x tabindex=1 onbeforeactivate=alert(1)></dfn>
+<dfn id=x tabindex=1 onbeforedeactivate=alert(1)></dfn><input autofocus>
+<dfn id=x tabindex=1 ondeactivate=alert(1)></dfn><input id=y autofocus>
+<dfn id=x tabindex=1 onfocus=alert(1)></dfn>
+<dfn id=x tabindex=1 onfocusin=alert(1)></dfn>
+<dfn onbeforecopy="alert(1)" contenteditable>test</dfn>
+<dfn onbeforecut="alert(1)" contenteditable>test</dfn>
+<dfn onbeforepaste="alert(1)" contenteditable>test</dfn>
+<dfn onblur=alert(1) tabindex=1 id=x></dfn><input autofocus>
+<dfn onclick="alert(1)">test</dfn>
+<dfn oncontextmenu="alert(1)">test</dfn>
+<dfn oncopy="alert(1)" contenteditable>test</dfn>
+<dfn oncut="alert(1)" contenteditable>test</dfn>
+<dfn ondblclick="alert(1)">test</dfn>
+<dfn onfocusout=alert(1) tabindex=1 id=x></dfn><input autofocus>
+<dfn onkeydown="alert(1)" contenteditable>test</dfn>
+<dfn onkeypress="alert(1)" contenteditable>test</dfn>
+<dfn onkeyup="alert(1)" contenteditable>test</dfn>
+<dfn onmousedown="alert(1)">test</dfn>
+<dfn onmouseenter="alert(1)">test</dfn>
+<dfn onmouseleave="alert(1)">test</dfn>
+<dfn onmousemove="alert(1)">test</dfn>
+<dfn onmouseout="alert(1)">test</dfn>
+<dfn onmouseover="alert(1)">test</dfn>
+<dfn onmouseup="alert(1)">test</dfn>
+<dfn onpaste="alert(1)" contenteditable>test</dfn>
+<div draggable="true" contenteditable>drag me</div><dfn ondragover=alert(1) contenteditable>drop here</dfn>
+<div draggable="true" contenteditable>drag me</div><dfn ondrop=alert(1) contenteditable>drop here</dfn>
+<style>:target {color: red;}</style><dfn id=x style="transition:color 10s" ontransitioncancel=alert(1)></dfn>
+<style>:target {color:red;}</style><dfn id=x style="transition:color 1s" ontransitionend=alert(1)></dfn>
+<style>:target {transform: rotate(180deg);}</style><dfn id=x style="transition:transform 2s" ontransitionrun=alert(1)></dfn>
+<style>@keyframes slidein {}</style><dfn style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></dfn>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><dfn id=x style="position:absolute;" onanimationcancel="alert(1)"></dfn>
+<style>@keyframes x{}</style><dfn style="animation-name:x" onanimationend="alert(1)"></dfn>
+<style>@keyframes x{}</style><dfn style="animation-name:x" onanimationstart="alert(1)"></dfn>
+<svg><dfn onload=alert(1)></dfn>

@@ -1,0 +1,42 @@
+<bdi draggable="true" ondrag="alert(1)">test</bdi>
+<bdi draggable="true" ondragend="alert(1)">test</bdi>
+<bdi draggable="true" ondragenter="alert(1)">test</bdi>
+<bdi draggable="true" ondragleave="alert(1)">test</bdi>
+<bdi draggable="true" ondragstart="alert(1)">test</bdi>
+<bdi id=x tabindex=1 onactivate=alert(1)></bdi>
+<bdi id=x tabindex=1 onbeforeactivate=alert(1)></bdi>
+<bdi id=x tabindex=1 onbeforedeactivate=alert(1)></bdi><input autofocus>
+<bdi id=x tabindex=1 ondeactivate=alert(1)></bdi><input id=y autofocus>
+<bdi id=x tabindex=1 onfocus=alert(1)></bdi>
+<bdi id=x tabindex=1 onfocusin=alert(1)></bdi>
+<bdi onbeforecopy="alert(1)" contenteditable>test</bdi>
+<bdi onbeforecut="alert(1)" contenteditable>test</bdi>
+<bdi onbeforepaste="alert(1)" contenteditable>test</bdi>
+<bdi onblur=alert(1) tabindex=1 id=x></bdi><input autofocus>
+<bdi onclick="alert(1)">test</bdi>
+<bdi oncontextmenu="alert(1)">test</bdi>
+<bdi oncopy="alert(1)" contenteditable>test</bdi>
+<bdi oncut="alert(1)" contenteditable>test</bdi>
+<bdi ondblclick="alert(1)">test</bdi>
+<bdi onfocusout=alert(1) tabindex=1 id=x></bdi><input autofocus>
+<bdi onkeydown="alert(1)" contenteditable>test</bdi>
+<bdi onkeypress="alert(1)" contenteditable>test</bdi>
+<bdi onkeyup="alert(1)" contenteditable>test</bdi>
+<bdi onmousedown="alert(1)">test</bdi>
+<bdi onmouseenter="alert(1)">test</bdi>
+<bdi onmouseleave="alert(1)">test</bdi>
+<bdi onmousemove="alert(1)">test</bdi>
+<bdi onmouseout="alert(1)">test</bdi>
+<bdi onmouseover="alert(1)">test</bdi>
+<bdi onmouseup="alert(1)">test</bdi>
+<bdi onpaste="alert(1)" contenteditable>test</bdi>
+<div draggable="true" contenteditable>drag me</div><bdi ondragover=alert(1) contenteditable>drop here</bdi>
+<div draggable="true" contenteditable>drag me</div><bdi ondrop=alert(1) contenteditable>drop here</bdi>
+<style>:target {color: red;}</style><bdi id=x style="transition:color 10s" ontransitioncancel=alert(1)></bdi>
+<style>:target {color:red;}</style><bdi id=x style="transition:color 1s" ontransitionend=alert(1)></bdi>
+<style>:target {transform: rotate(180deg);}</style><bdi id=x style="transition:transform 2s" ontransitionrun=alert(1)></bdi>
+<style>@keyframes slidein {}</style><bdi style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></bdi>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><bdi id=x style="position:absolute;" onanimationcancel="alert(1)"></bdi>
+<style>@keyframes x{}</style><bdi style="animation-name:x" onanimationend="alert(1)"></bdi>
+<style>@keyframes x{}</style><bdi style="animation-name:x" onanimationstart="alert(1)"></bdi>
+<svg><bdi onload=alert(1)></bdi>

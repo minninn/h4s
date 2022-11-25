@@ -1,0 +1,36 @@
+<slot draggable="true" ondrag="alert(1)">test</slot>
+<slot draggable="true" ondragend="alert(1)">test</slot>
+<slot draggable="true" ondragenter="alert(1)">test</slot>
+<slot draggable="true" ondragleave="alert(1)">test</slot>
+<slot draggable="true" ondragstart="alert(1)">test</slot>
+<slot id=x tabindex=1 onactivate=alert(1)></slot>
+<slot id=x tabindex=1 onbeforeactivate=alert(1)></slot>
+<slot id=x tabindex=1 onfocus=alert(1)></slot>
+<slot id=x tabindex=1 onfocusin=alert(1)></slot>
+<slot onbeforecopy="alert(1)" contenteditable>test</slot>
+<slot onbeforecut="alert(1)" contenteditable>test</slot>
+<slot onbeforepaste="alert(1)" contenteditable>test</slot>
+<slot onclick="alert(1)">test</slot>
+<slot oncontextmenu="alert(1)">test</slot>
+<slot oncopy="alert(1)" contenteditable>test</slot>
+<slot oncut="alert(1)" contenteditable>test</slot>
+<slot ondblclick="alert(1)">test</slot>
+<slot onkeydown="alert(1)" contenteditable>test</slot>
+<slot onkeypress="alert(1)" contenteditable>test</slot>
+<slot onkeyup="alert(1)" contenteditable>test</slot>
+<slot onmousedown="alert(1)">test</slot>
+<slot onmouseenter="alert(1)">test</slot>
+<slot onmouseleave="alert(1)">test</slot>
+<slot onmousemove="alert(1)">test</slot>
+<slot onmouseout="alert(1)">test</slot>
+<slot onmouseover="alert(1)">test</slot>
+<slot onmouseup="alert(1)">test</slot>
+<slot onpaste="alert(1)" contenteditable>test</slot>
+<style>:target {color: red;}</style><slot id=x style="transition:color 10s" ontransitioncancel=alert(1)></slot>
+<style>:target {color:red;}</style><slot id=x style="transition:color 1s" ontransitionend=alert(1)></slot>
+<style>:target {transform: rotate(180deg);}</style><slot id=x style="transition:transform 2s" ontransitionrun=alert(1)></slot>
+<style>@keyframes slidein {}</style><slot style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></slot>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><slot id=x style="position:absolute;" onanimationcancel="alert(1)"></slot>
+<style>@keyframes x{}</style><slot style="animation-name:x" onanimationend="alert(1)"></slot>
+<style>@keyframes x{}</style><slot style="animation-name:x" onanimationstart="alert(1)"></slot>
+<svg><slot onload=alert(1)></slot>

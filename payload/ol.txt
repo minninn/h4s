@@ -1,0 +1,36 @@
+<ol draggable="true" ondrag="alert(1)">test</ol>
+<ol draggable="true" ondragend="alert(1)">test</ol>
+<ol draggable="true" ondragenter="alert(1)">test</ol>
+<ol draggable="true" ondragleave="alert(1)">test</ol>
+<ol draggable="true" ondragstart="alert(1)">test</ol>
+<ol id=x tabindex=1 onactivate=alert(1)></ol>
+<ol id=x tabindex=1 onbeforeactivate=alert(1)></ol>
+<ol id=x tabindex=1 onfocus=alert(1)></ol>
+<ol id=x tabindex=1 onfocusin=alert(1)></ol>
+<ol onbeforecopy="alert(1)" contenteditable>test</ol>
+<ol onbeforecut="alert(1)" contenteditable>test</ol>
+<ol onbeforepaste="alert(1)" contenteditable>test</ol>
+<ol onclick="alert(1)">test</ol>
+<ol oncontextmenu="alert(1)">test</ol>
+<ol oncopy="alert(1)" contenteditable>test</ol>
+<ol oncut="alert(1)" contenteditable>test</ol>
+<ol ondblclick="alert(1)">test</ol>
+<ol onkeydown="alert(1)" contenteditable>test</ol>
+<ol onkeypress="alert(1)" contenteditable>test</ol>
+<ol onkeyup="alert(1)" contenteditable>test</ol>
+<ol onmousedown="alert(1)">test</ol>
+<ol onmouseenter="alert(1)">test</ol>
+<ol onmouseleave="alert(1)">test</ol>
+<ol onmousemove="alert(1)">test</ol>
+<ol onmouseout="alert(1)">test</ol>
+<ol onmouseover="alert(1)">test</ol>
+<ol onmouseup="alert(1)">test</ol>
+<ol onpaste="alert(1)" contenteditable>test</ol>
+<style>:target {color: red;}</style><ol id=x style="transition:color 10s" ontransitioncancel=alert(1)></ol>
+<style>:target {color:red;}</style><ol id=x style="transition:color 1s" ontransitionend=alert(1)></ol>
+<style>:target {transform: rotate(180deg);}</style><ol id=x style="transition:transform 2s" ontransitionrun=alert(1)></ol>
+<style>@keyframes slidein {}</style><ol style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></ol>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><ol id=x style="position:absolute;" onanimationcancel="alert(1)"></ol>
+<style>@keyframes x{}</style><ol style="animation-name:x" onanimationend="alert(1)"></ol>
+<style>@keyframes x{}</style><ol style="animation-name:x" onanimationstart="alert(1)"></ol>
+<svg><ol onload=alert(1)></ol>

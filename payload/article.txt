@@ -1,0 +1,42 @@
+<article draggable="true" ondrag="alert(1)">test</article>
+<article draggable="true" ondragend="alert(1)">test</article>
+<article draggable="true" ondragenter="alert(1)">test</article>
+<article draggable="true" ondragleave="alert(1)">test</article>
+<article draggable="true" ondragstart="alert(1)">test</article>
+<article id=x tabindex=1 onactivate=alert(1)></article>
+<article id=x tabindex=1 onbeforeactivate=alert(1)></article>
+<article id=x tabindex=1 onbeforedeactivate=alert(1)></article><input autofocus>
+<article id=x tabindex=1 ondeactivate=alert(1)></article><input id=y autofocus>
+<article id=x tabindex=1 onfocus=alert(1)></article>
+<article id=x tabindex=1 onfocusin=alert(1)></article>
+<article onbeforecopy="alert(1)" contenteditable>test</article>
+<article onbeforecut="alert(1)" contenteditable>test</article>
+<article onbeforepaste="alert(1)" contenteditable>test</article>
+<article onblur=alert(1) tabindex=1 id=x></article><input autofocus>
+<article onclick="alert(1)">test</article>
+<article oncontextmenu="alert(1)">test</article>
+<article oncopy="alert(1)" contenteditable>test</article>
+<article oncut="alert(1)" contenteditable>test</article>
+<article ondblclick="alert(1)">test</article>
+<article onfocusout=alert(1) tabindex=1 id=x></article><input autofocus>
+<article onkeydown="alert(1)" contenteditable>test</article>
+<article onkeypress="alert(1)" contenteditable>test</article>
+<article onkeyup="alert(1)" contenteditable>test</article>
+<article onmousedown="alert(1)">test</article>
+<article onmouseenter="alert(1)">test</article>
+<article onmouseleave="alert(1)">test</article>
+<article onmousemove="alert(1)">test</article>
+<article onmouseout="alert(1)">test</article>
+<article onmouseover="alert(1)">test</article>
+<article onmouseup="alert(1)">test</article>
+<article onpaste="alert(1)" contenteditable>test</article>
+<div draggable="true" contenteditable>drag me</div><article ondragover=alert(1) contenteditable>drop here</article>
+<div draggable="true" contenteditable>drag me</div><article ondrop=alert(1) contenteditable>drop here</article>
+<style>:target {color: red;}</style><article id=x style="transition:color 10s" ontransitioncancel=alert(1)></article>
+<style>:target {color:red;}</style><article id=x style="transition:color 1s" ontransitionend=alert(1)></article>
+<style>:target {transform: rotate(180deg);}</style><article id=x style="transition:transform 2s" ontransitionrun=alert(1)></article>
+<style>@keyframes slidein {}</style><article style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></article>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><article id=x style="position:absolute;" onanimationcancel="alert(1)"></article>
+<style>@keyframes x{}</style><article style="animation-name:x" onanimationend="alert(1)"></article>
+<style>@keyframes x{}</style><article style="animation-name:x" onanimationstart="alert(1)"></article>
+<svg><article onload=alert(1)></article>

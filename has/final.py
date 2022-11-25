@@ -32,8 +32,26 @@ def get_form_details(form):
     #print( "action: {0}\nmethod: {1}\ninputs: {2}".format( details[ "action" ], details[ "method" ], details[ "inputs" ] ) )
     return details
 
+def submit_form( form_details, url, value ):
+    target_url = urljoin( url, form_details["action"] )
+    inputs     = form_details["inputs"]
+    data       = {}
+    for input in inputs:
+        if input["type"] == "text" or input["type"] == "search":
+            input["value"] = value
+        input_name = input.get("name")
+        input_value = input.get("value")
+        if input_name and input_value:
+            data[input_name] = input_value
+        return_data = requests.post( target_url, data = data )
 
-def submit_form(form_details, url, value):
+        if return_data.status_code != 200:
+            return_data = requests.get( target_url, params = data )
+
+        return return_data
+
+
+def submit_form_post(form_details, url, value):
     target_url = urljoin(url, form_details["action"])
     inputs = form_details["inputs"]
     data = {}
@@ -44,16 +62,39 @@ def submit_form(form_details, url, value):
         input_value = input.get("value")
         if input_name and input_value:
             data[input_name] = input_value
+        return_data = requests.post( target_url, data = data )
 
-        return requests.post(target_url, data=data)
+        if return_data.status_code != 200:
+            return_data = requests.get( target_url, params = data )
+
+        return return_data
+
+def submit_form_get( form_details, url, value ):
+    target_url = urljoin( url, form_details["action"] )
+    inputs     = form_details["inputs"]
+    data       = {}
+    for input in inputs:
+        if input["type"] == "text" or input["type"] == "search":
+            input["value"] = value
+        
+        input_name  = input.get("name")
+        input_value = input.get("value")
+
+        if input_name and input_value:
+            data[input_name] = input_value
+
+        return_data = requests.get( target_url, params = data )
+
+        return return_data
 
 
 def scan_xss(url, SelectTags):
-    forms  = get_all_forms(url)
-    fnames = path_dir.payload_path()
-    tags   = path_dir.get_files()
-    ToFrontData = { "Tags":[], "RiskPayloads":[], "CntRisk":[], "CntTotal":[] }
+    forms         = get_all_forms(url)
+    fnames        = path_dir.payload_path()
+    tags          = path_dir.get_files()
+    ToFrontData   = { "Tags":[], "RiskPayloads":[], "CntRisk":[], "CntTotal":[] }
     is_vulnerable = "SAFE"
+    http_type     = "POST"
 
     for fname, file in zip( fnames, tags ):
         if file[:-4] in SelectTags:

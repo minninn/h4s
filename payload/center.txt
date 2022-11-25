@@ -1,0 +1,42 @@
+<center draggable="true" ondrag="alert(1)">test</center>
+<center draggable="true" ondragend="alert(1)">test</center>
+<center draggable="true" ondragenter="alert(1)">test</center>
+<center draggable="true" ondragleave="alert(1)">test</center>
+<center draggable="true" ondragstart="alert(1)">test</center>
+<center id=x tabindex=1 onactivate=alert(1)></center>
+<center id=x tabindex=1 onbeforeactivate=alert(1)></center>
+<center id=x tabindex=1 onbeforedeactivate=alert(1)></center><input autofocus>
+<center id=x tabindex=1 ondeactivate=alert(1)></center><input id=y autofocus>
+<center id=x tabindex=1 onfocus=alert(1)></center>
+<center id=x tabindex=1 onfocusin=alert(1)></center>
+<center onbeforecopy="alert(1)" contenteditable>test</center>
+<center onbeforecut="alert(1)" contenteditable>test</center>
+<center onbeforepaste="alert(1)" contenteditable>test</center>
+<center onblur=alert(1) tabindex=1 id=x></center><input autofocus>
+<center onclick="alert(1)">test</center>
+<center oncontextmenu="alert(1)">test</center>
+<center oncopy="alert(1)" contenteditable>test</center>
+<center oncut="alert(1)" contenteditable>test</center>
+<center ondblclick="alert(1)">test</center>
+<center onfocusout=alert(1) tabindex=1 id=x></center><input autofocus>
+<center onkeydown="alert(1)" contenteditable>test</center>
+<center onkeypress="alert(1)" contenteditable>test</center>
+<center onkeyup="alert(1)" contenteditable>test</center>
+<center onmousedown="alert(1)">test</center>
+<center onmouseenter="alert(1)">test</center>
+<center onmouseleave="alert(1)">test</center>
+<center onmousemove="alert(1)">test</center>
+<center onmouseout="alert(1)">test</center>
+<center onmouseover="alert(1)">test</center>
+<center onmouseup="alert(1)">test</center>
+<center onpaste="alert(1)" contenteditable>test</center>
+<div draggable="true" contenteditable>drag me</div><center ondragover=alert(1) contenteditable>drop here</center>
+<div draggable="true" contenteditable>drag me</div><center ondrop=alert(1) contenteditable>drop here</center>
+<style>:target {color: red;}</style><center id=x style="transition:color 10s" ontransitioncancel=alert(1)></center>
+<style>:target {color:red;}</style><center id=x style="transition:color 1s" ontransitionend=alert(1)></center>
+<style>:target {transform: rotate(180deg);}</style><center id=x style="transition:transform 2s" ontransitionrun=alert(1)></center>
+<style>@keyframes slidein {}</style><center style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></center>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><center id=x style="position:absolute;" onanimationcancel="alert(1)"></center>
+<style>@keyframes x{}</style><center style="animation-name:x" onanimationend="alert(1)"></center>
+<style>@keyframes x{}</style><center style="animation-name:x" onanimationstart="alert(1)"></center>
+<svg><center onload=alert(1)></center>

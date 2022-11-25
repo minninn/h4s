@@ -1,0 +1,29 @@
+<track draggable="true" ondrag="alert(1)">test</track>
+<track draggable="true" ondragend="alert(1)">test</track>
+<track draggable="true" ondragenter="alert(1)">test</track>
+<track draggable="true" ondragleave="alert(1)">test</track>
+<track draggable="true" ondragstart="alert(1)">test</track>
+<track id=x tabindex=1 onactivate=alert(1)></track>
+<track id=x tabindex=1 onbeforeactivate=alert(1)></track>
+<track id=x tabindex=1 onfocus=alert(1)></track>
+<track id=x tabindex=1 onfocusin=alert(1)></track>
+<track onbeforecopy="alert(1)" contenteditable>test</track>
+<track onbeforecut="alert(1)" contenteditable>test</track>
+<track onbeforepaste="alert(1)" contenteditable>test</track>
+<track onclick="alert(1)">test</track>
+<track oncontextmenu="alert(1)">test</track>
+<track oncopy="alert(1)" contenteditable>test</track>
+<track oncut="alert(1)" contenteditable>test</track>
+<track ondblclick="alert(1)">test</track>
+<track onkeydown="alert(1)" contenteditable>test</track>
+<track onkeypress="alert(1)" contenteditable>test</track>
+<track onkeyup="alert(1)" contenteditable>test</track>
+<track onmousedown="alert(1)">test</track>
+<track onmouseenter="alert(1)">test</track>
+<track onmouseleave="alert(1)">test</track>
+<track onmousemove="alert(1)">test</track>
+<track onmouseout="alert(1)">test</track>
+<track onmouseover="alert(1)">test</track>
+<track onmouseup="alert(1)">test</track>
+<track onpaste="alert(1)" contenteditable>test</track>
+<video><track default onload=alert(1) src="data:text/vtt,WEBVTT"></video>

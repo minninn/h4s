@@ -1,0 +1,36 @@
+<pre draggable="true" ondrag="alert(1)">test</pre>
+<pre draggable="true" ondragend="alert(1)">test</pre>
+<pre draggable="true" ondragenter="alert(1)">test</pre>
+<pre draggable="true" ondragleave="alert(1)">test</pre>
+<pre draggable="true" ondragstart="alert(1)">test</pre>
+<pre id=x tabindex=1 onactivate=alert(1)></pre>
+<pre id=x tabindex=1 onbeforeactivate=alert(1)></pre>
+<pre id=x tabindex=1 onfocus=alert(1)></pre>
+<pre id=x tabindex=1 onfocusin=alert(1)></pre>
+<pre onbeforecopy="alert(1)" contenteditable>test</pre>
+<pre onbeforecut="alert(1)" contenteditable>test</pre>
+<pre onbeforepaste="alert(1)" contenteditable>test</pre>
+<pre onclick="alert(1)">test</pre>
+<pre oncontextmenu="alert(1)">test</pre>
+<pre oncopy="alert(1)" contenteditable>test</pre>
+<pre oncut="alert(1)" contenteditable>test</pre>
+<pre ondblclick="alert(1)">test</pre>
+<pre onkeydown="alert(1)" contenteditable>test</pre>
+<pre onkeypress="alert(1)" contenteditable>test</pre>
+<pre onkeyup="alert(1)" contenteditable>test</pre>
+<pre onmousedown="alert(1)">test</pre>
+<pre onmouseenter="alert(1)">test</pre>
+<pre onmouseleave="alert(1)">test</pre>
+<pre onmousemove="alert(1)">test</pre>
+<pre onmouseout="alert(1)">test</pre>
+<pre onmouseover="alert(1)">test</pre>
+<pre onmouseup="alert(1)">test</pre>
+<pre onpaste="alert(1)" contenteditable>test</pre>
+<style>:target {color: red;}</style><pre id=x style="transition:color 10s" ontransitioncancel=alert(1)></pre>
+<style>:target {color:red;}</style><pre id=x style="transition:color 1s" ontransitionend=alert(1)></pre>
+<style>:target {transform: rotate(180deg);}</style><pre id=x style="transition:transform 2s" ontransitionrun=alert(1)></pre>
+<style>@keyframes slidein {}</style><pre style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></pre>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><pre id=x style="position:absolute;" onanimationcancel="alert(1)"></pre>
+<style>@keyframes x{}</style><pre style="animation-name:x" onanimationend="alert(1)"></pre>
+<style>@keyframes x{}</style><pre style="animation-name:x" onanimationstart="alert(1)"></pre>
+<svg><pre onload=alert(1)></pre>

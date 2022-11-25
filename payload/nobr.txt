@@ -1,0 +1,36 @@
+<nobr draggable="true" ondrag="alert(1)">test</nobr>
+<nobr draggable="true" ondragend="alert(1)">test</nobr>
+<nobr draggable="true" ondragenter="alert(1)">test</nobr>
+<nobr draggable="true" ondragleave="alert(1)">test</nobr>
+<nobr draggable="true" ondragstart="alert(1)">test</nobr>
+<nobr id=x tabindex=1 onactivate=alert(1)></nobr>
+<nobr id=x tabindex=1 onbeforeactivate=alert(1)></nobr>
+<nobr id=x tabindex=1 onfocus=alert(1)></nobr>
+<nobr id=x tabindex=1 onfocusin=alert(1)></nobr>
+<nobr onbeforecopy="alert(1)" contenteditable>test</nobr>
+<nobr onbeforecut="alert(1)" contenteditable>test</nobr>
+<nobr onbeforepaste="alert(1)" contenteditable>test</nobr>
+<nobr onclick="alert(1)">test</nobr>
+<nobr oncontextmenu="alert(1)">test</nobr>
+<nobr oncopy="alert(1)" contenteditable>test</nobr>
+<nobr oncut="alert(1)" contenteditable>test</nobr>
+<nobr ondblclick="alert(1)">test</nobr>
+<nobr onkeydown="alert(1)" contenteditable>test</nobr>
+<nobr onkeypress="alert(1)" contenteditable>test</nobr>
+<nobr onkeyup="alert(1)" contenteditable>test</nobr>
+<nobr onmousedown="alert(1)">test</nobr>
+<nobr onmouseenter="alert(1)">test</nobr>
+<nobr onmouseleave="alert(1)">test</nobr>
+<nobr onmousemove="alert(1)">test</nobr>
+<nobr onmouseout="alert(1)">test</nobr>
+<nobr onmouseover="alert(1)">test</nobr>
+<nobr onmouseup="alert(1)">test</nobr>
+<nobr onpaste="alert(1)" contenteditable>test</nobr>
+<style>:target {color: red;}</style><nobr id=x style="transition:color 10s" ontransitioncancel=alert(1)></nobr>
+<style>:target {color:red;}</style><nobr id=x style="transition:color 1s" ontransitionend=alert(1)></nobr>
+<style>:target {transform: rotate(180deg);}</style><nobr id=x style="transition:transform 2s" ontransitionrun=alert(1)></nobr>
+<style>@keyframes slidein {}</style><nobr style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></nobr>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><nobr id=x style="position:absolute;" onanimationcancel="alert(1)"></nobr>
+<style>@keyframes x{}</style><nobr style="animation-name:x" onanimationend="alert(1)"></nobr>
+<style>@keyframes x{}</style><nobr style="animation-name:x" onanimationstart="alert(1)"></nobr>
+<svg><nobr onload=alert(1)></nobr>

